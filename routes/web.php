@@ -145,17 +145,11 @@ Route::prefix('admin')->group(function(){
         Route::get('authentication/register-basic', function(){
             return View('admin.tailstack.authentication.register-basic');
         });
-        Route::get('authentication/register-cover', function(){
-            return View('admin.tailstack.authentication.register-cover');
-        });
         Route::get('authentication/register-ilustration', function(){
             return View('admin.tailstack.authentication.register-ilustration');
         });
         Route::get('authentication/login-basic', function(){
             return View('admin.tailstack.authentication.login-basic');
-        });
-        Route::get('authentication/login-cover', function(){
-            return View('admin.tailstack.authentication.login-cover');
         });
         Route::get('authentication/login-ilustration', function(){
             return View('admin.tailstack.authentication.login-ilustration');

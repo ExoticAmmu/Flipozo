@@ -220,18 +220,14 @@
                   <li class="relative">
                     <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="authentication/register-basic">Register basic</a>
                   </li>
-                  <li class="relative">
-                    <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="authentication/register-cover">Register cover</a>
-                  </li>
+                  
                   <li class="relative">
                     <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="authentication/register-ilustration">Register ilustration</a>
                   </li>
                   <li class="relative">
                     <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="authentication/login-basic">Login basic</a>
                   </li>
-                  <li class="relative">
-                    <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="authentication/login-cover">Login cover</a>
-                  </li>
+                
                   <li class="relative">
                     <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="authentication/login-ilustration">Login ilustration</a>
                   </li>
