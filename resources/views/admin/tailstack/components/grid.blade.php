@@ -61,8 +61,7 @@
 			                  &lt;/div&gt;
 			                </code>
 			              </pre>
-                                <p>You can edit grid column with change <code
-                                        class="text-pink-700">w-full md:w-1/2 lg:w-1/3 xl:w-1/4</code></p>
+                                <p>You can edit grid column with change <code class="text-pink-700">w-full md:w-1/2 lg:w-1/3 xl:w-1/4</code></p>
                             </div>
 
                             <div class="mb-6">
@@ -70,19 +69,15 @@
                                     Responsive Grid</h2>
                                 <p class="mb-4"></p>
                                 <!-- example -->
-                                <div
-                                    class="bg-white p-12 border text-center border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                <div class="bg-white p-12 border text-center border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <div class="flex flex-wrap flex-row -mx-4">
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full lg:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full lg:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full lg:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full lg:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full lg:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full lg:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
                                     </div>
@@ -102,8 +97,7 @@
 			                  &lt;/div&gt;
 			                </code>
 			              </pre>
-                                <p>You can edit grid column with change <code
-                                        class="text-pink-700">w-full lg:w-1/3</code></p>
+                                <p>You can edit grid column with change <code class="text-pink-700">w-full lg:w-1/3</code></p>
                             </div>
 
                             <div class="mb-6">
@@ -111,158 +105,124 @@
                                 </h2>
                                 <p class="mb-4"></p>
                                 <!-- example -->
-                                <div
-                                    class="bg-white p-12 border border-gray-200 text-center dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                <div class="bg-white p-12 border border-gray-200 text-center dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <!-- row 1 -->
                                     <div class="flex flex-wrap flex-row -mx-4 mb-4 justify-center">
-                                        <div
-                                            class="max-w-full px-4 w-full border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="max-w-full px-4 w-full border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
                                     </div>
                                     <!-- row 2 -->
                                     <div class="flex flex-wrap flex-row -mx-4 mb-4">
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full lg:w-1/2 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full lg:w-1/2 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full lg:w-1/2 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full lg:w-1/2 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
                                     </div>
                                     <!-- row 3 -->
                                     <div class="flex flex-wrap flex-row -mx-4 mb-4">
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full lg:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full lg:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full lg:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full lg:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full lg:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full lg:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
                                     </div>
                                     <!-- row 4 -->
                                     <div class="flex flex-wrap flex-row -mx-4 mb-4">
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/4 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/4 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/4 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/4 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/4 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/4 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/4 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/4 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
                                     </div>
                                     <!-- row 5 -->
                                     <div class="flex flex-wrap flex-row -mx-4 mb-4 justify-center">
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/5 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/5 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/5 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/5 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/5 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/5 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/5 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/5 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/5 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/5 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
                                     </div>
                                     <!-- row 6 -->
                                     <div class="flex flex-wrap flex-row -mx-4 mb-4">
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">example content</div>
                                         </div>
                                     </div>
                                     <!-- row 12 -->
                                     <div class="flex flex-wrap flex-row -mx-4 mb-4">
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="py-5 h-20 w-full">content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="py-5 h-20 w-full">content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="py-5 h-20 w-full">content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="py-5 h-20 w-full">content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="py-5 h-20 w-full">content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="py-5 h-20 w-full">content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="py-5 h-20 w-full">content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="py-5 h-20 w-full">content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="py-5 h-20 w-full">content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="py-5 h-20 w-full">content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="py-5 h-20 w-full">content</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 lg:w-1/6 xl:w-1/12 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="py-5 h-20 w-full">content</div>
                                         </div>
                                     </div>
@@ -391,8 +351,7 @@
 			                  &lt;/div&gt;
 			                </code>
 			              </pre>
-                                <p>You can edit responsive grid column with change <code
-                                        class="text-pink-700">sm:, md:, lg:, xl:</code></p>
+                                <p>You can edit responsive grid column with change <code class="text-pink-700">sm:, md:, lg:, xl:</code></p>
                             </div>
 
                             <div class="mb-6">
@@ -400,31 +359,25 @@
                                     Grid</h2>
                                 <p class="mb-4"></p>
                                 <!-- example -->
-                                <div
-                                    class="bg-white p-12 border text-center border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                <div class="bg-white p-12 border text-center border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <!-- row -->
                                     <div class="flex flex-wrap flex-row -mx-4 mb-4">
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">.w-1/3</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full md:w-2/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full md:w-2/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">.w-2/3</div>
                                         </div>
                                     </div>
                                     <!-- row -->
                                     <div class="flex flex-wrap flex-row -mx-4">
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full lg:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full lg:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">.w-1/6</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full lg:w-2/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full lg:w-2/3 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">.w-2/3</div>
                                         </div>
-                                        <div
-                                            class="flex-shrink max-w-full px-4 w-full lg:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
+                                        <div class="flex-shrink max-w-full px-4 w-full lg:w-1/6 border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-800">
                                             <div class="p-5 h-20 w-full">.w-1/6</div>
                                         </div>
                                     </div>
@@ -454,8 +407,7 @@
 			                  &lt;/div&gt;
 			                </code>
 			              </pre>
-                                <p>You can see complete width of Tailwind css in here <a target="_blank"
-                                        class="text-blue-500" href="https://tailwindcss.com/docs/width">Tailwindcss
+                                <p>You can see complete width of Tailwind css in here <a target="_blank" class="text-blue-500" href="https://tailwindcss.com/docs/width">Tailwindcss
                                         Width</a></p>
                             </div>
                         </div>

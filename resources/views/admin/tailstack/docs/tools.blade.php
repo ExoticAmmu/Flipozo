@@ -23,24 +23,20 @@
                             <div class="mb-8">
                                 <h2 class="text-lg mb-2 font-semibold text-gray-800 dark:text-gray-300">Tooling setup
                                 </h2>
-                                <p class="mb-4">Taildash uses NPM scripts for its build system. Our <code
-                                        class="text-pink-700">package.json</code> includes convenient methods for
+                                <p class="mb-4">Taildash uses NPM scripts for its build system. Our <code class="text-pink-700">package.json</code> includes convenient methods for
                                     working with the framework, including compiling code, running tests, and more.</p>
                                 <p>To use our build system and run our documentation locally, you'll need a copy of
                                     Taildash's source files and Node. Follow these steps and you should be ready to
                                     rock:</p>
                                 <ul class="list-decimal list-inside pl-8 my-4">
-                                    <li class="mb-2"><a class="text-blue-500"
-                                            href="https://nodejs.org/download/">Download and install Node.js</a>, which
+                                    <li class="mb-2"><a class="text-blue-500" href="https://nodejs.org/download/">Download and install Node.js</a>, which
                                         we use to manage our dependencies.</li>
-                                    <li class="mb-2">Run <code
-                                            class="text-pink-700">npm install --global gulp-cli</code> command. If you
+                                    <li class="mb-2">Run <code class="text-pink-700">npm install --global gulp-cli</code> command. If you
                                         already installed Gulp CLI previously, you can skip this step and jump to step
                                         3.</li>
                                     <li class="mb-2">Navigate to the root <code class="text-pink-700">tailback/</code>
                                         directory and run <code class="text-pink-700">npm install</code>.</li>
-                                    <li class="mb-2">After Npm install complete, run <code
-                                            class="text-pink-700">npm run start</code> to start development.</li>
+                                    <li class="mb-2">After Npm install complete, run <code class="text-pink-700">npm run start</code> to start development.</li>
                                     </ol>
                                     <p>Yup, that's it.</p>
                             </div>
@@ -61,37 +57,31 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td
-                                                class="border border-gray-200 px-4 py-2 text-gray-500 dark:border-gray-700 font-medium">
-                                                <code class="text-pink-700">npm run start</code></td>
-                                            <td
-                                                class="border border-gray-200 px-4 py-2 text-gray-500 dark:border-gray-700 font-medium">
-                                                Start development process with generate <code
-                                                    class="text-pink-700">src/scss/*.scss</code> to <code
-                                                    class="text-pink-700">src/css/style.css</code>, Minify images to
+                                            <td class="border border-gray-200 px-4 py-2 text-gray-500 dark:border-gray-700 font-medium">
+                                                <code class="text-pink-700">npm run start</code>
+                                            </td>
+                                            <td class="border border-gray-200 px-4 py-2 text-gray-500 dark:border-gray-700 font-medium">
+                                                Start development process with generate <code class="text-pink-700">src/scss/*.scss</code> to <code class="text-pink-700">src/css/style.css</code>, Minify images to
                                                 <code class="text-pink-700">dist/img-min/*</code> and launch Browsersync
                                                 in <code class="text-pink-700">http://localhost:3100/</code> with
-                                                automate page reload</td>
+                                                automate page reload
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td
-                                                class="border border-gray-200 px-4 py-2 text-gray-500 dark:border-gray-700 font-medium">
-                                                <code class="text-pink-700">npm run build</code></td>
-                                            <td
-                                                class="border border-gray-200 px-4 py-2 text-gray-500 dark:border-gray-700 font-medium">
+                                            <td class="border border-gray-200 px-4 py-2 text-gray-500 dark:border-gray-700 font-medium">
+                                                <code class="text-pink-700">npm run build</code>
+                                            </td>
+                                            <td class="border border-gray-200 px-4 py-2 text-gray-500 dark:border-gray-700 font-medium">
                                                 Generates a <code class="text-pink-700">dist/</code> directory with all
-                                                the production files <code
-                                                    class="text-pink-700">Minify css, js and other files</code></td>
+                                                the production files <code class="text-pink-700">Minify css, js and other files</code></td>
                                         </tr>
                                         <tr>
-                                            <td
-                                                class="border border-gray-200 px-4 py-2 text-gray-500 dark:border-gray-700 font-medium">
-                                                <code class="text-pink-700">npm run updateplugins</code></td>
-                                            <td
-                                                class="border border-gray-200 px-4 py-2 text-gray-500 dark:border-gray-700 font-medium">
+                                            <td class="border border-gray-200 px-4 py-2 text-gray-500 dark:border-gray-700 font-medium">
+                                                <code class="text-pink-700">npm run updateplugins</code>
+                                            </td>
+                                            <td class="border border-gray-200 px-4 py-2 text-gray-500 dark:border-gray-700 font-medium">
                                                 Update all plugins in <code class="text-pink-700">vendors/*</code> with
-                                                new version. Dont forget to run <code
-                                                    class="text-pink-700">npm update</code> before running this task.
+                                                new version. Dont forget to run <code class="text-pink-700">npm update</code> before running this task.
                                                 You can running this task before start development process.</td>
                                         </tr>
                                     </tbody>
@@ -99,8 +89,7 @@
                                 <br>
                                 <h4 class="text-xl mb-2 font-semibold text-gray-800 dark:text-gray-300 text-primary">
                                     WARNING</h4>
-                                <p class="mb-4">If you are using MacOS please use <code
-                                        class="text-pink-700">sudo</code> keyword in the command because they need
+                                <p class="mb-4">If you are using MacOS please use <code class="text-pink-700">sudo</code> keyword in the command because they need
                                     administrator rights to install Gulp globally.</p>
                             </div>
                         </div>

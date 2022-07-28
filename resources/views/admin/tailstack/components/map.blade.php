@@ -21,8 +21,7 @@
                                 plugin is lightweight and does not depend on jquery.</p>
                             <h2 class="text-lg mb-4 font-semibold text-gray-800 dark:text-gray-300">Example</h2>
                             <!-- example -->
-                            <div
-                                class="bg-gray-100 p-8 mb-6 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                            <div class="bg-gray-100 p-8 mb-6 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                 <div id="worldmap" class="w-full" style="min-height: 18rem"></div>
                             </div>
                             <pre class="mb-8">
@@ -64,9 +63,7 @@ if ( worldmap != null) {
 				          </pre>
                             <p class="mb-4">Demo config available in <code class="text-pink-700">src/js/vendor.js</code>
                                 function <code class="text-pink-700">myMaps();</code></p>
-                            <p class="text-lg mb-6 font-light">For more documentation read in <a
-                                    href="https://themustafaomar.com/open-source/jsvectormap/" target="_blank"
-                                    class="hover:text-blue-500">
+                            <p class="text-lg mb-6 font-light">For more documentation read in <a href="https://themustafaomar.com/open-source/jsvectormap/" target="_blank" class="hover:text-blue-500">
                                     https://themustafaomar.com/open-source/jsvectormap/
                                 </a></p>
                         </div>

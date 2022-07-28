@@ -25,9 +25,7 @@
                                 <h2 class="text-lg mb-2 font-semibold text-gray-800 dark:text-gray-300">Responsive Video
                                 </h2>
                                 <p class="mb-4">Wrap any embed, like an iframe, in a parent element with add aspect
-                                    ratio classes. The immediate child element is automatically sized. Combine the <code
-                                        class="text-pink-700">.aspect-w-{n}</code> and <code
-                                        class="text-pink-700">.aspect-h-{n}</code> classes to specify the aspect ratio
+                                    ratio classes. The immediate child element is automatically sized. Combine the <code class="text-pink-700">.aspect-w-{n}</code> and <code class="text-pink-700">.aspect-h-{n}</code> classes to specify the aspect ratio
                                     for an element:</p>
                                 <pre>
                       <code class="language-html" data-lang="html">
@@ -37,8 +35,7 @@
                       </code>
                     </pre>
                                 <p class="my-6">For more information about this tailwind plugins please read
-                                    documentaion <a href="https://github.com/tailwindlabs/tailwindcss-aspect-ratio"
-                                        target="_blank" class="text-blue-500">in here</a></p>
+                                    documentaion <a href="https://github.com/tailwindlabs/tailwindcss-aspect-ratio" target="_blank" class="text-blue-500">in here</a></p>
                             </div>
                         </div>
                     </div>

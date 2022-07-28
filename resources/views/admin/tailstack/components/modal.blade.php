@@ -25,50 +25,32 @@
                             <div class="mb-8">
                                 <h2 class="text-lg mb-6 font-semibold text-gray-800 dark:text-gray-300">Example</h2>
                                 <!-- example -->
-                                <div
-                                    class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                <div class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <div x-data="{ open: false }">
                                         <div class="flex justify-center">
-                                            <button @click="open = true" type="button"
-                                                class="py-2 px-4 inline-block text-center rounded leading-5 text-gray-100 bg-indigo-500 border border-indigo-500 hover:text-white hover:bg-indigo-600 hover:ring-0 hover:border-indigo-600 focus:bg-indigo-600 focus:border-indigo-600 focus:outline-none focus:ring-0">Launch
+                                            <button @click="open = true" type="button" class="py-2 px-4 inline-block text-center rounded leading-5 text-gray-100 bg-indigo-500 border border-indigo-500 hover:text-white hover:bg-indigo-600 hover:ring-0 hover:border-indigo-600 focus:bg-indigo-600 focus:border-indigo-600 focus:outline-none focus:ring-0">Launch
                                                 Modal</Button>
                                         </div>
 
-                                        <div x-show="open" tabindex="0"
-                                            class="z-50 overflow-auto inset-0 w-full h-full fixed py-6">
-                                            <div @click.away="open = false"
-                                                class="z-50 relative p-3 mx-auto my-0 max-w-full"
-                                                style="width: 600px;display: none" x-show="open"
-                                                x-transition:enter="transition duration-500"
-                                                x-transition:enter-start="transform opacity-0 -translate-y-4"
-                                                x-transition:enter-end="transform opacity-100 translate-y-0"
-                                                x-transition:leave="transition -translate-y-4"
-                                                x-transition:leave-start="transform opacity-100 translate-y-0"
-                                                x-transition:leave-end="transform opacity-0 -translate-y-4">
-                                                <div
-                                                    class="bg-white rounded shadow-lg border flex flex-col overflow-hidden dark:bg-gray-800 dark:border-gray-700">
-                                                    <button @click="open = false"
-                                                        class="fill-current h-6 w-6 absolute ltr:right-0 rtl:left-0 top-0 m-6 font-3xl font-bold">&times;</button>
+                                        <div x-show="open" tabindex="0" class="z-50 overflow-auto inset-0 w-full h-full fixed py-6">
+                                            <div @click.away="open = false" class="z-50 relative p-3 mx-auto my-0 max-w-full" style="width: 600px;display: none" x-show="open" x-transition:enter="transition duration-500" x-transition:enter-start="transform opacity-0 -translate-y-4" x-transition:enter-end="transform opacity-100 translate-y-0" x-transition:leave="transition -translate-y-4" x-transition:leave-start="transform opacity-100 translate-y-0" x-transition:leave-end="transform opacity-0 -translate-y-4">
+                                                <div class="bg-white rounded shadow-lg border flex flex-col overflow-hidden dark:bg-gray-800 dark:border-gray-700">
+                                                    <button @click="open = false" class="fill-current h-6 w-6 absolute ltr:right-0 rtl:left-0 top-0 m-6 font-3xl font-bold">&times;</button>
                                                     <!-- modal title -->
-                                                    <div
-                                                        class="px-6 py-3 text-xl border-b dark:border-gray-700 font-bold">
+                                                    <div class="px-6 py-3 text-xl border-b dark:border-gray-700 font-bold">
                                                         Title of the modal</div>
                                                     <!-- modal content -->
                                                     <div class="p-6 flex-grow">
                                                         <p>Woohoo, you're reading this text in a modal!</p>
                                                     </div>
-                                                    <div
-                                                        class="px-6 py-3 border-t dark:border-gray-700 flex justify-end">
-                                                        <button @click="open = false" type="button"
-                                                            class="py-2 px-4 inline-block text-center rounded leading-5 text-gray-800 bg-gray-100 border border-gray-100 hover:text-gray-900 hover:bg-gray-200 hover:ring-0 hover:border-gray-200 focus:bg-gray-200 focus:border-gray-200 focus:outline-none focus:ring-0 ltr:mr-2 rtl:ml-2">Close</Button>
-                                                        <button type="button"
-                                                            class="py-2 px-4 inline-block text-center rounded leading-5 text-gray-100 bg-indigo-500 border border-indigo-500 hover:text-white hover:bg-indigo-600 hover:ring-0 hover:border-indigo-600 focus:bg-indigo-600 focus:border-indigo-600 focus:outline-none focus:ring-0">Saves
+                                                    <div class="px-6 py-3 border-t dark:border-gray-700 flex justify-end">
+                                                        <button @click="open = false" type="button" class="py-2 px-4 inline-block text-center rounded leading-5 text-gray-800 bg-gray-100 border border-gray-100 hover:text-gray-900 hover:bg-gray-200 hover:ring-0 hover:border-gray-200 focus:bg-gray-200 focus:border-gray-200 focus:outline-none focus:ring-0 ltr:mr-2 rtl:ml-2">Close</Button>
+                                                        <button type="button" class="py-2 px-4 inline-block text-center rounded leading-5 text-gray-100 bg-indigo-500 border border-indigo-500 hover:text-white hover:bg-indigo-600 hover:ring-0 hover:border-indigo-600 focus:bg-indigo-600 focus:border-indigo-600 focus:outline-none focus:ring-0">Saves
                                                             Changes</Button>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="z-40 overflow-auto left-0 top-0 bottom-0 right-0 w-full h-full fixed bg-black opacity-50">
+                                            <div class="z-40 overflow-auto left-0 top-0 bottom-0 right-0 w-full h-full fixed bg-black opacity-50">
                                             </div>
                                         </div>
                                     </div>

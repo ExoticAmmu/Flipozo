@@ -27,23 +27,17 @@
                                 <p class="mb-4">The most basic list group is an unordered list with list items and the
                                     proper classes.</p>
                                 <!-- example -->
-                                <div
-                                    class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                <div class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <ul class="px-0 border-b border-gray-200 dark:border-gray-700">
-                                        <li
-                                            class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4">
+                                        <li class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4">
                                             An item</li>
-                                        <li
-                                            class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4">
+                                        <li class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4">
                                             A second item</li>
-                                        <li
-                                            class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4">
+                                        <li class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4">
                                             A third item</li>
-                                        <li
-                                            class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4">
+                                        <li class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4">
                                             A fourth item</li>
-                                        <li
-                                            class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4">
+                                        <li class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4">
                                             And a fifth one</li>
                                     </ul>
                                 </div>
@@ -64,24 +58,17 @@
                                 <h2 class="text-lg mb-6 font-semibold text-gray-800 dark:text-gray-300">List group with
                                     active item</h2>
                                 <!-- example -->
-                                <div
-                                    class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
-                                    <ul x-data="{ item: '1' }"
-                                        class="px-0 border-b border-gray-200 dark:border-gray-700">
-                                        <li :class="{ 'bg-indigo-500 text-gray-100': item === '1' }" @click="item = '1'"
-                                            class="py-3 px-4 border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm hover:text-white hover:bg-indigo-500">
+                                <div class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                    <ul x-data="{ item: '1' }" class="px-0 border-b border-gray-200 dark:border-gray-700">
+                                        <li :class="{ 'bg-indigo-500 text-gray-100': item === '1' }" @click="item = '1'" class="py-3 px-4 border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm hover:text-white hover:bg-indigo-500">
                                             An item</li>
-                                        <li :class="{ 'bg-indigo-500 text-gray-100': item === '2' }" @click="item = '2'"
-                                            class="py-3 px-4 border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm hover:text-white hover:bg-indigo-500">
+                                        <li :class="{ 'bg-indigo-500 text-gray-100': item === '2' }" @click="item = '2'" class="py-3 px-4 border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm hover:text-white hover:bg-indigo-500">
                                             A second item</li>
-                                        <li :class="{ 'bg-indigo-500 text-gray-100': item === '3' }" @click="item = '3'"
-                                            class="py-3 px-4 border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm hover:text-white hover:bg-indigo-500">
+                                        <li :class="{ 'bg-indigo-500 text-gray-100': item === '3' }" @click="item = '3'" class="py-3 px-4 border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm hover:text-white hover:bg-indigo-500">
                                             A third item</li>
-                                        <li :class="{ 'bg-indigo-500 text-gray-100': item === '4' }" @click="item = '4'"
-                                            class="py-3 px-4 border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm hover:text-white hover:bg-indigo-500">
+                                        <li :class="{ 'bg-indigo-500 text-gray-100': item === '4' }" @click="item = '4'" class="py-3 px-4 border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm hover:text-white hover:bg-indigo-500">
                                             A fourth item</li>
-                                        <li :class="{ 'bg-indigo-500 text-gray-100': item === '5' }" @click="item = '5'"
-                                            class="py-3 px-4 border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm hover:text-white hover:bg-indigo-500">
+                                        <li :class="{ 'bg-indigo-500 text-gray-100': item === '5' }" @click="item = '5'" class="py-3 px-4 border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm hover:text-white hover:bg-indigo-500">
                                             And a fifth one</li>
                                     </ul>
                                 </div>
@@ -102,47 +89,36 @@
                                 <h2 class="text-lg mb-6 font-semibold text-gray-800 dark:text-gray-300">List group with
                                     badge</h2>
                                 <!-- example -->
-                                <div
-                                    class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                <div class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <ul class="px-0 border-b border-gray-200 dark:border-gray-700">
                                         <li class="group">
-                                            <a class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4 flex justify-between items-center group-hover:text-white group-hover:bg-indigo-500"
-                                                href="list-group.html#">
+                                            <a class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4 flex justify-between items-center group-hover:text-white group-hover:bg-indigo-500" href="list-group.html#">
                                                 An item
-                                                <span
-                                                    class="text-sm py-1 px-2 bg-indigo-500 text-gray-100 rounded group-hover:text-indigo-500 group-hover:bg-gray-100 dark:group-hover:bg-gray-700 dark:group-hover:text-white">14</span>
+                                                <span class="text-sm py-1 px-2 bg-indigo-500 text-gray-100 rounded group-hover:text-indigo-500 group-hover:bg-gray-100 dark:group-hover:bg-gray-700 dark:group-hover:text-white">14</span>
                                             </a>
                                         </li>
                                         <li class="group">
-                                            <a class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4 flex justify-between items-center group-hover:text-white group-hover:bg-indigo-500"
-                                                href="list-group.html#">
+                                            <a class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4 flex justify-between items-center group-hover:text-white group-hover:bg-indigo-500" href="list-group.html#">
                                                 A second item
-                                                <span
-                                                    class="text-sm py-1 px-2 bg-indigo-500 text-gray-100 rounded group-hover:text-indigo-500 group-hover:bg-gray-100 dark:group-hover:bg-gray-700 dark:group-hover:text-white">14</span>
+                                                <span class="text-sm py-1 px-2 bg-indigo-500 text-gray-100 rounded group-hover:text-indigo-500 group-hover:bg-gray-100 dark:group-hover:bg-gray-700 dark:group-hover:text-white">14</span>
                                             </a>
                                         </li>
                                         <li class="group">
-                                            <a class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4 flex justify-between items-center group-hover:text-white group-hover:bg-indigo-500"
-                                                href="list-group.html#">
+                                            <a class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4 flex justify-between items-center group-hover:text-white group-hover:bg-indigo-500" href="list-group.html#">
                                                 A third item
-                                                <span
-                                                    class="text-sm py-1 px-2 bg-indigo-500 text-gray-100 rounded group-hover:text-indigo-500 group-hover:bg-gray-100 dark:group-hover:bg-gray-700 dark:group-hover:text-white">14</span>
+                                                <span class="text-sm py-1 px-2 bg-indigo-500 text-gray-100 rounded group-hover:text-indigo-500 group-hover:bg-gray-100 dark:group-hover:bg-gray-700 dark:group-hover:text-white">14</span>
                                             </a>
                                         </li>
                                         <li class="group">
-                                            <a class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4 flex justify-between items-center group-hover:text-white group-hover:bg-indigo-500"
-                                                href="list-group.html#">
+                                            <a class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4 flex justify-between items-center group-hover:text-white group-hover:bg-indigo-500" href="list-group.html#">
                                                 A fourth item
-                                                <span
-                                                    class="text-sm py-1 px-2 bg-indigo-500 text-gray-100 rounded group-hover:text-indigo-500 group-hover:bg-gray-100 dark:group-hover:bg-gray-700 dark:group-hover:text-white">14</span>
+                                                <span class="text-sm py-1 px-2 bg-indigo-500 text-gray-100 rounded group-hover:text-indigo-500 group-hover:bg-gray-100 dark:group-hover:bg-gray-700 dark:group-hover:text-white">14</span>
                                             </a>
                                         </li>
                                         <li class="group">
-                                            <a class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4 flex justify-between items-center group-hover:text-white group-hover:bg-indigo-500"
-                                                href="list-group.html#">
+                                            <a class="border border-gray-200 dark:border-gray-700 border-b-0 list-none rounded-sm py-3 px-4 flex justify-between items-center group-hover:text-white group-hover:bg-indigo-500" href="list-group.html#">
                                                 And a fifth one
-                                                <span
-                                                    class="text-sm py-1 px-2 bg-indigo-500 text-gray-100 rounded group-hover:text-indigo-500 group-hover:bg-gray-100 dark:group-hover:bg-gray-700 dark:group-hover:text-white">14</span>
+                                                <span class="text-sm py-1 px-2 bg-indigo-500 text-gray-100 rounded group-hover:text-indigo-500 group-hover:bg-gray-100 dark:group-hover:bg-gray-700 dark:group-hover:text-white">14</span>
                                             </a>
                                         </li>
                                     </ul>

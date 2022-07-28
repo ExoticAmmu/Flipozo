@@ -26,25 +26,17 @@
                                 <h2 class="text-lg mb-2 font-semibold text-gray-800 dark:text-gray-300">Example</h2>
                                 <p class="mb-4">Example glightbox.</p>
                                 <!-- example -->
-                                <div
-                                    class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                <div class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <div class="p-4 w-1/2">
-                                        <a href="../src/img/products/blue.jpg"
-                                            class="glightbox3 max-w-full w-full h-auto" data-gallery="gallery1">
+                                        <a href="../src/img/products/blue.jpg" class="glightbox3 max-w-full w-full h-auto" data-gallery="gallery1">
                                             <img src="../src/img/products/blue.jpg" alt="image">
                                         </a>
                                         <ul class="py-4 text-left">
                                             <li class="inline-block">
-                                                <a href="../src/img/products/purple.jpg" class="glightbox3"
-                                                    data-gallery="gallery1"><img
-                                                        src="../src/img/products/purple-small.jpg"
-                                                        class="w-20 h-auto mr-1"></a>
+                                                <a href="../src/img/products/purple.jpg" class="glightbox3" data-gallery="gallery1"><img src="../src/img/products/purple-small.jpg" class="w-20 h-auto mr-1"></a>
                                             </li>
                                             <li class="inline-block">
-                                                <a href="../src/img/products/green.jpg" class="glightbox3"
-                                                    data-gallery="gallery1"><img
-                                                        src="../src/img/products/green-small.jpg"
-                                                        class="w-20 h-auto mr-1"></a>
+                                                <a href="../src/img/products/green.jpg" class="glightbox3" data-gallery="gallery1"><img src="../src/img/products/green-small.jpg" class="w-20 h-auto mr-1"></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -66,12 +58,8 @@
                         &lt;/div&gt;
 			                </code>
 			              </pre>
-                                <p class="mb-4">Demo config available in <code
-                                        class="text-pink-700">src/js/demo.js</code> function <code
-                                        class="text-pink-700">myLightbox();</code></p>
-                                <p class="mb-4 font-light">For more documentation please check in here <a
-                                        target="_blank" href="https://github.com/biati-digital/glightbox"
-                                        class="text-indigo-500 hover:underline">https://github.com/biati-digital/glightbox</a>.
+                                <p class="mb-4">Demo config available in <code class="text-pink-700">src/js/demo.js</code> function <code class="text-pink-700">myLightbox();</code></p>
+                                <p class="mb-4 font-light">For more documentation please check in here <a target="_blank" href="https://github.com/biati-digital/glightbox" class="text-indigo-500 hover:underline">https://github.com/biati-digital/glightbox</a>.
                             </div>
                         </div>
                     </div>

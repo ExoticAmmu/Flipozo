@@ -26,24 +26,17 @@
                                 </h2>
 
                                 <!-- example -->
-                                <div
-                                    class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                <div class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <div x-data="{ tabs: 1 }" class="p-6">
                                         <ul class="flex border-b dark:border-gray-700">
                                             <li @click="tabs = 1" :class="{ '-mb-px': tabs === 1 }" class="mr-1">
-                                                <a :class="{ '-mb-px border-l border-t border-r rounded-t text-indigo-500 dark:border-gray-700': tabs === 1 }"
-                                                    class="bg-white dark:bg-gray-800 dark:border-gray-700 inline-block py-2 px-4 hover:text-indigo-500 font-semibold"
-                                                    href="javascript:;">Home</a>
+                                                <a :class="{ '-mb-px border-l border-t border-r rounded-t text-indigo-500 dark:border-gray-700': tabs === 1 }" class="bg-white dark:bg-gray-800 dark:border-gray-700 inline-block py-2 px-4 hover:text-indigo-500 font-semibold" href="javascript:;">Home</a>
                                             </li>
                                             <li @click="tabs = 2" :class="{ '-mb-px': tabs === 2 }" class="mr-1">
-                                                <a :class="{ 'border-l border-t border-r rounded-t text-indigo-500': tabs === 2 }"
-                                                    class="bg-white dark:bg-gray-800 dark:border-gray-700 inline-block py-2 px-4 hover:text-indigo-500 font-semibold"
-                                                    href="javascript:;">Profile</a>
+                                                <a :class="{ 'border-l border-t border-r rounded-t text-indigo-500': tabs === 2 }" class="bg-white dark:bg-gray-800 dark:border-gray-700 inline-block py-2 px-4 hover:text-indigo-500 font-semibold" href="javascript:;">Profile</a>
                                             </li>
                                             <li @click="tabs = 3" :class="{ '-mb-px': tabs === 3 }" class="mr-1">
-                                                <a :class="{ 'border-l border-t border-r rounded-t text-indigo-500': tabs === 3 }"
-                                                    class="bg-white dark:bg-gray-800 dark:border-gray-700 inline-block py-2 px-4 hover:text-indigo-500 font-semibold"
-                                                    href="javascript:;">Contact</a>
+                                                <a :class="{ 'border-l border-t border-r rounded-t text-indigo-500': tabs === 3 }" class="bg-white dark:bg-gray-800 dark:border-gray-700 inline-block py-2 px-4 hover:text-indigo-500 font-semibold" href="javascript:;">Contact</a>
                                             </li>
                                         </ul>
                                         <div class="w-full pt-4">
@@ -109,24 +102,17 @@
                                 </h2>
 
                                 <!-- example -->
-                                <div
-                                    class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                <div class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <div x-data="{ tabs: 1 }" class="flex justify-between -mx-4">
                                         <ul class="max-w-full px-4">
                                             <li @click="tabs = 1" :class="{ '-mr-px': tabs === 1 }" class="mr-1">
-                                                <a :class="{ 'bg-indigo-500 text-gray-100 rounded dark:bg-indigo-500': tabs === 1 }"
-                                                    class="bg-white dark:bg-gray-800 text-center block py-2 px-4 font-semibold mb-4"
-                                                    href="javascript:;">Home</a>
+                                                <a :class="{ 'bg-indigo-500 text-gray-100 rounded dark:bg-indigo-500': tabs === 1 }" class="bg-white dark:bg-gray-800 text-center block py-2 px-4 font-semibold mb-4" href="javascript:;">Home</a>
                                             </li>
                                             <li @click="tabs = 2" :class="{ '-mr-px': tabs === 2 }" class="mr-1">
-                                                <a :class="{ 'bg-indigo-500 text-gray-100 rounded dark:bg-indigo-500': tabs === 2 }"
-                                                    class="bg-white dark:bg-gray-800 text-center block py-2 px-4 font-semibold mb-4"
-                                                    href="javascript:;">Profile</a>
+                                                <a :class="{ 'bg-indigo-500 text-gray-100 rounded dark:bg-indigo-500': tabs === 2 }" class="bg-white dark:bg-gray-800 text-center block py-2 px-4 font-semibold mb-4" href="javascript:;">Profile</a>
                                             </li>
                                             <li @click="tabs = 3" :class="{ '-mr-px': tabs === 3 }" class="mr-1">
-                                                <a :class="{ 'bg-indigo-500 text-gray-100 rounded dark:bg-indigo-500': tabs === 3 }"
-                                                    class="bg-white dark:bg-gray-800 text-center block py-2 px-4 font-semibold mb-4"
-                                                    href="javascript:;">Contact</a>
+                                                <a :class="{ 'bg-indigo-500 text-gray-100 rounded dark:bg-indigo-500': tabs === 3 }" class="bg-white dark:bg-gray-800 text-center block py-2 px-4 font-semibold mb-4" href="javascript:;">Contact</a>
                                             </li>
                                         </ul>
                                         <div class="max-w-full px-4">
@@ -196,20 +182,14 @@
                                     <div x-data="{ tabs: 1 }">
                                         <ul class="flex bg-gray-50 dark:bg-gray-900 dark:bg-opacity-40">
                                             <li @click="tabs = 1" :class="{ '-mb-px': tabs === 1 }" class="mr-1">
-                                                <a :class="{ '-mb-px bg-white dark:bg-gray-800': tabs === 1 }"
-                                                    class="inline-block py-4 px-2 md:px-4 font-semibold"
-                                                    href="javascript:;">
+                                                <a :class="{ '-mb-px bg-white dark:bg-gray-800': tabs === 1 }" class="inline-block py-4 px-2 md:px-4 font-semibold" href="javascript:;">
                                                     <div class="block text-center px-6">
                                                         <h6 class="text-sm font-semibold nowrap block">Sessions</h6>
                                                         <h5 class="text-2xl font-bold block">6.3K</h5>
                                                         <div class="block items-center">
                                                             <h6 class="text-sm text-green-500">
-                                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                                    fill="currentColor"
-                                                                    class="inline-block w-4 h-4 bi bi-arrow-up-short"
-                                                                    viewBox="0 0 16 16">
-                                                                    <path fill-rule="evenodd"
-                                                                        d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z" />
+                                                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-4 h-4 bi bi-arrow-up-short" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z" />
                                                                 </svg>
                                                                 46.2%
                                                             </h6>
@@ -218,21 +198,15 @@
                                                 </a>
                                             </li>
                                             <li @click="tabs = 2" :class="{ '-mb-px': tabs === 2 }" class="mr-1">
-                                                <a :class="{ '-mb-px bg-white dark:bg-gray-800': tabs === 2 }"
-                                                    class="inline-block py-4 px-2 md:px-4 font-semibold"
-                                                    href="javascript:;">
+                                                <a :class="{ '-mb-px bg-white dark:bg-gray-800': tabs === 2 }" class="inline-block py-4 px-2 md:px-4 font-semibold" href="javascript:;">
                                                     <div class="block text-center px-6">
                                                         <h6 class="text-sm font-semibold nowrap block">Sessions Duration
                                                         </h6>
                                                         <h5 class="text-2xl font-bold block">32m 20s</h5>
                                                         <div class="block items-center">
                                                             <h6 class="text-sm text-green-500">
-                                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                                    fill="currentColor"
-                                                                    class="inline-block w-4 h-4 bi bi-arrow-up-short"
-                                                                    viewBox="0 0 16 16">
-                                                                    <path fill-rule="evenodd"
-                                                                        d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z" />
+                                                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-4 h-4 bi bi-arrow-up-short" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z" />
                                                                 </svg>
                                                                 16.2%
                                                             </h6>
@@ -241,20 +215,14 @@
                                                 </a>
                                             </li>
                                             <li @click="tabs = 3" :class="{ '-mb-px': tabs === 3 }" class="mr-1">
-                                                <a :class="{ '-mb-px bg-white dark:bg-gray-800': tabs === 3 }"
-                                                    class="inline-block py-4 px-2 md:px-4 font-semibold"
-                                                    href="javascript:;">
+                                                <a :class="{ '-mb-px bg-white dark:bg-gray-800': tabs === 3 }" class="inline-block py-4 px-2 md:px-4 font-semibold" href="javascript:;">
                                                     <div class="block text-center px-6">
                                                         <h6 class="text-sm font-semibold nowrap block">Bounce Rate</h6>
                                                         <h5 class="text-2xl font-bold block">50.32%</h5>
                                                         <div class="block items-center">
                                                             <h6 class="text-sm text-red-500">
-                                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                                    fill="currentColor"
-                                                                    class="inline-block w-4 h-4 bi bi-arrow-down-short"
-                                                                    viewBox="0 0 16 16">
-                                                                    <path fill-rule="evenodd"
-                                                                        d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z" />
+                                                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-4 h-4 bi bi-arrow-down-short" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z" />
                                                                 </svg>
                                                                 46.2%
                                                             </h6>
@@ -266,8 +234,7 @@
                                         <div class="w-full px-6 pt-6 pb-3">
                                             <div class="relative">
                                                 <canvas x-show="tabs === 1" class="max-w-100" id="SesionLine"></canvas>
-                                                <canvas x-show="tabs === 2" class="max-w-100"
-                                                    id="SesionDuration"></canvas>
+                                                <canvas x-show="tabs === 2" class="max-w-100" id="SesionDuration"></canvas>
                                                 <canvas x-show="tabs === 3" class="max-w-100" id="BounceLine"></canvas>
                                             </div>
                                         </div>

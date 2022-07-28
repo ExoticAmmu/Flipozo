@@ -41,21 +41,16 @@
                                     Step 2: Add slider code in html
                                 </p>
                                 <!-- example -->
-                                <div
-                                    class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
-                                    <div id="thumbnail-slider" class="mb-12 lg:mb-6 nav-inset-button carousel -mx-2"
-                                        data-flickity='{ "cellAlign": "left", "rightToLeft": false, "wrapAround": true, "draggable": false, "adaptiveHeight": true, "prevNextButtons": true , "imagesLoaded": true }'>
+                                <div class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                    <div id="thumbnail-slider" class="mb-12 lg:mb-6 nav-inset-button carousel -mx-2" data-flickity='{ "cellAlign": "left", "rightToLeft": false, "wrapAround": true, "draggable": false, "adaptiveHeight": true, "prevNextButtons": true , "imagesLoaded": true }'>
                                         <div class="max-w-full w-full px-2">
-                                            <img alt="title" class="w-full h-auto max-w-auto"
-                                                src="../src/img/project/project_1.jpg">
+                                            <img alt="title" class="w-full h-auto max-w-auto" src="../src/img/project/project_1.jpg">
                                         </div>
                                         <div class="max-w-full w-full px-2">
-                                            <img alt="title" class="w-full h-auto max-w-auto"
-                                                src="../src/img/project/project_2.jpg">
+                                            <img alt="title" class="w-full h-auto max-w-auto" src="../src/img/project/project_2.jpg">
                                         </div>
                                         <div class="max-w-full w-full px-2">
-                                            <img alt="title" class="w-full h-auto max-w-auto"
-                                                src="../src/img/project/project_3.jpg">
+                                            <img alt="title" class="w-full h-auto max-w-auto" src="../src/img/project/project_3.jpg">
                                         </div>
                                     </div>
                                 </div>
@@ -76,14 +71,11 @@
 			                </code>
 			              </pre>
                                 <p class="mb-4 font-semibold">
-                                    Step 3: Edit responsive slider code with editing <code
-                                        class="text-pink-700">&lt;div class="max-w-full w-full px-2"&gt;</code> replace
-                                    with other responsive width class, For example <code
-                                        class="text-pink-700">&lt;div class="max-w-full w-full md:w-1/2 lg:w-1/3 px-2"&gt;</code>.
+                                    Step 3: Edit responsive slider code with editing <code class="text-pink-700">&lt;div class="max-w-full w-full px-2"&gt;</code> replace
+                                    with other responsive width class, For example <code class="text-pink-700">&lt;div class="max-w-full w-full md:w-1/2 lg:w-1/3 px-2"&gt;</code>.
                                 </p>
                                 <p class="mb-4">
-                                    For more documentation about Flickity slider read in here <a class="text-blue-500"
-                                        target="_blank" href="https://flickity.metafizzy.co/">Flickity</a>
+                                    For more documentation about Flickity slider read in here <a class="text-blue-500" target="_blank" href="https://flickity.metafizzy.co/">Flickity</a>
                                 </p>
                             </div>
                         </div>

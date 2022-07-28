@@ -36,8 +36,7 @@
                         }
                       </code>
                     </pre>
-                                <p class="mb-4">Core Tailwind css in <code
-                                        class="text-pink-700">src/precss/tailwindcss.css</code> file.</p>
+                                <p class="mb-4">Core Tailwind css in <code class="text-pink-700">src/precss/tailwindcss.css</code> file.</p>
                                 <pre>
                       <code class="language-html" data-lang="html">
                         :root {
@@ -58,18 +57,14 @@ plugins css
                       </code>
                     </pre>
                                 <p class="mb-4">Remove all plugin css from this file.</p>
-                                <P>More information about custom in Tailwindcss is <a target="_blank"
-                                        href="https://tailwindcss.com/docs/installation#using-a-custom-css-file"
-                                        class="text-blue-500">in here</a>
+                                <P>More information about custom in Tailwindcss is <a target="_blank" href="https://tailwindcss.com/docs/installation#using-a-custom-css-file" class="text-blue-500">in here</a>
                             </div>
 
                             <div class="mb-6">
                                 <h2 class="text-base mb-2 font-semibold text-gray-800 dark:text-gray-300">How Edit RTL
                                     CSS?</h2>
-                                <p class="mb-4">Add or edit rtl css from html file like this<code
-                                        class="text-pink-700">ltr:text-left rtl:text-right</code></p>
-                                <p>More information about rtl in here <a class="text-blue-500" target="_blank"
-                                        href="https://tailwindcss.com/docs/hover-focus-and-other-states#rtl-support">Tailwind
+                                <p class="mb-4">Add or edit rtl css from html file like this<code class="text-pink-700">ltr:text-left rtl:text-right</code></p>
+                                <p>More information about rtl in here <a class="text-blue-500" target="_blank" href="https://tailwindcss.com/docs/hover-focus-and-other-states#rtl-support">Tailwind
                                         RTL</a>
                             </div>
                         </div>
@@ -88,7 +83,8 @@ plugins css
                                     a new Javascript?</h2>
                                 <p class="mb-4">To avoid file loss, overrides of your custom styles or any other
                                     conflicts during the upgrade process, create or modify your custom javascript in
-                                    <code class="text-pink-700">src/js/demo.js</code> file.</p>
+                                    <code class="text-pink-700">src/js/demo.js</code> file.
+                                </p>
                                 <pre>
                       <code class="language-html" data-lang="html">
                         // Custom JS
@@ -105,8 +101,7 @@ plugins css
                                     Demo Javascript?</h2>
                                 <p class="mb-4"><code class="text-pink-700">demo.js</code> is a javascript that is used
                                     to display sample layouts such as charts, datepickers, vectormaps and event
-                                    calendars. Copy some scripts you need and paste them in the footer before <code
-                                        class="text-pink-700">&lt;/body&gt;</code>. Replace the javascript demo value
+                                    calendars. Copy some scripts you need and paste them in the footer before <code class="text-pink-700">&lt;/body&gt;</code>. Replace the javascript demo value
                                     with the dynamic data you have.</p>
                                 <p>Example:</p>
                                 <pre>
@@ -137,11 +132,8 @@ plugins css
                         </div>
                         <div class="relative">
                             <p class="mb-4">Tailback is ready in light and dark mode. Very simple to change color skin,
-                                just editing html file and add "dark" classes like this <code
-                                    class="text-pink-700">&lt;html class="dark" lang="en"&gt;</code>.</p>
-                            <p>Read more information about Tailwind dark mode in here <a target="_blank"
-                                    class="text-blue-500 hover:underline"
-                                    href="https://tailwindcss.com/docs/dark-mode">https://tailwindcss.com/docs/dark-mode</a>
+                                just editing html file and add "dark" classes like this <code class="text-pink-700">&lt;html class="dark" lang="en"&gt;</code>.</p>
+                            <p>Read more information about Tailwind dark mode in here <a target="_blank" class="text-blue-500 hover:underline" href="https://tailwindcss.com/docs/dark-mode">https://tailwindcss.com/docs/dark-mode</a>
                         </div>
                     </div>
                 </div>
@@ -155,10 +147,7 @@ plugins css
                         <div class="relative">
                             <div class="mb-6">
                                 <p class="mb-3">We use a subset of Tailwindcss color palette for generating color
-                                    schemes. <br>You can use <code class="text-pink-700">text-</code> or <code
-                                        class="text-pink-700">bg-</code> before color like this <code
-                                        class="text-pink-700">text-indigo-500</code> or <code
-                                        class="text-pink-700">bg-indigo-600</code></p>
+                                    schemes. <br>You can use <code class="text-pink-700">text-</code> or <code class="text-pink-700">bg-</code> before color like this <code class="text-pink-700">text-indigo-500</code> or <code class="text-pink-700">bg-indigo-600</code></p>
                                 <div class="flex-shrink max-w-full px-4 w-full mb-6">
                                     <div class="w-full">
                                         <div class="inline-block mr-2 p-6 bg-indigo-50"></div>
@@ -186,9 +175,7 @@ plugins css
                                     </div>
                                 </div>
                                 <p>Our primary color is <code class="text-pink-700">text-indigo-</code>. You can change
-                                    all primary color on html file with change <code
-                                        class="text-pink-700">text-indigo-</code> and <code
-                                        class="text-pink-700">bg-indigo-</code> with others color.</p>
+                                    all primary color on html file with change <code class="text-pink-700">text-indigo-</code> and <code class="text-pink-700">bg-indigo-</code> with others color.</p>
                                 <p>We also use customize color for <code class="text-pink-700">-gray-</code>. Edit this
                                     color from <code class="text-pink-700">tailwind.config.js</code></p>
                                 <pre>
@@ -212,9 +199,7 @@ extend: {
                       </code>
                     </pre>
 
-                                <p class="mt-4">More complete color can see in Official <a
-                                        href="https://tailwindcss.com/docs/customizing-colors" class="text-indigo-500"
-                                        target="_blank">Tailwindcss</a>
+                                <p class="mt-4">More complete color can see in Official <a href="https://tailwindcss.com/docs/customizing-colors" class="text-indigo-500" target="_blank">Tailwindcss</a>
                             </div>
                         </div>
                     </div>
@@ -251,8 +236,7 @@ module.exports = {
 }
                 </code>
               </pre>
-                            <p class="my-6">For more information about Theme configuration please read <a
-                                    href="https://tailwindcss.com/docs/theme" target="_blank" class="text-blue-500">in
+                            <p class="my-6">For more information about Theme configuration please read <a href="https://tailwindcss.com/docs/theme" target="_blank" class="text-blue-500">in
                                     here</a></p>
                         </div>
                     </div>

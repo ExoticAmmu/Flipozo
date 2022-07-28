@@ -23,13 +23,9 @@
                                     content can be seen on a device's screen at one time.</p>
                                 <h2 class="text-lg mb-4 font-semibold text-gray-800 dark:text-gray-300">Custom Scrollbar
                                 </h2>
-                                <p class="text-lg mb-6 font-light">Just add <code
-                                        class="text-pink-700">scrollbars show</code> or <code
-                                        class="text-pink-700">scrollbars</code> in <code
-                                        class="text-pink-700">overflow-y-auto</code> classes.</p>
+                                <p class="text-lg mb-6 font-light">Just add <code class="text-pink-700">scrollbars show</code> or <code class="text-pink-700">scrollbars</code> in <code class="text-pink-700">overflow-y-auto</code> classes.</p>
                                 <!-- example -->
-                                <div
-                                    class="bg-gray-100 p-8 mb-6 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                <div class="bg-gray-100 p-8 mb-6 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <div class="h-36 overflow-y-auto scrollbars show mb-6">
                                         <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying
                                             out print, graphic or web designs. The passage is attributed to an unknown
@@ -65,8 +61,7 @@
                                 <h2 class="text-lg mb-4 font-semibold text-gray-800 dark:text-gray-300">Hover Scrollbar
                                 </h2>
                                 <!-- example -->
-                                <div
-                                    class="bg-gray-100 p-8 mb-6 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                <div class="bg-gray-100 p-8 mb-6 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <div class="h-36 overflow-y-auto scrollbars mb-6">
                                         <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying
                                             out print, graphic or web designs. The passage is attributed to an unknown

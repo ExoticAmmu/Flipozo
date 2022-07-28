@@ -15,8 +15,7 @@
                             <div class="mb-6">
                                 <h1 class="text-3xl mb-4 font-semibold text-gray-800 dark:text-gray-300">RTL Direction
                                 </h1>
-                                <p class="leading-relaxed font-light text-lg mx-auto pb-2">Taildash <span
-                                        class="text-gray-500 italic">(Tailwind dashboard)</span> is Tailwind admin
+                                <p class="leading-relaxed font-light text-lg mx-auto pb-2">Taildash <span class="text-gray-500 italic">(Tailwind dashboard)</span> is Tailwind admin
                                     template with supported RTL Direction.<br> Test RTL Demo from customizer >>
                                     Direction >> and click rtl toggle button.</p>
                             </div>
@@ -66,11 +65,8 @@
                             <div class="mb-8">
                                 <h2 class="text-lg mb-2 font-semibold text-gray-800 dark:text-gray-300">How Edit RTL
                                     CSS?</h2>
-                                <p class="mb-4">Add or edit rtl css from html file like this<code
-                                        class="text-pink-700">ltr:text-left rtl:text-right</code>. For more information
-                                    about RTL Mode read documentation on here <a
-                                        href="https://tailwindcss.com/docs/hover-focus-and-other-states#rtl-support"
-                                        class="text-indigo-500" target="_blank">Tailwind RTL</a></p>
+                                <p class="mb-4">Add or edit rtl css from html file like this<code class="text-pink-700">ltr:text-left rtl:text-right</code>. For more information
+                                    about RTL Mode read documentation on here <a href="https://tailwindcss.com/docs/hover-focus-and-other-states#rtl-support" class="text-indigo-500" target="_blank">Tailwind RTL</a></p>
                             </div>
                         </div>
                     </div>

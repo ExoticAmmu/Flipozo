@@ -243,10 +243,7 @@
                     </div>
                 </div>
                 <div class="flex-shrink max-w-full px-4 w-full">
-                    <p class="text-gray-500 mb-5">All demo chart config is available in <code
-                            class="text-pink-700">src/js/demo.js</code>. Please read more documentaion about chart in <a
-                            target="_blank" href="https://www.chartjs.org/"
-                            class="hover:underline text-blue-500">https://www.chartjs.org/</a></p>
+                    <p class="text-gray-500 mb-5">All demo chart config is available in <code class="text-pink-700">src/js/demo.js</code>. Please read more documentaion about chart in <a target="_blank" href="https://www.chartjs.org/" class="hover:underline text-blue-500">https://www.chartjs.org/</a></p>
                 </div>
             </div>
         </div>

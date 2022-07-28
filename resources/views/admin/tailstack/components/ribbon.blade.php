@@ -25,25 +25,18 @@
                                 <h2 class="text-lg mb-2 font-semibold text-gray-800 dark:text-gray-300">Example ribbon
                                 </h2>
                                 <!-- example -->
-                                <div
-                                    class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
-                                    <div
-                                        class="relative p-12 mb-12 bg-blue-700 text-gray-100 border border-gray-200 dark:border-gray-700">
+                                <div class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
+                                    <div class="relative p-12 mb-12 bg-blue-700 text-gray-100 border border-gray-200 dark:border-gray-700">
                                         <!-- ribbon -->
-                                        <div
-                                            class="absolute top-0 ltr:right-0 ltr:text-right rtl:left-0 rtl:text-left w-36 h-36 text-sm">
-                                            <span
-                                                class="absolute top-4 ltr:right-0 rtl:left-0 px-4 py-2 block align-center shadow bg-yellow-300 text-gray-800">Popular</span>
+                                        <div class="absolute top-0 ltr:right-0 ltr:text-right rtl:left-0 rtl:text-left w-36 h-36 text-sm">
+                                            <span class="absolute top-4 ltr:right-0 rtl:left-0 px-4 py-2 block align-center shadow bg-yellow-300 text-gray-800">Popular</span>
                                         </div>
                                     </div>
 
-                                    <div
-                                        class="relative p-12 mb-12 bg-blue-700 text-gray-100 border border-gray-200 dark:border-gray-700">
+                                    <div class="relative p-12 mb-12 bg-blue-700 text-gray-100 border border-gray-200 dark:border-gray-700">
                                         <!-- ribbon -->
-                                        <div
-                                            class="absolute top-0 ltr:left-0 ltr:text-left rtl:right-0 rtl:text-right w-36 h-36 text-sm">
-                                            <span
-                                                class="absolute top-4 ltr:left-0 rtl:right-0 px-4 py-2 block align-center shadow bg-yellow-300 text-gray-800">Popular</span>
+                                        <div class="absolute top-0 ltr:left-0 ltr:text-left rtl:right-0 rtl:text-right w-36 h-36 text-sm">
+                                            <span class="absolute top-4 ltr:left-0 rtl:right-0 px-4 py-2 block align-center shadow bg-yellow-300 text-gray-800">Popular</span>
                                         </div>
                                     </div>
                                 </div>
