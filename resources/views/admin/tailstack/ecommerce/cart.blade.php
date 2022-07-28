@@ -100,7 +100,6 @@
                                     </tr>
                                 </tbody>
                             </table>
-
                             <div class="flex flex-wrap flex-row">
                                 <div class="flex-shrink max-w-full px-4 w-full md:w-1/2">
                                     <div class="my-6" id="coupon">
