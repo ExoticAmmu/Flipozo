@@ -1,38 +1,12 @@
-<!--
-Template Name: Taildash - Tailwind Dashboard Admin Template
-Author: Aribudin
-Website: https://www.tailwinddashboard.com
-Contact: support@tailwinddashboard.com
-Purchase: https://themes.tailwindtemplate.net/taildash
-License: You must have a valid license purchased only from official store (the above link) in order to legally use the theme for your project.
--->
-<!DOCTYPE html>
+
+<x-admin-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+            {{ __('Admin Dashboard') }}
+        </h2>
+    </x-slot>
 <html lang="en" dir="ltr">
-<head>
-  <!-- Required meta tags -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Title  -->
-  <title>Taildash | Tailwind Dashboard Template</title>
-  <meta name="description" content="Tailwind Dashboard Template">
-
-  <!-- Development css (used in all pages) -->
-  <link rel="stylesheet" id="stylesheet" href="src/css/style.css">
-  <!-- Production css (used in all pages) -->
-  <!-- <link rel="stylesheet" href="dist/css/style.css"> -->
-
-  <!--start::Customizer Stylesheets (Only for demo purpose)-->
-  <link rel="stylesheet" href="src/css/customizer.css">
-  <!--end::Customizer Stylesheets (Only for demo purpose)-->
-
-  <!-- google font -->
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
-
-  <!-- Favicon  -->
-  <link rel="icon" href="src/img/favicon.png">
-</head>
 <body class="font-sans text-base font-normal text-gray-600 dark:text-gray-400 dark:bg-gray-800">
   <!-- wrapper -->
   <div x-data="{ open: false }" class="wrapper overflow-x-hidden bg-gray-100 dark:bg-gray-900 dark:bg-opacity-40">
@@ -1707,4 +1681,4 @@ License: You must have a valid license purchased only from official store (the a
   <!--start::Customizer js ( Only for demo purpose )-->
   <script src="src/js/customizer.js"></script>
 </body>
-</html>
+</x-admin-layout>

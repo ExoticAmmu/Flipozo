@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<x-admin-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+            {{ __('Admin Dashboard') }}
+        </h2>
+    </x-slot>
 <html lang="en" dir="ltr">
 <head>
   <!-- Required meta tags -->
@@ -1400,4 +1405,4 @@ module.exports = {
   <script src="../src/js/customizer.js"></script>
   <script src="../src/js/prism.js"></script>
 </body>
-</html>
+</x-admin-layout>
