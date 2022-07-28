@@ -50,7 +50,6 @@ Route::get('/dashboard', function () {
 require __DIR__.'/auth.php';
 
 //Admin Routes
-
 Route::prefix('admin')->group(function(){
     Route::middleware('guest:admin')->group(function(){
         // login routes
@@ -81,6 +80,10 @@ Route::prefix('admin')->group(function(){
 
         Route::get('user', [DashboardController::class, 'index'])->name('admin.users.index');
         Route::get('view-user/{id}',[DashboardController::class, 'view'])->name('admin.users.view');
+
+        // Admin Tailstack
+        
+
     });
     
     Route::post('logout', [AdminController::class, 'destroy'])->name('admin.logout');
