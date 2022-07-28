@@ -5,7 +5,7 @@
             {{ __('Admin Dashboard') }}
         </h2>
     </x-slot>
-<html lang="en" dir="ltr">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="UTF-8">
@@ -31,7 +31,7 @@
   <!-- Favicon  -->
   <link rel="icon" href="../src/img/favicon.png">
 </head>
-<body class="font-sans text-base font-normal text-gray-600 dark:text-gray-400 dark:bg-gray-800">
+
   <!-- preloader -->
   <div class="preloader loaded-success fixed inset-0 bg-gray-100 dark:bg-gray-900">
     <div class="absolute left-1/2 top-1/2 transform -translate-y-1/2">
@@ -222,17 +222,17 @@
     <div class="mx-auto px-4">
       <div class="flex flex-wrap flex-row -mx-4">
         <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 text-center md:ltr:text-left md:rtl:text-right">
-          <ul class="ltr:pl-0 rtl:pr-0">
-            <li class="inline-block ltr:mr-3 rtl:ml-3">
+          
+            
               <a class="hover:text-indigo-500" href="logout-page.html#">Support</a>
             </li>
-            <li class="inline-block ltr:mr-3 rtl:ml-3">
+            
               <a class="hover:text-indigo-500" href="logout-page.html#">Help Center</a>
             </li>
-            <li class="inline-block ltr:mr-3 rtl:ml-3">
+            
               <a class="hover:text-indigo-500" href="logout-page.html#">Privacy</a>
             </li>
-            <li class="inline-block ltr:mr-3 rtl:ml-3">
+            
               <a class="hover:text-indigo-500" href="logout-page.html#">Terms of Service</a>
             </li>
           </ul>
@@ -266,5 +266,5 @@
 
   <!--start::Customizer js ( Only for demo purpose )-->
   <script src="../src/js/customizer.js"></script>
-</body>
+
 </x-admin-layout>

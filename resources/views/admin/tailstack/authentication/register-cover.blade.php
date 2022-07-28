@@ -5,7 +5,7 @@
             {{ __('Admin Dashboard') }}
         </h2>
     </x-slot>
-<html lang="en" dir="ltr">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="UTF-8">
@@ -31,7 +31,7 @@
   <!-- Favicon  -->
   <link rel="icon" href="../src/img/favicon.png">
 </head>
-<body class="font-sans text-base font-normal text-gray-600 dark:text-gray-400 dark:bg-gray-800">
+
   <!-- preloader -->
   <div class="preloader loaded-success fixed inset-0 bg-gray-100 dark:bg-gray-900">
     <div class="absolute left-1/2 top-1/2 transform -translate-y-1/2">
@@ -252,5 +252,5 @@
 
   <!--start::Customizer js ( Only for demo purpose )-->
   <script src="../src/js/customizer.js"></script>
-</body>
+
 </x-admin-layout>

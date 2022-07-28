@@ -4,7 +4,7 @@
             {{ __('Admin Dashboard') }}
         </h2>
     </x-slot>
-<html lang="en" dir="ltr">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="UTF-8">
@@ -31,13 +31,13 @@
   <!-- Favicon  -->
   <link rel="icon" href="../src/img/favicon.png">
 </head>
-<body class="font-sans text-base font-normal text-gray-600 dark:text-gray-400 dark:bg-gray-800">
+
   <!-- wrapper -->
   <div x-data="{ open: false }" class="wrapper overflow-x-hidden bg-gray-100 dark:bg-gray-900 dark:bg-opacity-40">
     <nav id="sidebar-menu" x-description="Mobile menu" x-bind:aria-expanded="open" :class="{ 'w-64 md:w-0': open, 'w-0 md:w-64': !(open) }" class="fixed w-64 transition-all duration-500 ease-in-out h-screen bg-white dark:bg-gray-800 shadow-sm">
       <div class="h-full overflow-y-auto scrollbars">
         <!--logo-->
-        <div class="mh-18 text-center py-5">
+        
           <a href="navbar.html#" class="relative">
             <h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden hidden-compact">
               <!-- <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"> -->
@@ -62,25 +62,7 @@
               </svg><span class="text-gray-700 dark:text-gray-200">Taildash</span>
             <h2 class="text-3xl font-semibold mx-auto logo-compact hidden">
               <!-- <img class="inline-block w-7 h-auto -mt-1" src="../src/img/logo.png"> -->
-              <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-7 h-7 -mt-1" viewBox="0 0 300.000000 300.000000"> 
-                <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
-                  <path class="text-pink-500" d="M1225 2825 c-546 -115 -959 -534 -1065 -1080 -28 -147 -28 -373 0
-                  -520 81 -419 350 -774 728 -964 115 -58 120 -58 65 3 -27 29 -65 84 -85 122
-                  -68 131 -90 236 -89 428 0 229 44 470 167 923 41 149 74 275 74 278 0 4 -102
-                  5 -227 3 -198 -4 -236 -7 -290 -25 -35 -12 -63 -18 -63 -14 0 4 22 43 49 87
-                  58 93 123 157 177 175 22 6 124 14 234 16 l195 5 33 112 c91 305 200 431 405
-                  465 43 7 31 9 -73 9 -94 1 -152 -5 -235 -23z"/>
-                  <path class="text-indigo-500" d="M1695 2763 c-48 -77 -122 -231 -179 -375 -25 -65 -46 -120 -46 -123
-                  0 -7 995 -6 1069 1 34 4 61 12 61 18 0 6 -30 46 -65 88 -170 201 -426 361
-                  -687 428 -110 29 -111 28 -153 -37z"/>
-                  <path class="text-indigo-500" d="M2660 2104 c-33 -36 -54 -47 -120 -67 -21 -6 -256 -12 -595 -16
-                  l-560 -6 -51 -180 c-62 -215 -116 -445 -144 -608 -74 -435 -37 -655 124 -740
-                  62 -32 189 -30 274 5 174 72 337 212 410 353 l20 40 24 -50 c32 -70 32 -162
-                  -1 -229 -48 -97 -216 -250 -383 -347 -86 -51 -170 -85 -261 -109 l-69 -17 94
-                  -6 c469 -33 947 205 1214 605 229 342 291 790 163 1173 -24 70 -76 192 -94
-                  217 -10 16 -14 14 -45 -18z"/>
-                </g>
-              </svg>
+              
             </h2>
           </a>
         </div>
@@ -90,19 +72,8 @@
           <!-- dropdown -->
           <li class="relative">
             <a :class="{ 'text-indigo-500 dark:text-gray-300': selected == 1 }" @click="selected !== 1 ? selected = 1 : selected = null" class="block py-2.5 px-6 hover:text-indigo-500 dark:hover:text-gray-300" href="javascript:;">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-4 w-4 ltr:mr-2 rtl:ml-2 bi bi-house-door" viewBox="0 0 16 16">
-                <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
-              </svg>
-              <!-- <i class="ltr:mr-2 rtl:ml-2 fas fa-home"></i> -->
-              <span>Dashboards</span>
-              <!-- caret -->
-              <span class="inline-block ltr:float-right rtl:float-left">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="transform transition duration-300 mt-1.5 bi bi-chevron-down" :class="{ 'rotate-0': selected == 1, 'ltr:-rotate-90 rtl:rotate-90': !(selected == 1) }" width=".8rem" height=".8rem" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                </svg>
-                <!-- <i class="transform transition duration-300 fas fa-chevron-down" :class="{ 'rotate-0': selected == 1, 'ltr:-rotate-90 rtl:rotate-90': !(selected == 1) }"></i> -->
-              </span>
-            </a>
+  relative">
+ </a>
 
             <!-- dropdown menu -->
             <ul x-show="selected == 1" x-transition:enter="transition-all duration-200 ease-out" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" class="block rounded rounded-t-none top-full z-50 ltr:pl-7 rtl:pr-7 py-0.5 ltr:text-left rtl:text-right mb-1 font-normal">
@@ -621,20 +592,7 @@
           
           <!-- dropdown -->
           <li class="relative">
-            <a  :class="{ 'text-indigo-500 dark:text-gray-300': selected == 10 }" @click="selected !== 10 ? selected = 10 : selected = null" class="block py-2.5 px-6 hover:text-indigo-500 dark:hover:text-gray-300" href="javascript:;">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-4 w-4 ltr:mr-2 rtl:ml-2 bi bi-list-nested" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z"/>
-              </svg>
-              <!-- <i class="mr-2 fas fa-stream"></i> -->
-             <span>Multi Level</span>
-              <!-- caret -->
-              <span class="inline-block ltr:float-right rtl:float-left">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="transform transition duration-300 mt-1.5 bi bi-chevron-down" :class="{ 'rotate-0': selected == 10, 'ltr:-rotate-90 rtl:rotate-90': !(selected == 10) }" width=".8rem" height=".8rem" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                </svg>
-                <!-- <i class="transform transition duration-300 fas fa-chevron-down" :class="{ 'rotate-0': selected == 10, 'ltr:-rotate-90 rtl:rotate-90': !(selected == 10) }"></i> -->
-              </span>
-            </a>
+            
             <ul x-show="selected == 10" x-transition:enter="transition-all duration-200 ease-out" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" class="block rounded rounded-t-none top-full z-50 ltr:pl-7 rtl:pr-7 py-0.5 ltr:text-left rtl:text-right mb-1 font-normal">
               <li class="relative" x-data="{ open: false }" @keydown.escape.stop="open = false" @click.away="open = false">
                <a :class="{ 'text-indigo-500': open }" @click="open = !open" aria-haspopup="true" x-bind:aria-expanded="open" id="mobiledrop-91" class="block py-2.5 px-6 hover:text-indigo-500 dark:hover:text-gray-300" href="javascript:;">
@@ -700,10 +658,7 @@
         <!-- Banner -->
         <div class="px-4 box-banner">
           <div class="my-8 p-4 text-center bg-gray-300 dark:bg-gray-700 bg-opacity-50 rounded-lg">
-            <h4 class="font-bold inline-block mb-2">Sales Report</h4>
-            <div class="mb-3 text-sm">
-              Monthly sales report is ready for download!
-            </div>
+            
 
             <div class="grid">
               <a href="navbar.html#" class="py-2 px-4 inline-block text-center mb-3 rounded leading-5 text-gray-100 bg-pink-500 border border-pink-500 hover:text-white hover:bg-pink-600 hover:ring-0 hover:border-pink-600 focus:bg-pink-600 focus:border-pink-600 focus:outline-none focus:ring-0" target="_blank">Download</a>
@@ -1019,17 +974,13 @@
               <span class="hidden md:block ltr:ml-1 rtl:mr-1 self-center">Ari Budin</span>
             </a>
             <ul x-show="open" @click.away="open = false" x-transition:enter="transition-all duration-200 ease-out" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition-all duration-200 ease-in" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="origin-top-right absolute ltr:right-0 rtl:left-0 rounded top-full z-50 py-0.5 ltr:text-left rtl:text-right bg-white dark:bg-gray-800 border dark:border-gray-700 shadow-md" style="min-width:12rem;display: none;">
-              <li class="relative">
-                <div class="flex flex-wrap flex-row -mx-4 px-3 py-4 items-center">
+              
                   <div class="flex-shrink max-w-full px-4 w-1/3">
                     <img src="../src/img/avatar/avatar.png" class="h-10 w-10 rounded-full" alt="Ari Budin">
                   </div>
-                  <div class="flex-shrink max-w-full px-4 w-2/3 ltr:pl-1 rtl:pr-1">
+                 
                     <div class="font-bold"><a href="navbar.html#" ">Ari Budin</a></div>
-                    
-                  </div>
-                </div>
-              </li>
+                
               <li class="relative">
                 <hr class="border-t border-gray-200 dark:border-gray-700 my-0">
               </li>
@@ -1582,24 +1533,17 @@
 				</div>
 			</main>
 
-			<footer class="bg-white dark:bg-gray-800 p-6 shadow-sm">
-        <div class="mx-auto">
-          <div class="flex flex-wrap flex-row -mx-4">
-            <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 text-center md:ltr:text-left md:rtl:text-right">
-              <ul class="ltr:pl-0 rtl:pr-0">
-                <li class="inline-block ltr:mr-3 rtl:ml-3">
+			
+              
+                
                   <a class="hover:text-indigo-500" href="navbar.html#">Support</a>
-                </li>
-                <li class="inline-block ltr:mr-3 rtl:ml-3">
+                
                   <a class="hover:text-indigo-500" href="navbar.html#">Help Center</a>
-                </li>
-                <li class="inline-block ltr:mr-3 rtl:ml-3">
+
+                
                   <a class="hover:text-indigo-500" href="navbar.html#">Privacy</a>
-                </li>
-                <li class="inline-block ltr:mr-3 rtl:ml-3">
-                  <a class="hover:text-indigo-500" href="navbar.html#">Terms of Service</a>
-                </li>
-              </ul>
+                
+                  <a class="hover:text-indigo-500" href="navbar.html#">
             </div>
             <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 text-center md:ltr:text-right md:rtl:text-left">
               <p class="mb-0 mt-3 md:mt-0">
@@ -1633,5 +1577,5 @@
   <!--start::Customizer js ( Only for demo purpose )-->
   <script src="../src/js/customizer.js"></script>
   <script src="../src/js/prism.js"></script>
-</body>
+
 </x-admin-layout>
