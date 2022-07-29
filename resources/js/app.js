@@ -1,5 +1,4 @@
 import './bootstrap';
-import '../css/app.css';
 
 // Alpine JS
 import Alpine from 'alpinejs';
