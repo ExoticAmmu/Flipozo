@@ -42,7 +42,7 @@
                                             <div class="flex flex-row" style="max-width: 200px;">
                                                 <input type="text" name="quantity[456]" value="1" size="1" class="ltr:rounded-l rtl:rounded-r leading-5 relative py-2 px-4 text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600">
                                                 <span class="flex flex-row">
-                                                    <button type="submit" class="py-2 px-4 inline-block text-center py-2 px-4 inline-block text-center rounded-0 leading-normal text-gray-100 bg-indigo-500 border border-indigo-500 hover:text-gray-100 hover:bg-indigo-600 hover:ring-0 hover:border-indigo-600 focus:bg-indigo-600 focus:border-indigo-600 focus:outline-none focus:ring-0" title="Update">
+                                                    <button type="submit" class="py-2 px-4 inline-block text-center rounded-0 leading-normal text-gray-100 bg-indigo-500 border border-indigo-500 hover:text-gray-100 hover:bg-indigo-600 hover:ring-0 hover:border-indigo-600 focus:bg-indigo-600 focus:border-indigo-600 focus:outline-none focus:ring-0" title="Update">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
                                                             <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z">
                                                             </path>
@@ -78,7 +78,7 @@
                                             <div class="flex flex-row" style="max-width: 200px;">
                                                 <input type="text" name="quantity[456]" value="3" size="1" class="ltr:rounded-l rtl:rounded-r leading-5 relative py-2 px-4 text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600">
                                                 <span class="flex flex-row">
-                                                    <button type="submit" class="py-2 px-4 inline-block text-center py-2 px-4 inline-block text-center rounded-0 leading-normal text-gray-100 bg-indigo-500 border border-indigo-500 hover:text-gray-100 hover:bg-indigo-600 hover:ring-0 hover:border-indigo-600 focus:bg-indigo-600 focus:border-indigo-600 focus:outline-none focus:ring-0" title="Update">
+                                                    <button type="submit" class="py-2 px-4 inline-block text-center rounded-0 leading-normal text-gray-100 bg-indigo-500 border border-indigo-500 hover:text-gray-100 hover:bg-indigo-600 hover:ring-0 hover:border-indigo-600 focus:bg-indigo-600 focus:border-indigo-600 focus:outline-none focus:ring-0" title="Update">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
                                                             <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z">
                                                             </path>
@@ -106,9 +106,9 @@
                                         <label class="col-12 mb-2 hidden" for="input-coupon">Enter your coupon
                                             here</label>
                                         <div class="flex flex-wrap flex-row items-stretch w-full relative mb-6">
-                                            <input type="text" name="coupon" value="" placeholder="Enter your coupon here" id="input-coupon" class="flex-shrink flex-grow flex-shrink max-w-full leading-5 w-px flex-1 relative py-2 px-4 ltr:rounded-l rtl:rounded-r text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0">
+                                            <input type="text" name="coupon" value="" placeholder="Enter your coupon here" id="input-coupon" class="flex-shrink flex-grow max-w-full leading-5 w-px flex-1 relative py-2 px-4 ltr:rounded-l rtl:rounded-r text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0">
                                             <span class="flex-mr-px">
-                                                <input type="button" value="Apply Coupon" id="button-coupon" data-loading-text="Loading..." class="py-2 px-4 flex items-center py-2 px-4 ltr:-ml-1 ltr:rounded-r rtl:rounded-r rtl:-mr-1 leading-5 text-gray-100 bg-green-500 border border-green-500 hover:text-white hover:bg-green-600 hover:ring-0 hover:border-green-600 focus:bg-green-600 focus:border-green-600 focus:outline-none focus:ring-0">
+                                                <input type="button" value="Apply Coupon" id="button-coupon" data-loading-text="Loading..." class="py-2 px-4 flex items-center ltr:-ml-1 ltr:rounded-r rtl:rounded-r rtl:-mr-1 leading-5 text-gray-100 bg-green-500 border border-green-500 hover:text-white hover:bg-green-600 hover:ring-0 hover:border-green-600 focus:bg-green-600 focus:border-green-600 focus:outline-none focus:ring-0">
                                             </span>
                                         </div>
                                     </div>
@@ -143,7 +143,7 @@
                                         </tbody>
                                     </table>
                                     <div class="pt-4 w-full ltr:text-right rtl:text-left">
-                                        <a href="cart.html#" class="py-2 px-4 inline-block text-center mb-3 rounded py-2 px-4 inline-block text-center rounded leading-5 text-gray-100 bg-indigo-500 border border-indigo-500 hover:text-gray-100 hover:bg-indigo-600 hover:ring-0 hover:border-indigo-600 focus:bg-indigo-600 focus:border-indigo-600 focus:outline-none focus:ring-0">
+                                        <a href="cart.html#" class="py-2 px-4 inline-block text-center mb-3 rounded leading-5 text-gray-100 bg-indigo-500 border border-indigo-500 hover:text-gray-100 hover:bg-indigo-600 hover:ring-0 hover:border-indigo-600 focus:bg-indigo-600 focus:border-indigo-600 focus:outline-none focus:ring-0">
                                             Checkout Now <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="inline-block ltr:ml-2 rtl:mr-2 bi bi-arrow-right" viewBox="0 0 16 16">
                                                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
                                                 </path>

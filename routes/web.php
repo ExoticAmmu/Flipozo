@@ -359,7 +359,12 @@ Route::prefix('admin')->group(function(){
         Route::get('docs/changelog', function(){
             return View('admin.tailstack.docs.changelog');
         });
-
+        Route::get('docs/changelog', function(){
+            return View('admin.tailstack.docs.changelog');
+        });
+        Route::get('docs/changelog', function(){
+            return View('admin.tailstack.docs.changelog');
+        });
 
     });
     
