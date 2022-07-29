@@ -35,7 +35,7 @@
                                                     <a href="card.html#">
                                                         <div class="absolute inset-0 hover:bg-white opacity-0 transition duration-700 hover:opacity-10">
                                                         </div>
-                                                        <img class="max-w-full h-auto" src="../src/img/products/product1.jpg" alt="alt title">
+                                                        <img class="max-w-full h-auto" src="..//img/products/product1.jpg" alt="alt title">
                                                     </a>
                                                 </div>
                                                 <div class="p-6 flex-1">
@@ -63,7 +63,7 @@
                                                     <a href="card.html#">
                                                         <div class="absolute inset-0 hover:bg-white opacity-0 transition duration-700 hover:opacity-10">
                                                         </div>
-                                                        <img class="max-w-full h-auto" src="../src/img/products/product2.jpg" alt="alt title">
+                                                        <img class="max-w-full h-auto" src="..//img/products/product2.jpg" alt="alt title">
                                                     </a>
                                                 </div>
                                                 <div class="p-6 flex-1">
@@ -91,7 +91,7 @@
                                                     <a href="card.html#">
                                                         <div class="absolute inset-0 hover:bg-white opacity-0 transition duration-700 hover:opacity-10">
                                                         </div>
-                                                        <img class="max-w-full h-auto" src="../src/img/products/product3.jpg" alt="alt title">
+                                                        <img class="max-w-full h-auto" src="..//img/products/product3.jpg" alt="alt title">
                                                     </a>
                                                 </div>
                                                 <div class="p-6 flex-1">
@@ -121,7 +121,7 @@
 			                    &lt;div class="relative overflow-hidden"&gt;
 			                      &lt;a href="#"&gt;
 			                        &lt;div class="absolute inset-0 hover:bg-white opacity-0 transition duration-700 hover:opacity-10"&gt;&lt;/div&gt;
-			                        &lt;img class="max-w-full h-auto" src="src/img/products/product1.jpg" alt="alt title"&gt;
+			                        &lt;img class="max-w-full h-auto" src="/img/products/product1.jpg" alt="alt title"&gt;
 			                      &lt;/a&gt;
 			                    &lt;/div&gt;
 			                    &lt;div class="p-6 flex-1"&gt;
@@ -143,7 +143,7 @@
 			                    &lt;div class="relative overflow-hidden"&gt;
 			                      &lt;a href="#"&gt;
 			                        &lt;div class="absolute inset-0 hover:bg-white opacity-0 transition duration-700 hover:opacity-10"&gt;&lt;/div&gt;
-			                        &lt;img class="max-w-full h-auto" src="src/img/products/product1.jpg" alt="alt title"&gt;
+			                        &lt;img class="max-w-full h-auto" src="/img/products/product1.jpg" alt="alt title"&gt;
 			                      &lt;/a&gt;
 			                    &lt;/div&gt;
 			                    &lt;div class="p-6 flex-1"&gt;
@@ -175,7 +175,7 @@
                                             <a href="card.html#">
                                                 <div class="absolute inset-0 hover:bg-white opacity-0 transition duration-700 hover:opacity-10">
                                                 </div>
-                                                <img class="max-w-full h-auto" src="../src/img/products/product1.jpg" alt="alt title">
+                                                <img class="max-w-full h-auto" src="..//img/products/product1.jpg" alt="alt title">
                                             </a>
                                         </div>
                                         <div class="p-6 flex-1 lg:flex-shrink lg:w-2/3">
@@ -203,7 +203,7 @@
 			                    &lt;div class="relative overflow-hidden lg:flex-shrink lg:w-1/3 rounded"&gt;
 			                      &lt;a href="#"&gt;
 			                        &lt;div class="absolute inset-0 hover:bg-white opacity-0 transition duration-700 hover:opacity-10"&gt;&lt;/div&gt;
-			                        &lt;img class="max-w-full h-auto" src="src/img/products/product1.jpg" alt="alt title"&gt;
+			                        &lt;img class="max-w-full h-auto" src="/img/products/product1.jpg" alt="alt title"&gt;
 			                      &lt;/a&gt;
 			                    &lt;/div&gt;
 			                    &lt;div class="p-6 flex-1 lg:flex-shrink lg:w-2/3"&gt;

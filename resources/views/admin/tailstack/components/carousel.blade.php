@@ -44,13 +44,13 @@
                                 <div class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <div id="thumbnail-slider" class="mb-12 lg:mb-6 nav-inset-button carousel -mx-2" data-flickity='{ "cellAlign": "left", "rightToLeft": false, "wrapAround": true, "draggable": false, "adaptiveHeight": true, "prevNextButtons": true , "imagesLoaded": true }'>
                                         <div class="max-w-full w-full px-2">
-                                            <img alt="title" class="w-full h-auto max-w-auto" src="../src/img/project/project_1.jpg">
+                                            <img alt="title" class="w-full h-auto max-w-auto" src="..//img/project/project_1.jpg">
                                         </div>
                                         <div class="max-w-full w-full px-2">
-                                            <img alt="title" class="w-full h-auto max-w-auto" src="../src/img/project/project_2.jpg">
+                                            <img alt="title" class="w-full h-auto max-w-auto" src="..//img/project/project_2.jpg">
                                         </div>
                                         <div class="max-w-full w-full px-2">
-                                            <img alt="title" class="w-full h-auto max-w-auto" src="../src/img/project/project_3.jpg">
+                                            <img alt="title" class="w-full h-auto max-w-auto" src="..//img/project/project_3.jpg">
                                         </div>
                                     </div>
                                 </div>
@@ -59,13 +59,13 @@
 			                  &lt;!-- carousel slider --&gt;
 			                  &lt;div id="thumbnail-slider" class="mb-12 lg:mb-6 nav-inset-button carousel -mx-2" data-flickity='{ "cellAlign": "left", "wrapAround": true, "draggable": false, "adaptiveHeight": true, "prevNextButtons": true , "imagesLoaded": true }'&gt;
 			                    &lt;div class="max-w-full w-full px-2"&gt;
-			                      &lt;img alt="title" class="w-full h-auto max-w-auto" src="src/img/project/project_1.jpg"&gt;
+			                      &lt;img alt="title" class="w-full h-auto max-w-auto" src="/img/project/project_1.jpg"&gt;
 			                    &lt;/div&gt;
 			                    &lt;div class="max-w-full w-full px-2"&gt;
-			                      &lt;img alt="title" class="w-full h-auto max-w-auto" src="src/img/project/project_2.jpg"&gt;
+			                      &lt;img alt="title" class="w-full h-auto max-w-auto" src="/img/project/project_2.jpg"&gt;
 			                    &lt;/div&gt;
 			                    &lt;div class="max-w-full w-full px-2"&gt;
-			                      &lt;img alt="title" class="w-full h-auto max-w-auto" src="src/img/project/project_3.jpg"&gt;
+			                      &lt;img alt="title" class="w-full h-auto max-w-auto" src="/img/project/project_3.jpg"&gt;
 			                    &lt;/div&gt;
 			                  &lt;/div&gt;
 			                </code>

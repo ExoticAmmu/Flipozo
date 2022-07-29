@@ -80,7 +80,7 @@
                     </div>
                     <div class="flex-shrink max-w-full px-4 w-full lg:w-1/2">
                         <div class="text-center mt-6 lg:mt-0">
-                            <img src="../src/img/svg/meeting.svg" alt="welcome" class="max-w-full h-auto mx-auto">
+                            <img src="..//img/svg/meeting.svg" alt="welcome" class="max-w-full h-auto mx-auto">
                             <div class="px-4 mt-12">
                                 <h1 class="text-bold text-4xl mb-2">Manage your business easily and safely</h1>
                                 <p class="text-base text-lg mb-4 text-gray-500">Managing a business is not as easy as it

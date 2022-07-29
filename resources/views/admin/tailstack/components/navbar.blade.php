@@ -35,7 +35,7 @@
                         <!-- logo -->
                         <a class="flex items-center py-2 mr-4 text-xl" href="navbar.html#">
                           <h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden">
-                            <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
+                            <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="..//img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
                           </h2>
                         </a>
                         <!-- navbar toggler -->
@@ -66,7 +66,7 @@
                             <div class="mh-18 text-center px-12 mb-8">
                               <a href="navbar.html#" class="flex relative">
                                 <h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden">
-                                  <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
+                                  <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="..//img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
                                 </h2>
                               </a>
                             </div>
@@ -106,7 +106,7 @@
                         <!-- logo -->
                         <a class="hidden lg:flex items-center py-2 mr-4 text-xl" href="navbar.html#">
                           <h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden">
-                            <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
+                            <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="..//img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
                           </h2>
                         </a>
 
@@ -166,7 +166,7 @@
 			                      &lt;div class="flex flex-row justify-between py-3 lg:hidden"&gt;
 			                        &lt;!-- logo --&gt;
 			                        &lt;a class="flex items-center py-2 mr-4 text-xl" href="#"&gt;
-			                          &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
+			                          &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="..//img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
 			                        &lt;/a&gt;
 			                        &lt;!-- navbar toggler --&gt;
 			                        &lt;div class="ltr:right-0 rtl:left-0 flex items-center"&gt;
@@ -195,7 +195,7 @@
 			                            &lt;!--logo--&gt;
 			                            &lt;div class="mh-18 text-center px-12 mb-8"&gt;
 			                              &lt;a href="#" class="flex relative"&gt;
-			                                &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
+			                                &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="..//img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
 			                              &lt;/a&gt;
 			                            &lt;/div&gt;
 			                            &lt;!--navigation--&gt;
@@ -232,7 +232,7 @@
 			                      &lt;div class="hidden lg:flex lg:flex-row lg:flex-nowrap lg:items-center lg:justify-between lg:mt-0" id="desktp-menu"&gt;
 			                        &lt;!-- logo --&gt;
 			                        &lt;a class="hidden lg:flex items-center py-2 mr-4 text-xl" href="#"&gt;
-			                         &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
+			                         &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="..//img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
 			                        &lt;/a&gt;
 
 			                        &lt;!-- menu --&gt;
@@ -300,7 +300,7 @@
                         <!-- logo -->
                         <a class="flex items-center py-2 mr-4 text-xl" href="navbar.html#">
                           <h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden">
-                            <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
+                            <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="..//img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
                           </h2>
                         </a>
 
@@ -372,7 +372,7 @@
                         <!-- logo -->
                         <a class="hidden lg:flex items-center py-2 mr-4 text-xl" href="navbar.html#">
                           <h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden">
-                            <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
+                            <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="..//img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
                           </h2>
                         </a>
 
@@ -426,7 +426,7 @@
 			                      &lt;div class="flex flex-row justify-between py-3 lg:hidden"&gt;
 			                        &lt;!-- logo --&gt;
 			                        &lt;a class="flex items-center py-2 mr-4 text-xl" href="#"&gt;
-                              &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
+                              &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="..//img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
 			                        &lt;/a&gt;
 
 			                        &lt;!-- navbar toggler --&gt;
@@ -491,7 +491,7 @@
 			                      &lt;div class="hidden lg:flex lg:flex-row lg:flex-nowrap lg:items-center lg:justify-between lg:mt-0" id="desktp-menu"&gt;
 			                        &lt;!-- logo --&gt;
 			                        &lt;a class="hidden lg:flex items-center py-2 mr-4 text-xl" href="#"&gt;
-			                          &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
+			                          &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="..//img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
 			                        &lt;/a&gt;
 
 			                        &lt;!-- menu --&gt;

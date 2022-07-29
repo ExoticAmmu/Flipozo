@@ -17,7 +17,7 @@
 						<div class="flex flex-col text-center mb-6">
 							<h3>Project Launch Date</h3>
 							<h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">28 days left</h4>
-							<img class="mx-auto max-w-full w-36 h-36" src="src/img/svg/flag.svg">
+							<img class="mx-auto max-w-full w-36 h-36" src="/img/svg/flag.svg">
 							<p class="text-sm text-gray-500">September 05, 2025</p>
 						</div>
 						<table class="table-sm text-xs w-full ltr:text-left rtl:text-right mt-4">
@@ -245,7 +245,7 @@
 									<div class="relative flex-shrink-0 w-12 text-center">
 										<span class="absolute ltr:left-1/2 ltr:-ml-1 rtl:right-1/2 rtl:-mr-1 top-10 -bottom-4 ltr:border-l-2 rtl:border-r-2 border-dashed border-gray-200 dark:border-gray-700"></span>
 										<div class="ltr:mr-auto rtl:ml-auto">
-											<img src="src/img/avatar/avatar2.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700">
+											<img src="/img/avatar/avatar2.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700">
 										</div>
 									</div>
 
@@ -263,7 +263,7 @@
 									<div class="relative flex-shrink-0 w-12 text-center">
 										<span class="absolute ltr:left-1/2 ltr:-ml-1 rtl:right-1/2 rtl:-mr-1 top-10 -bottom-4 ltr:border-l-2 rtl:border-r-2 border-dashed border-gray-200 dark:border-gray-700"></span>
 										<div class="ltr:mr-auto rtl:ml-auto">
-											<img src="src/img/avatar/avatar3.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700">
+											<img src="/img/avatar/avatar3.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700">
 										</div>
 									</div>
 
@@ -281,7 +281,7 @@
 									<div class="relative flex-shrink-0 w-12 text-center">
 										<span class="absolute ltr:left-1/2 ltr:-ml-1 rtl:right-1/2 rtl:-mr-1 top-10 -bottom-4 ltr:border-l-2 rtl:border-r-2 border-dashed border-gray-200 dark:border-gray-700"></span>
 										<div class="ltr:mr-auto rtl:ml-auto">
-											<img src="src/img/avatar/avatar4.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700">
+											<img src="/img/avatar/avatar4.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700">
 										</div>
 									</div>
 
@@ -299,7 +299,7 @@
 									<div class="relative flex-shrink-0 w-12 text-center">
 										<span class="absolute ltr:left-1/2 ltr:-ml-1 rtl:right-1/2 rtl:-mr-1 top-10 -bottom-4 ltr:border-l-2 rtl:border-r-2 border-dashed border-gray-200 dark:border-gray-700"></span>
 										<div class="ltr:mr-auto rtl:ml-auto">
-											<img src="src/img/avatar/avatar.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700">
+											<img src="/img/avatar/avatar.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700">
 										</div>
 									</div>
 
@@ -317,7 +317,7 @@
 									<div class="relative flex-shrink-0 w-12 text-center">
 										<span class="absolute ltr:left-1/2 ltr:-ml-1 rtl:right-1/2 rtl:-mr-1 top-10 -bottom-4 ltr:border-l-2 rtl:border-r-2 border-dashed border-gray-200 dark:border-gray-700"></span>
 										<div class="ltr:mr-auto rtl:ml-auto">
-											<img src="src/img/avatar/avatar6.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700">
+											<img src="/img/avatar/avatar6.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700">
 										</div>
 									</div>
 

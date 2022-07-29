@@ -119,7 +119,7 @@
                 <div class="flex flex-col text-center mb-6">
                   <h3>Project Launch Date</h3>
                   <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">28 days left</h4>
-                  <img class="mx-auto max-w-full w-36 h-36" src="src/img/svg/flag.svg">
+                  <img class="mx-auto max-w-full w-36 h-36" src="/img/svg/flag.svg">
                   <p class="text-sm text-gray-500">September 05, 2025</p>
                 </div>
                 <table class="table-sm text-xs w-full ltr:text-left rtl:text-right mt-4">
@@ -571,19 +571,19 @@
                 </div>
                 <div class="relative">
                   <a href="widgets.html#">
-                    <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 bg-gray-300 dark:bg-gray-900 dark:border-gray-700 transform hover:-translate-y-1" src="src/img/avatar/avatar.png" alt="Image Description">
+                    <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 bg-gray-300 dark:bg-gray-900 dark:border-gray-700 transform hover:-translate-y-1" src="/img/avatar/avatar.png" alt="Image Description">
                   </a>
                   <a href="widgets.html#">
-                    <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 bg-gray-300 dark:bg-gray-900 dark:border-gray-700 transform hover:-translate-y-1" src="src/img/avatar/avatar2.png" alt="Image Description">
+                    <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 bg-gray-300 dark:bg-gray-900 dark:border-gray-700 transform hover:-translate-y-1" src="/img/avatar/avatar2.png" alt="Image Description">
                   </a>
                   <a href="widgets.html#">
-                    <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 bg-gray-300 dark:bg-gray-900 dark:border-gray-700 transform hover:-translate-y-1" src="src/img/avatar/avatar3.png" alt="Image Description">
+                    <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 bg-gray-300 dark:bg-gray-900 dark:border-gray-700 transform hover:-translate-y-1" src="/img/avatar/avatar3.png" alt="Image Description">
                   </a>
                   <a href="widgets.html#">
-                    <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 bg-gray-300 dark:bg-gray-900 dark:border-gray-700 transform hover:-translate-y-1" src="src/img/avatar/avatar4.png" alt="Image Description">
+                    <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 bg-gray-300 dark:bg-gray-900 dark:border-gray-700 transform hover:-translate-y-1" src="/img/avatar/avatar4.png" alt="Image Description">
                   </a>
                   <a href="widgets.html#">
-                    <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 bg-gray-300 dark:bg-gray-900 dark:border-gray-700 transform hover:-translate-y-1" src="src/img/avatar/avatar5.png" alt="Image Description">
+                    <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 bg-gray-300 dark:bg-gray-900 dark:border-gray-700 transform hover:-translate-y-1" src="/img/avatar/avatar5.png" alt="Image Description">
                   </a>
 
                   <!-- more -->
@@ -745,7 +745,7 @@
                     <tbody>
                       <tr>
                         <th>
-                          <img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="src/img/browser/chrome.png">Chrome
+                          <img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="/img/browser/chrome.png">Chrome
                         </th>
                         <td>
                           <span class="inline-block w-3 h-3 ltr:mr-1 rtl:ml-1 rounded-full bg-indigo-600"></span>61%
@@ -761,7 +761,7 @@
                       </tr>
                       <tr>
                         <th>
-                          <img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="src/img/browser/firefox.png">Mozilla
+                          <img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="/img/browser/firefox.png">Mozilla
                         </th>
                         <td>
                           <span class="inline-block w-3 h-3 ltr:mr-1 rtl:ml-1 rounded-full bg-pink-500"></span>29%
@@ -777,7 +777,7 @@
                       </tr>
                       <tr>
                         <th>
-                          <img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="src/img/browser/safari.png">Safari
+                          <img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="/img/browser/safari.png">Safari
                         </th>
                         <td>
                           <span class="inline-block w-3 h-3 ltr:mr-1 rtl:ml-1 rounded-full bg-yellow-400"></span>7.5%
@@ -793,7 +793,7 @@
                       </tr>
                       <tr>
                         <th>
-                          <img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="src/img/browser/browser.png">Others
+                          <img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="/img/browser/browser.png">Others
                         </th>
                         <td>
                           <span class="inline-block w-3 h-3 ltr:mr-1 rtl:ml-1 rounded-full bg-green-500"></span>2.5%

@@ -17,15 +17,15 @@
                         <div class="flex flex-wrap flex-row -mx-4">
                             <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 text-center">
                                 <div class="p-4">
-                                    <a href="../src/img/products/blue.jpg" class="glightbox3 max-w-full w-full h-auto" data-gallery="gallery1">
-                                        <img src="../src/img/products/blue.jpg" alt="image">
+                                    <a href="..//img/products/blue.jpg" class="glightbox3 max-w-full w-full h-auto" data-gallery="gallery1">
+                                        <img src="..//img/products/blue.jpg" alt="image">
                                     </a>
                                     <ul class="py-4 ltr:text-left rtl:text-right">
                                         <li class="inline-block">
-                                            <a href="../src/img/products/purple.jpg" class="glightbox3" data-gallery="gallery1"><img src="../src/img/products/purple-small.jpg" class="w-20 h-auto ltr:mr-1 rtl:ml-1 border border-dashed"></a>
+                                            <a href="..//img/products/purple.jpg" class="glightbox3" data-gallery="gallery1"><img src="..//img/products/purple-small.jpg" class="w-20 h-auto ltr:mr-1 rtl:ml-1 border border-dashed"></a>
                                         </li>
                                         <li class="inline-block">
-                                            <a href="../src/img/products/green.jpg" class="glightbox3" data-gallery="gallery1"><img src="../src/img/products/green-small.jpg" class="w-20 h-auto ltr:mr-1 rtl:ml-1 border border-dashed"></a>
+                                            <a href="..//img/products/green.jpg" class="glightbox3" data-gallery="gallery1"><img src="..//img/products/green-small.jpg" class="w-20 h-auto ltr:mr-1 rtl:ml-1 border border-dashed"></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -351,12 +351,12 @@
                                                     response and fast shipping</p>
                                                 <p class="text-xs text-gray-500 mb-2">by Ari budin <span class="ml-1">Oct 12,2022</span></p>
                                                 <div class="w-full">
-                                                    <a href="../src/img/products/purple.jpg" class="glightbox3 mr-2" data-gallery="gallery2">
-                                                        <img class="inline-block border dark:border-gray-700 w-20 h-auto hover:opacity-90" src="../src/img/products/purple-small.jpg">
+                                                    <a href="..//img/products/purple.jpg" class="glightbox3 mr-2" data-gallery="gallery2">
+                                                        <img class="inline-block border dark:border-gray-700 w-20 h-auto hover:opacity-90" src="..//img/products/purple-small.jpg">
                                                     </a>
 
-                                                    <a href="../src/img/products/blue.jpg" class="glightbox3 mr-2" data-gallery="gallery2">
-                                                        <img class="inline-block border dark:border-gray-700 w-20 h-auto hover:opacity-90" src="../src/img/products/blue-small.jpg">
+                                                    <a href="..//img/products/blue.jpg" class="glightbox3 mr-2" data-gallery="gallery2">
+                                                        <img class="inline-block border dark:border-gray-700 w-20 h-auto hover:opacity-90" src="..//img/products/blue-small.jpg">
                                                     </a>
                                                 </div>
                                             </div>

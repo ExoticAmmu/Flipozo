@@ -124,10 +124,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -146,10 +146,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -168,10 +168,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -190,10 +190,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -220,10 +220,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -242,10 +242,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -264,10 +264,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -286,10 +286,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -316,10 +316,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -338,10 +338,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -360,10 +360,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -382,10 +382,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -412,10 +412,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -434,10 +434,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -456,10 +456,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -478,10 +478,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -508,10 +508,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -530,10 +530,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -552,10 +552,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2
@@ -574,10 +574,10 @@
                                                 15 Aug</span>
                                             <div class="relative">
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
-                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                                 </a>
                                                 <a href="kanban.html#">
                                                     <span class="ltr:ml-5 rtl:mr-5 text-sm font-semibold self-center">+2

@@ -327,7 +327,7 @@
 								<tbody>
 									<tr>
 										<th>
-											<img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="src/img/browser/chrome.png">Chrome
+											<img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="/img/browser/chrome.png">Chrome
 										</th>
 										<td>
 											<span class="inline-block w-3 h-3 ltr:mr-1 rtl:ml-1 rounded-full bg-indigo-600"></span>61%
@@ -343,7 +343,7 @@
 									</tr>
 									<tr>
 										<th>
-											<img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="src/img/browser/firefox.png">Mozilla
+											<img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="/img/browser/firefox.png">Mozilla
 										</th>
 										<td>
 											<span class="inline-block w-3 h-3 ltr:mr-1 rtl:ml-1 rounded-full bg-pink-500"></span>29%
@@ -359,7 +359,7 @@
 									</tr>
 									<tr>
 										<th>
-											<img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="src/img/browser/safari.png">Safari
+											<img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="/img/browser/safari.png">Safari
 										</th>
 										<td>
 											<span class="inline-block w-3 h-3 ltr:mr-1 rtl:ml-1 rounded-full bg-yellow-400"></span>7.5%
@@ -375,7 +375,7 @@
 									</tr>
 									<tr>
 										<th>
-											<img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="src/img/browser/browser.png">Others
+											<img class="inline w-4 h4 ltr:mr-2 rtl:ml-2" src="/img/browser/browser.png">Others
 										</th>
 										<td>
 											<span class="inline-block w-3 h-3 ltr:mr-1 rtl:ml-1 rounded-full bg-green-500"></span>2.5%

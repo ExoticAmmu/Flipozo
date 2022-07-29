@@ -15,7 +15,7 @@
                 <div x-data="{ open: false }" class="flex-shrink max-w-full px-4 w-full mb-6">
                     <div class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg mb-8">
                         <div class="group h-40 overflow-hidden relative">
-                            <img src="src/img/blog/bg.jpg" class="w-full">
+                            <img src="/img/blog/bg.jpg" class="w-full">
                             <div class="absolute top-4 ltr:right-4 rtl:left-4">
                                 <button @click="open = true" type="button" class="group-hover:opacity-80 opacity-0 py-1.5 px-3 inline-block text-center mb-3 rounded leading-5 text-gray-800 bg-gray-200 border border-gray-200 hover:text-gray-900 hover:bg-gray-300 hover:ring-0 hover:border-gray-300 focus:bg-gray-300 focus:border-gray-300 focus:outline-none focus:ring-0">Edit
                                     cover <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="inline-block bi bi-camera" viewBox="0 0 16 16">
@@ -26,7 +26,7 @@
                         </div>
                         <div class="flex justify-center -mt-10 relative">
                             <a @click="open = true" class="z-30 group" href="javascript:;">
-                                <img src="src/img/avatar/avatar.png" class="rounded-full w-24 h-24 bg-gray-200 border-solid border-white border-2 -mt-3">
+                                <img src="/img/avatar/avatar.png" class="rounded-full w-24 h-24 bg-gray-200 border-solid border-white border-2 -mt-3">
                                 <div title="Change avatar" class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 text-white dark:text-gray-900">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="w-6 h-6 bi bi-camera" viewBox="0 0 16 16">
                                         <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
@@ -127,7 +127,7 @@
                                     <li>
                                         <a href="pages-profile.html#" class="flex my-6">
                                             <div class="block relative">
-                                                <img alt="profil" src="src/img/avatar/avatar6.png" class="mx-auto object-cover rounded-full h-10 w-10 ">
+                                                <img alt="profil" src="/img/avatar/avatar6.png" class="mx-auto object-cover rounded-full h-10 w-10 ">
                                             </div>
                                             <div class="flex flex-col">
                                                 <span class="text-sm text-gray-900 font-semibold dark:text-white ltr:ml-2 rtl:mr-2 mb-1">Carlos
@@ -140,7 +140,7 @@
                                     <li>
                                         <a href="pages-profile.html#" class="flex my-6">
                                             <div class="block relative">
-                                                <img alt="profil" src="src/img/avatar/avatar3.png" class="mx-auto object-cover rounded-full h-10 w-10 ">
+                                                <img alt="profil" src="/img/avatar/avatar3.png" class="mx-auto object-cover rounded-full h-10 w-10 ">
                                             </div>
                                             <div class="flex flex-col">
                                                 <span class="text-sm text-gray-900 font-semibold dark:text-white ltr:ml-2 rtl:mr-2 mb-1">Roman
@@ -153,7 +153,7 @@
                                     <li>
                                         <a href="pages-profile.html#" class="flex my-6">
                                             <div class="block relative">
-                                                <img alt="profil" src="src/img/avatar/avatar7.png" class="mx-auto object-cover rounded-full h-10 w-10 ">
+                                                <img alt="profil" src="/img/avatar/avatar7.png" class="mx-auto object-cover rounded-full h-10 w-10 ">
                                             </div>
                                             <div class="flex flex-col">
                                                 <span class="text-sm text-gray-900 font-semibold dark:text-white ltr:ml-2 rtl:mr-2 mb-1">Jessica
@@ -181,13 +181,13 @@
                                 </div>
                                 <div class="relative mb-4">
                                     <a href="pages-profile.html#">
-                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="src/img/avatar/avatar2.png" alt="Image Description">
+                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar2.png" alt="Image Description">
                                     </a>
                                     <a href="pages-profile.html#">
-                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="src/img/avatar/avatar3.png" alt="Image Description">
+                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar3.png" alt="Image Description">
                                     </a>
                                     <a href="pages-profile.html#">
-                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="src/img/avatar/avatar5.png" alt="Image Description">
+                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar5.png" alt="Image Description">
                                     </a>
                                 </div>
                                 <div class="w-full h-2 bg-gray-200 rounded-full mt-2">
@@ -219,13 +219,13 @@
                                 </div>
                                 <div class="relative mb-4">
                                     <a href="pages-profile.html#">
-                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="src/img/avatar/avatar.png" alt="Image Description">
+                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar.png" alt="Image Description">
                                     </a>
                                     <a href="pages-profile.html#">
-                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="src/img/avatar/avatar2.png" alt="Image Description">
+                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar2.png" alt="Image Description">
                                     </a>
                                     <a href="pages-profile.html#">
-                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="src/img/avatar/avatar3.png" alt="Image Description">
+                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar3.png" alt="Image Description">
                                     </a>
                                 </div>
                                 <div class="w-full h-2 bg-gray-200 rounded-full mt-2">
@@ -261,10 +261,10 @@
                                         <div class="flex-shrink max-w-full px-4 w-full">
                                             <div class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden pb-8">
                                                 <div class="h-40 overflow-hidden relative">
-                                                    <img src="src/img/blog/bg.jpg" class="w-full">
+                                                    <img src="/img/blog/bg.jpg" class="w-full">
                                                 </div>
                                                 <div class="flex justify-center -mt-10 relative">
-                                                    <img src="src/img/avatar/avatar.png" class="rounded-full w-24 h-24 bg-gray-200 border-solid border-white border-2 -mt-3">
+                                                    <img src="/img/avatar/avatar.png" class="rounded-full w-24 h-24 bg-gray-200 border-solid border-white border-2 -mt-3">
                                                 </div>
                                             </div>
                                         </div>

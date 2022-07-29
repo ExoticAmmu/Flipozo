@@ -226,7 +226,7 @@
                             <div id="free-design" class="mb-8">
                                 <h2 class="text-lg mb-2 font-semibold text-gray-800 dark:text-gray-300">Free design
                                     sources</h2>
-                                <p class="mb-4">Demo image sources in the <code class="text-pink-700">src/img/..</code>
+                                <p class="mb-4">Demo image sources in the <code class="text-pink-700">/img/..</code>
                                     folder</p>
                                 <div class="tabless">
                                     <table class="table-bordered w-full">

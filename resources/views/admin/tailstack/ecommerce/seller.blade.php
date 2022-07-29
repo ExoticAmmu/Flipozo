@@ -59,7 +59,7 @@
                                                 <td>
                                                     <a href="seller.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="../src/img/avatar/avatar2.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="..//img/avatar/avatar2.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 Ari Budin
                                                             </div>
@@ -97,7 +97,7 @@
                                                 <td>
                                                     <a href="seller.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="../src/img/avatar/avatar.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="..//img/avatar/avatar.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 Youna
                                                             </div>
@@ -135,7 +135,7 @@
                                                 <td>
                                                     <a href="seller.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="../src/img/avatar/avatar2.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="..//img/avatar/avatar2.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 Ari Budin
                                                             </div>
@@ -173,7 +173,7 @@
                                                 <td>
                                                     <a href="seller.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="../src/img/avatar/avatar.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="..//img/avatar/avatar.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 Youna
                                                             </div>
@@ -211,7 +211,7 @@
                                                 <td>
                                                     <a href="seller.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="../src/img/avatar/avatar2.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="..//img/avatar/avatar2.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 Ari Budin
                                                             </div>
@@ -249,7 +249,7 @@
                                                 <td>
                                                     <a href="seller.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="../src/img/avatar/avatar.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="..//img/avatar/avatar.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 Youna
                                                             </div>
@@ -287,7 +287,7 @@
                                                 <td>
                                                     <a href="seller.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="../src/img/avatar/avatar2.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="..//img/avatar/avatar2.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 Ari Budin
                                                             </div>
@@ -325,7 +325,7 @@
                                                 <td>
                                                     <a href="seller.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="../src/img/avatar/avatar.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="..//img/avatar/avatar.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 Youna
                                                             </div>
@@ -363,7 +363,7 @@
                                                 <td>
                                                     <a href="seller.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="../src/img/avatar/avatar2.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="..//img/avatar/avatar2.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 Ari Budin
                                                             </div>
@@ -401,7 +401,7 @@
                                                 <td>
                                                     <a href="seller.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="../src/img/avatar/avatar.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="..//img/avatar/avatar.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 Youna
                                                             </div>
@@ -439,7 +439,7 @@
                                                 <td>
                                                     <a href="seller.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="../src/img/avatar/avatar2.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="..//img/avatar/avatar2.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 Ari Budin
                                                             </div>
@@ -477,7 +477,7 @@
                                                 <td>
                                                     <a href="seller.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="../src/img/avatar/avatar.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full" src="..//img/avatar/avatar.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 Youna
                                                             </div>

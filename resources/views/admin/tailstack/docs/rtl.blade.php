@@ -37,7 +37,7 @@
                             &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
 
                             &lt;!-- Favicon  --&gt;
-                            &lt;link rel="icon" href="src/img/favicon.png"&gt;
+                            &lt;link rel="icon" href="/img/favicon.png"&gt;
 
                             &lt;!--Google Fonts--&gt;
                             &lt;link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet"&gt;

@@ -599,7 +599,7 @@
 									<div class="relative flex-shrink-0 w-12 text-center">
 										<span class="absolute ltr:left-1/2 ltr:-ml-1 top-10 -bottom-4 ltr:border-l-2 rtl:right-1/2 rtl:-mr-1 rtl:border-r-2 border-dashed border-gray-200 dark:border-gray-700"></span>
 										<div class="ltr:mr-auto rtl:ml-auto">
-											<img src="src/img/avatar/avatar2.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700 dark:border-gray-200 dark:bg-gray-200">
+											<img src="/img/avatar/avatar2.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700 dark:border-gray-200 dark:bg-gray-200">
 										</div>
 									</div>
 
@@ -621,7 +621,7 @@
 									<div class="relative flex-shrink-0 w-12 text-center">
 										<span class="absolute ltr:left-1/2 ltr:-ml-1 top-10 -bottom-4 ltr:border-l-2 rtl:right-1/2 rtl:-mr-1 rtl:border-r-2 border-dashed border-gray-200 dark:border-gray-700"></span>
 										<div class="ltr:mr-auto rtl:ml-auto">
-											<img src="src/img/avatar/avatar3.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700 dark:border-gray-200 dark:bg-gray-200">
+											<img src="/img/avatar/avatar3.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700 dark:border-gray-200 dark:bg-gray-200">
 										</div>
 									</div>
 
@@ -643,7 +643,7 @@
 									<div class="relative flex-shrink-0 w-12 text-center">
 										<span class="absolute ltr:left-1/2 ltr:-ml-1 top-10 -bottom-4 ltr:border-l-2 rtl:right-1/2 rtl:-mr-1 rtl:border-r-2 border-dashed border-gray-200 dark:border-gray-700"></span>
 										<div class="ltr:mr-auto rtl:ml-auto">
-											<img src="src/img/avatar/avatar4.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700 dark:border-gray-200 dark:bg-gray-200">
+											<img src="/img/avatar/avatar4.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700 dark:border-gray-200 dark:bg-gray-200">
 										</div>
 									</div>
 
@@ -665,7 +665,7 @@
 									<div class="relative flex-shrink-0 w-12 text-center">
 										<span class="absolute ltr:left-1/2 ltr:-ml-1 top-10 -bottom-4 ltr:border-l-2 rtl:right-1/2 rtl:-mr-1 rtl:border-r-2 border-dashed border-gray-200 dark:border-gray-700"></span>
 										<div class="ltr:mr-auto rtl:ml-auto">
-											<img src="src/img/avatar/avatar.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700 dark:border-gray-200 dark:bg-gray-200">
+											<img src="/img/avatar/avatar.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700 dark:border-gray-200 dark:bg-gray-200">
 										</div>
 									</div>
 
@@ -687,7 +687,7 @@
 									<div class="relative flex-shrink-0 w-12 text-center">
 										<span class="absolute ltr:left-1/2 ltr:-ml-1 top-10 -bottom-4 ltr:border-l-2 rtl:right-1/2 rtl:-mr-1 rtl:border-r-2 border-dashed border-gray-200 dark:border-gray-700"></span>
 										<div class="ltr:mr-auto rtl:ml-auto">
-											<img src="src/img/avatar/avatar6.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700 dark:border-gray-200 dark:bg-gray-200">
+											<img src="/img/avatar/avatar6.png" class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700 dark:border-gray-200 dark:bg-gray-200">
 										</div>
 									</div>
 

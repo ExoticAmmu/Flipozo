@@ -37,7 +37,7 @@
                         <div class="flex justify-between items-center pb-4 border-b border-gray-200 dark:border-gray-700 mb-3">
                             <div class="flex flex-col">
                                 <div class="text-3xl font-bold mb-1">
-                                    <img class="inline-block w-12 h-auto ltr:mr-2 rtl:ml-2" src="../src/img/favicon.png">Taildash
+                                    <img class="inline-block w-12 h-auto ltr:mr-2 rtl:ml-2" src="..//img/favicon.png">Taildash
                                 </div>
                                 <p class="text-sm">Amphitheatre, Mountain View<br>San Francisco, CA 9321, US</p>
                             </div>
@@ -89,7 +89,7 @@
                                     <tr>
                                         <td>
                                             <div class="flex flex-wrap flex-row items-center">
-                                                <div class="self-center"><img class="h-8 w-8" src="../src/img/products/product1.jpg"></div>
+                                                <div class="self-center"><img class="h-8 w-8" src="..//img/products/product1.jpg"></div>
                                                 <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                     Nike Unisex-Child Free Rn (Big Kid)
                                                 </div>
@@ -102,7 +102,7 @@
                                     <tr class="border-b dark:border-gray-700">
                                         <td>
                                             <div class="flex flex-wrap flex-row items-center">
-                                                <div class="self-center"><img class="h-8 w-8" src="../src/img/products/product2.jpg"></div>
+                                                <div class="self-center"><img class="h-8 w-8" src="..//img/products/product2.jpg"></div>
                                                 <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                     Nike in-Season TR 9 Womens Running Shoe
                                                 </div>

@@ -191,7 +191,7 @@
                                                     <input type="radio" class="form-checkbox h-5 w-5 text-indigo-500 dark:bg-gray-700 border border-gray-300 dark:border-gray-700 rounded focus:outline-none rounded-full" name="paymentMethod" value="paypal" checked="">
                                                     <span class="ltr:ml-2 rtl:mr-2">Paypal</span>
 
-                                                    <img src="../src/img/payments/paypal.png" class="max-w-full w-40 h-auto">
+                                                    <img src="..//img/payments/paypal.png" class="max-w-full w-40 h-auto">
 
                                                     <p class="mt-2 text-sm text-gray-500">You will be redirected to
                                                         PayPal website to complete your purchase</p>
@@ -199,14 +199,14 @@
                                                 <label class="py-3 flex-shrink max-w-full px-4 w-full cursor-pointer mb-3">
                                                     <input type="radio" class="form-checkbox h-5 w-5 text-indigo-500 dark:bg-gray-700 border border-gray-300 dark:border-gray-700 rounded focus:outline-none rounded-full" name="paymentMethod" value="credit">
                                                     <span class="ltr:ml-2 rtl:mr-2">Credit/Debit Card</span>
-                                                    <img src="../src/img/payments/creditcard.png" class="max-w-full w-40 h-auto">
+                                                    <img src="..//img/payments/creditcard.png" class="max-w-full w-40 h-auto">
                                                     <p class="mt-2 text-sm text-gray-500">Pay with most popular payment
                                                         option</p>
                                                 </label>
                                                 <label class="py-3 flex-shrink max-w-full px-4 w-full cursor-pointer mb-3">
                                                     <input type="radio" class="form-checkbox h-5 w-5 text-indigo-500 dark:bg-gray-700 border border-gray-300 dark:border-gray-700 rounded focus:outline-none rounded-full" name="paymentMethod" value="bank">
                                                     <span class="ltr:ml-2 rtl:mr-2">Payoneer</span>
-                                                    <img src="../src/img/payments/payoneer.png" class="max-w-full w-40 h-auto">
+                                                    <img src="..//img/payments/payoneer.png" class="max-w-full w-40 h-auto">
                                                     <p class="mt-2 text-sm text-gray-500">You will be redirected to
                                                         Payoneer website to complete your purchase</p>
                                                 </label>
@@ -240,7 +240,7 @@
                                         <td class="p-4 font-normal">
                                             <a href="checkout.html#">
                                                 <div class="flex flex-wrap flex-row items-center">
-                                                    <div class="self-center"><img class="h-8 w-8" src="../src/img/products/product1.jpg"></div>
+                                                    <div class="self-center"><img class="h-8 w-8" src="..//img/products/product1.jpg"></div>
                                                     <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                         Nike Unisex-Child Free Rn (Big Kid)
                                                     </div>
@@ -253,7 +253,7 @@
                                         <td class="p-4 font-normal">
                                             <a href="checkout.html#">
                                                 <div class="flex flex-wrap flex-row items-center">
-                                                    <div class="self-center"><img class="h-8 w-8" src="../src/img/products/product2.jpg"></div>
+                                                    <div class="self-center"><img class="h-8 w-8" src="..//img/products/product2.jpg"></div>
                                                     <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                         Nike in-Season TR 9 Womens Running Shoe
                                                     </div>

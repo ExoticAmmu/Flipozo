@@ -64,7 +64,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar2.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar2.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -102,7 +102,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar3.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar3.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -140,7 +140,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar4.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar4.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -178,7 +178,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar5.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar5.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -216,7 +216,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar6.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar6.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -254,7 +254,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar8.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar8.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -292,7 +292,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar8.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar8.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -330,7 +330,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar8.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar8.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -368,7 +368,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar8.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar8.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -406,7 +406,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar8.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar8.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -444,7 +444,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar8.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar8.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -482,7 +482,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar8.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar8.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -520,7 +520,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar8.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar8.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -558,7 +558,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar8.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar8.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>
@@ -596,7 +596,7 @@
                                                 <td>
                                                     <a href="order.html#">
                                                         <div class="flex flex-wrap flex-row items-center">
-                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="../src/img/avatar/avatar8.png"></div>
+                                                            <div class="self-center"><img class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-600" src="..//img/avatar/avatar8.png"></div>
                                                             <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                                 John doe
                                                             </div>

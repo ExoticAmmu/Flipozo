@@ -26,34 +26,34 @@
                                 <p class="mb-4">Examples avatar with size and style</p>
                                 <!-- example -->
                                 <div class="dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
-                                    <img class="inline-block w-8 h-8 max-w-full bg-gray-300 dark:bg-gray-800" src="../src/img/avatar/avatar.png" alt="Image Description">
-                                    <img class="inline-block w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800" src="../src/img/avatar/avatar.png" alt="Image Description">
-                                    <img class="inline-block w-20 h-20 max-w-full bg-gray-300 dark:bg-gray-800" src="../src/img/avatar/avatar.png" alt="Image Description">
-                                    <img class="inline-block w-32 h-32 max-w-full bg-gray-300 dark:bg-gray-800" src="../src/img/avatar/avatar.png" alt="Image Description">
+                                    <img class="inline-block w-8 h-8 max-w-full bg-gray-300 dark:bg-gray-800" src="..//img/avatar/avatar.png" alt="Image Description">
+                                    <img class="inline-block w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800" src="..//img/avatar/avatar.png" alt="Image Description">
+                                    <img class="inline-block w-20 h-20 max-w-full bg-gray-300 dark:bg-gray-800" src="..//img/avatar/avatar.png" alt="Image Description">
+                                    <img class="inline-block w-32 h-32 max-w-full bg-gray-300 dark:bg-gray-800" src="..//img/avatar/avatar.png" alt="Image Description">
                                 </div>
                                 <pre>
 			                <code class="language-html" data-lang="html">
-			                  &lt;img class="inline-block w-8 h-8 max-w-full bg-gray-300 dark:bg-gray-800" src="src/img/avatar/avatar1.png" alt="Image Description"&gt;
-			                  &lt;img class="inline-block w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800" src="src/img/avatar/avatar1.png" alt="Image Description"&gt;
-			                  &lt;img class="inline-block w-20 h-20 max-w-full bg-gray-300 dark:bg-gray-800" src="src/img/avatar/avatar1.png" alt="Image Description"&gt;
-			                  &lt;img class="inline-block w-32 h-32 max-w-full bg-gray-300 dark:bg-gray-800" src="src/img/avatar/avatar1.png" alt="Image Description"&gt;
+			                  &lt;img class="inline-block w-8 h-8 max-w-full bg-gray-300 dark:bg-gray-800" src="/img/avatar/avatar1.png" alt="Image Description"&gt;
+			                  &lt;img class="inline-block w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800" src="/img/avatar/avatar1.png" alt="Image Description"&gt;
+			                  &lt;img class="inline-block w-20 h-20 max-w-full bg-gray-300 dark:bg-gray-800" src="/img/avatar/avatar1.png" alt="Image Description"&gt;
+			                  &lt;img class="inline-block w-32 h-32 max-w-full bg-gray-300 dark:bg-gray-800" src="/img/avatar/avatar1.png" alt="Image Description"&gt;
 			                </code>
 			              </pre>
 
                                 <h2 class="text-lg mb-4 font-semibold text-gray-800">Avatar rounded</h2>
                                 <!-- example -->
                                 <div class="dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
-                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full bg-gray-300 dark:bg-gray-800" src="../src/img/avatar/avatar.png" alt="Image Description">
-                                    <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800" src="../src/img/avatar/avatar.png" alt="Image Description">
-                                    <img class="inline-block rounded-full shadow-xl w-20 h-20 max-w-full bg-gray-300 dark:bg-gray-800" src="../src/img/avatar/avatar.png" alt="Image Description">
-                                    <img class="inline-block rounded-full shadow-xl w-32 h-32 max-w-full bg-gray-300 dark:bg-gray-800" src="../src/img/avatar/avatar.png" alt="Image Description">
+                                    <img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full bg-gray-300 dark:bg-gray-800" src="..//img/avatar/avatar.png" alt="Image Description">
+                                    <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800" src="..//img/avatar/avatar.png" alt="Image Description">
+                                    <img class="inline-block rounded-full shadow-xl w-20 h-20 max-w-full bg-gray-300 dark:bg-gray-800" src="..//img/avatar/avatar.png" alt="Image Description">
+                                    <img class="inline-block rounded-full shadow-xl w-32 h-32 max-w-full bg-gray-300 dark:bg-gray-800" src="..//img/avatar/avatar.png" alt="Image Description">
                                 </div>
                                 <pre>
 			                <code class="language-html" data-lang="html">
-			                  &lt;img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full bg-gray-300 dark:bg-gray-800" src="src/img/avatar/avatar.png" alt="Image Description"&gt;
-			                  &lt;img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800" src="src/img/avatar/avatar.png" alt="Image Description"&gt;
-			                  &lt;img class="inline-block rounded-full shadow-xl w-20 h-20 max-w-full bg-gray-300 dark:bg-gray-800" src="src/img/avatar/avatar.png" alt="Image Description"&gt;
-			                  &lt;img class="inline-block rounded-full shadow-xl w-32 h-32 max-w-full bg-gray-300 dark:bg-gray-800" src="src/img/avatar/avatar.png" alt="Image Description"&gt;
+			                  &lt;img class="inline-block rounded-full shadow-xl w-8 h-8 max-w-full bg-gray-300 dark:bg-gray-800" src="/img/avatar/avatar.png" alt="Image Description"&gt;
+			                  &lt;img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800" src="/img/avatar/avatar.png" alt="Image Description"&gt;
+			                  &lt;img class="inline-block rounded-full shadow-xl w-20 h-20 max-w-full bg-gray-300 dark:bg-gray-800" src="/img/avatar/avatar.png" alt="Image Description"&gt;
+			                  &lt;img class="inline-block rounded-full shadow-xl w-32 h-32 max-w-full bg-gray-300 dark:bg-gray-800" src="/img/avatar/avatar.png" alt="Image Description"&gt;
 			                </code>
 			              </pre>
 
@@ -62,13 +62,13 @@
                                 <div class="dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <div class="relative">
                                         <a href="avatar.html#">
-                                            <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800 ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar.png" alt="Image Description">
+                                            <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800 ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar.png" alt="Image Description">
                                         </a>
                                         <a href="avatar.html#">
-                                            <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800 ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                            <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800 ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                         </a>
                                         <a href="avatar.html#">
-                                            <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800 ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                            <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800 ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                         </a>
                                     </div>
                                 </div>
@@ -76,13 +76,13 @@
 			                <code class="language-html" data-lang="html">
 			                  &lt;div class="relative"&gt;
 			                    &lt;a href="#"&gt;
-			                      &lt;img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800 ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 transform hover:-translate-y-1" src="src/img/avatar/avatar.png" alt="Image Description"&gt;
+			                      &lt;img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800 ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar.png" alt="Image Description"&gt;
 			                    &lt;/a&gt;
 			                    &lt;a href="#"&gt;
-			                      &lt;img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800 ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 transform hover:-translate-y-1" src="src/img/avatar/avatar2.png" alt="Image Description"&gt;
+			                      &lt;img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800 ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar2.png" alt="Image Description"&gt;
 			                    &lt;/a&gt;
 			                    &lt;a href="#"&gt;
-			                      &lt;img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800 ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 transform hover:-translate-y-1" src="src/img/avatar/avatar3.png" alt="Image Description"&gt;
+			                      &lt;img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full bg-gray-300 dark:bg-gray-800 ltr:-mr-4 rtl:-ml-4 border-2 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar3.png" alt="Image Description"&gt;
 			                    &lt;/a&gt;
 			                  &lt;/div&gt;
 			                </code>

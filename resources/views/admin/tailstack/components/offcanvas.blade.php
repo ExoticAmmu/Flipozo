@@ -54,7 +54,7 @@
                             <div class="mh-18 text-center px-12 mb-8">
                               <a href="offcanvas.html#" class="flex relative">
                                 <h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden">
-                                  <img class="inline-block w-7 h-auto mr-2 -mt-1" src="../src/img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
+                                  <img class="inline-block w-7 h-auto mr-2 -mt-1" src="..//img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
                                 </h2>
                               </a>
                             </div>
@@ -113,7 +113,7 @@
 			                          &lt;!--logo--&gt;
 			                          &lt;div class="mh-18 text-center px-12 mb-8"&gt;
 			                            &lt;a href="#" class="flex relative"&gt;
-			                              &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto mr-2 -mt-1" src="../src/img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
+			                              &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto mr-2 -mt-1" src="..//img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
 			                            &lt;/a&gt;
 			                          &lt;/div&gt;
 
@@ -178,7 +178,7 @@
                             <div class="mh-18 text-center px-12 mb-8">
                               <a href="offcanvas.html#" class="flex relative">
                                 <h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden">
-                                  <img class="inline-block w-7 h-auto mr-2 -mt-1" src="../src/img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
+                                  <img class="inline-block w-7 h-auto mr-2 -mt-1" src="..//img/logo.png"><span class="text-gray-700 dark:text-gray-200">Taildash</span>
                                 </h2>
                               </a>
                             </div>
@@ -237,7 +237,7 @@
 			                          &lt;!--logo--&gt;
 			                          &lt;div class="mh-18 text-center px-12 mb-8"&gt;
 			                            &lt;a href="#" class="flex relative"&gt;
-			                              &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto mr-2 -mt-1" src="../src/img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
+			                              &lt;h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden"&gt;&lt;img class="inline-block w-7 h-auto mr-2 -mt-1" src="..//img/logo.png"&gt;&lt;span class="text-gray-700 dark:text-gray-200"&gt;Taildash&lt;/span&gt;&lt;/h2&gt;
 			                            &lt;/a&gt;
 			                          &lt;/div&gt;
 

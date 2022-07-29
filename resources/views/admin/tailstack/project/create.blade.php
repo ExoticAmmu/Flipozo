@@ -66,13 +66,13 @@
 
                                 <div class="relative mt-2">
                                     <a href="create.html#">
-                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar2.png" alt="Image Description">
+                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
                                     </a>
                                     <a href="create.html#">
-                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar3.png" alt="Image Description">
+                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
                                     </a>
                                     <a href="create.html#">
-                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="../src/img/avatar/avatar5.png" alt="Image Description">
+                                        <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar5.png" alt="Image Description">
                                     </a>
                                 </div>
                             </div>

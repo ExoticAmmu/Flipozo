@@ -33,7 +33,7 @@
                     <!-- hero image -->
                     <div class="flex-shrink max-w-full px-4 w-full md:w-9/12 lg:w-1/2 self-center">
                         <div class="relative px-12 md:ml-16 md:pr-0 mt-4">
-                            <img src="src/img/svg/maintenance.svg" class="max-w-full mx-auto">
+                            <img src="/img/svg/maintenance.svg" class="max-w-full mx-auto">
                         </div>
                     </div>
                 </div><!-- end row -->
