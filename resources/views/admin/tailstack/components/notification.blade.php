@@ -38,7 +38,7 @@
                                     </div>
 
                                     <div class="relative inline-block ltr:ml-8 rtl:mr-8">
-                                        <img class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700" src="..//img/avatar/avatar.png" alt="avatar">
+                                        <img class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700" src="/img/avatar/avatar.png" alt="avatar">
                                         <span title="online" class="flex justify-center absolute -bottom-0.5 ltr:right-1 rtl:left-1 text-center bg-green-500 border border-white w-3 h-3 rounded-full"></span>
                                     </div>
                                 </div>

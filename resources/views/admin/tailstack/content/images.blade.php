@@ -27,7 +27,7 @@
                                 <p class="mb-4">This applies max-width: 100%; and height: auto; to the image so that it
                                     scales with the parent element.</p>
                                 <div class="bg-white p-8 border border-gray-200 dark:bg-gray-700 dark:border-gray-700">
-                                    <img src="..//img/project/project_1.jpg" class="max-w-full h-auto" alt="images title">
+                                    <img src="/img/project/project_1.jpg" class="max-w-full h-auto" alt="images title">
                                 </div>
                                 <pre>
                       <code class="language-html" data-lang="html">
@@ -44,17 +44,17 @@
                                 <div class="clear-both"></div>
                                 <div class="relative p-8">
                                     <figure class="text-center mb-6">
-                                        <img class="max-w-full w-36 h-auto mx-auto" src="..//img/project/project_1.jpg" alt="Image description">
+                                        <img class="max-w-full w-36 h-auto mx-auto" src="/img/project/project_1.jpg" alt="Image description">
                                         <figcaption>Align center images</figcaption>
                                     </figure>
 
                                     <figure class="lg:ltr:float-left lg:rtl:float-right text-center lg:ltr:text-left lg:rtl:text-right ltr:ml-0 rtl:mr-0 ltr:mr-7 rtl:ml-7 mb-7">
-                                        <img class="max-w-full w-36 h-auto mx-auto" src="..//img/project/project_2.jpg" alt="Image description">
+                                        <img class="max-w-full w-36 h-auto mx-auto" src="/img/project/project_2.jpg" alt="Image description">
                                         <figcaption>Align left images</figcaption>
                                     </figure>
 
                                     <figure class="lg:ltr:float-right lg:rtl:float-left text-center lg:ltr:text-right lg:rtl:text-left ltr:mr-0 rtl:ml-0 ltr:ml-7 rtl:mr-7 mb-7">
-                                        <img class="max-w-full w-36 h-auto mx-auto" src="..//img/project/project_3.jpg" alt="Image description">
+                                        <img class="max-w-full w-36 h-auto mx-auto" src="/img/project/project_3.jpg" alt="Image description">
                                         <figcaption>Align right images</figcaption>
                                     </figure>
                                 </div>

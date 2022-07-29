@@ -40,9 +40,9 @@
                             </clipPath>
                           </defs>
                           <!-- Phone screen -->
-                          <image clip-path="url(#svgf)" xlink:href="..//img/app/android-potrait.jpg" height="94%" width="100%" style="transform:translateY(15px);"></image>
+                          <image clip-path="url(#svgf)" xlink:href="/img/app/android-potrait.jpg" height="94%" width="100%" style="transform:translateY(15px);"></image>
                           <!-- Phone cover -->
-                          <image xlink:href="..//img/app/device/android-dark.png" height="100%" width="100%"></image>
+                          <image xlink:href="/img/app/device/android-dark.png" height="100%" width="100%"></image>
                         </svg>
                       </figure>
                     </div>
@@ -57,9 +57,9 @@
                             </clipPath>
                           </defs>
                           <!-- Phone screen -->
-                          <image clip-path="url(#svgf2)" xlink:href="..//img/app/iphone-potrait.jpg" height="92%" width="100%" style="transform:translateY(30px);"></image>
+                          <image clip-path="url(#svgf2)" xlink:href="/img/app/iphone-potrait.jpg" height="92%" width="100%" style="transform:translateY(30px);"></image>
                           <!-- Phone cover -->
-                          <image xlink:href="..//img/app/device/iphone-dark.png" height="100%" width="100%"></image>
+                          <image xlink:href="/img/app/device/iphone-dark.png" height="100%" width="100%"></image>
                         </svg>
                       </figure>
                     </div>
@@ -74,9 +74,9 @@
                             </clipPath>
                           </defs>
                           <!-- Phone screen -->
-                          <image clip-path="url(#svgf3)" xlink:href="..//img/app/iphone-potrait.jpg" height="92%" width="100%" style="transform:translateY(30px);"></image>
+                          <image clip-path="url(#svgf3)" xlink:href="/img/app/iphone-potrait.jpg" height="92%" width="100%" style="transform:translateY(30px);"></image>
                           <!-- Phone cover -->
-                          <image xlink:href="..//img/app/device/iphone-light.png" height="100%" width="100%"></image>
+                          <image xlink:href="/img/app/device/iphone-light.png" height="100%" width="100%"></image>
                         </svg>
                       </figure>
                     </div>
@@ -154,9 +154,9 @@
                             </clipPath>
                           </defs>
                           <!-- Phone screen -->
-                          <image clip-path="url(#svgf4)" xlink:href="..//img/app/android-landscape.jpg" height="100%" width="95%" style="transform:translateX(15px);"></image>
+                          <image clip-path="url(#svgf4)" xlink:href="/img/app/android-landscape.jpg" height="100%" width="95%" style="transform:translateX(15px);"></image>
                           <!-- Phone cover -->
-                          <image xlink:href="..//img/app/device/android-dark-landscape.png" height="100%" width="100%"></image>
+                          <image xlink:href="/img/app/device/android-dark-landscape.png" height="100%" width="100%"></image>
                         </svg>
                       </figure>
                     </div>
@@ -171,9 +171,9 @@
                             </clipPath>
                           </defs>
                           <!-- Phone screen -->
-                          <image clip-path="url(#svgf5)" xlink:href="..//img/app/iphone-landscape.jpg" width="96%" height="100%" style="transform:translateX(30px);"></image>
+                          <image clip-path="url(#svgf5)" xlink:href="/img/app/iphone-landscape.jpg" width="96%" height="100%" style="transform:translateX(30px);"></image>
                           <!-- Phone cover -->
-                          <image xlink:href="..//img/app/device/iphone-dark-landscape.png" height="100%" width="100%"></image>
+                          <image xlink:href="/img/app/device/iphone-dark-landscape.png" height="100%" width="100%"></image>
                         </svg>
                       </figure>
                     </div>
@@ -188,9 +188,9 @@
                             </clipPath>
                           </defs>
                           <!-- Phone screen -->
-                          <image clip-path="url(#svgf6)" xlink:href="..//img/app/iphone-landscape.jpg" width="96%" height="100%" style="transform:translateX(30px);"></image>
+                          <image clip-path="url(#svgf6)" xlink:href="/img/app/iphone-landscape.jpg" width="96%" height="100%" style="transform:translateX(30px);"></image>
                           <!-- Phone cover -->
-                          <image xlink:href="..//img/app/device/iphone-light-landscape.png" height="100%" width="100%"></image>
+                          <image xlink:href="/img/app/device/iphone-light-landscape.png" height="100%" width="100%"></image>
                         </svg>
                       </figure>
                     </div>
@@ -266,9 +266,9 @@
                             </clipPath>
                           </defs>
                           <!-- Phone screen -->
-                          <image clip-path="url(#svgf77)" xlink:href="..//img/app/macbook-screen2.jpg" height="80%" width="80%" style="transform:translate(96px, 40px);"></image>
+                          <image clip-path="url(#svgf77)" xlink:href="/img/app/macbook-screen2.jpg" height="80%" width="80%" style="transform:translate(96px, 40px);"></image>
                           <!-- Phone cover -->
-                          <image xlink:href="..//img/app/device/macbook.png" height="100%" width="100%"></image>
+                          <image xlink:href="/img/app/device/macbook.png" height="100%" width="100%"></image>
                         </svg>
                       </figure>
                     </div>
@@ -313,10 +313,10 @@
                               </clipPath>
                             </defs>
                             <!-- Phone screen -->
-                            <image clip-path="url(#svgf77)" xlink:href="..//img/app/macbook-screen2.jpg" height="80%" width="80%" style="transform:translate(96px, 40px);">
+                            <image clip-path="url(#svgf77)" xlink:href="/img/app/macbook-screen2.jpg" height="80%" width="80%" style="transform:translate(96px, 40px);">
                             </image>
                             <!-- Phone cover -->
-                            <image xlink:href="..//img/app/device/macbook.png" height="100%" width="100%"></image>
+                            <image xlink:href="/img/app/device/macbook.png" height="100%" width="100%"></image>
                           </svg>
                         </figure>
 
@@ -330,9 +330,9 @@
                               </clipPath>
                             </defs>
                             <!-- Phone screen -->
-                            <image clip-path="url(#svgf2)" xlink:href="..//img/app/iphone-potrait2.jpg" height="92%" width="100%" style="transform:translateY(30px);"></image>
+                            <image clip-path="url(#svgf2)" xlink:href="/img/app/iphone-potrait2.jpg" height="92%" width="100%" style="transform:translateY(30px);"></image>
                             <!-- Phone cover -->
-                            <image xlink:href="..//img/app/device/iphone-dark.png" height="100%" width="100%"></image>
+                            <image xlink:href="/img/app/device/iphone-dark.png" height="100%" width="100%"></image>
                           </svg>
                         </figure>
                       </div>

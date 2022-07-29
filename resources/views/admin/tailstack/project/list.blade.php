@@ -62,7 +62,7 @@
 
                         <div class="flex flex-col pb-4">
                             <div class="flex flex-row items-center">
-                                <img src="..//img/brand/logo.png" class="w-20 h-auto max-w-full ltr:mr-3 rtl:ml-3">
+                                <img src="/img/brand/logo.png" class="w-20 h-auto max-w-full ltr:mr-3 rtl:ml-3">
                                 <p class="text-sm text-gray-500">Creating a website redesign project plan is vital to
                                     making your redesign go smoothly.There’s who you think your customers are, who you
                                     want your customers to be. </p>
@@ -78,13 +78,13 @@
 
                         <div class="relative mb-4">
                             <a href="list.html#">
-                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
+                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar2.png" alt="Image Description">
                             </a>
                             <a href="list.html#">
-                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
+                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar3.png" alt="Image Description">
                             </a>
                             <a href="list.html#">
-                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar4.png" alt="Image Description">
+                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar4.png" alt="Image Description">
                             </a>
                             <a href="list.html#">
                                 <span class="ltr:ml-5 rtl:mr-5 text-sm text-gray-500 font-semibold self-center">+2
@@ -133,7 +133,7 @@
 
                         <div class="flex flex-col pb-4">
                             <div class="flex flex-row items-center">
-                                <img src="..//img/brand/logo4.png" class="w-20 h-auto max-w-full ltr:mr-3 rtl:ml-3">
+                                <img src="/img/brand/logo4.png" class="w-20 h-auto max-w-full ltr:mr-3 rtl:ml-3">
                                 <p class="text-sm text-gray-500">Creating a website redesign project plan is vital to
                                     making your redesign go smoothly.There’s who you think your customers are, who you
                                     want your customers to be. </p>
@@ -149,13 +149,13 @@
 
                         <div class="relative mb-4">
                             <a href="list.html#">
-                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
+                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar2.png" alt="Image Description">
                             </a>
                             <a href="list.html#">
-                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
+                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar3.png" alt="Image Description">
                             </a>
                             <a href="list.html#">
-                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar4.png" alt="Image Description">
+                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar4.png" alt="Image Description">
                             </a>
                             <a href="list.html#">
                                 <span class="ltr:ml-5 rtl:mr-5 text-sm text-gray-500 font-semibold self-center">+2
@@ -204,7 +204,7 @@
 
                         <div class="flex flex-col pb-4">
                             <div class="flex flex-row items-center">
-                                <img src="..//img/brand/logo1.png" class="w-20 h-auto max-w-full ltr:mr-3 rtl:ml-3">
+                                <img src="/img/brand/logo1.png" class="w-20 h-auto max-w-full ltr:mr-3 rtl:ml-3">
                                 <p class="text-sm text-gray-500">Creating a website redesign project plan is vital to
                                     making your redesign go smoothly.There’s who you think your customers are, who you
                                     want your customers to be. </p>
@@ -219,13 +219,13 @@
 
                         <div class="relative mb-4">
                             <a href="list.html#">
-                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
+                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar2.png" alt="Image Description">
                             </a>
                             <a href="list.html#">
-                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
+                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar3.png" alt="Image Description">
                             </a>
                             <a href="list.html#">
-                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar4.png" alt="Image Description">
+                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar4.png" alt="Image Description">
                             </a>
                             <a href="list.html#">
                                 <span class="ltr:ml-5 rtl:mr-5 text-sm text-gray-500 font-semibold self-center">+2
@@ -274,7 +274,7 @@
 
                         <div class="flex flex-col pb-4">
                             <div class="flex flex-row items-center">
-                                <img src="..//img/brand/logo3.png" class="w-20 h-auto max-w-full ltr:mr-3 rtl:ml-3">
+                                <img src="/img/brand/logo3.png" class="w-20 h-auto max-w-full ltr:mr-3 rtl:ml-3">
                                 <p class="text-sm text-gray-500">Creating a website redesign project plan is vital to
                                     making your redesign go smoothly.There’s who you think your customers are, who you
                                     want your customers to be. </p>
@@ -289,13 +289,13 @@
 
                         <div class="relative mb-4">
                             <a href="list.html#">
-                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar2.png" alt="Image Description">
+                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar2.png" alt="Image Description">
                             </a>
                             <a href="list.html#">
-                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar3.png" alt="Image Description">
+                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar3.png" alt="Image Description">
                             </a>
                             <a href="list.html#">
-                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="..//img/avatar/avatar4.png" alt="Image Description">
+                                <img class="inline-block rounded-full shadow-xl w-12 h-12 max-w-full ltr:-mr-4 rtl:-ml-4 border-2 bg-gray-300 border-gray-200 transform hover:-translate-y-1" src="/img/avatar/avatar4.png" alt="Image Description">
                             </a>
                             <a href="list.html#">
                                 <span class="ltr:ml-5 rtl:mr-5 text-sm text-gray-500 font-semibold self-center">+2

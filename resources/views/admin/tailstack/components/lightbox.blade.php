@@ -28,15 +28,15 @@
                                 <!-- example -->
                                 <div class="bg-white p-8 border border-gray-200 dark:bg-gray-900 dark:bg-opacity-20 dark:border-gray-800">
                                     <div class="p-4 w-1/2">
-                                        <a href="..//img/products/blue.jpg" class="glightbox3 max-w-full w-full h-auto" data-gallery="gallery1">
-                                            <img src="..//img/products/blue.jpg" alt="image">
+                                        <a href="/img/products/blue.jpg" class="glightbox3 max-w-full w-full h-auto" data-gallery="gallery1">
+                                            <img src="/img/products/blue.jpg" alt="image">
                                         </a>
                                         <ul class="py-4 text-left">
                                             <li class="inline-block">
-                                                <a href="..//img/products/purple.jpg" class="glightbox3" data-gallery="gallery1"><img src="..//img/products/purple-small.jpg" class="w-20 h-auto mr-1"></a>
+                                                <a href="/img/products/purple.jpg" class="glightbox3" data-gallery="gallery1"><img src="/img/products/purple-small.jpg" class="w-20 h-auto mr-1"></a>
                                             </li>
                                             <li class="inline-block">
-                                                <a href="..//img/products/green.jpg" class="glightbox3" data-gallery="gallery1"><img src="..//img/products/green-small.jpg" class="w-20 h-auto mr-1"></a>
+                                                <a href="/img/products/green.jpg" class="glightbox3" data-gallery="gallery1"><img src="/img/products/green-small.jpg" class="w-20 h-auto mr-1"></a>
                                             </li>
                                         </ul>
                                     </div>
