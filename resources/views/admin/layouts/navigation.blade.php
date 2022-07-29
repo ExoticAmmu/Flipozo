@@ -32,6 +32,17 @@
 
   <!-- menu -->
   <ul class="flex ltr:ml-auto rtl:mr-auto mt-2 mt-0">
+    <!-- Dark Mode Tailwind -->
+    <label for="lightdark" class="inline-flex items-center gap-2 cursor-pointer dark:text-gray-100">
+      <span>Light</span>
+      <span class="relative">
+        <input id="lightdark" id="lightdark" type="checkbox" class="hidden peer">
+        <div class="w-10 h-6 rounded-full shadow-inner bg-pink-100 peer-checked dark:bg-gray-400 peer-checked:dark:bg-violet-400"></div>
+        <div class="absolute inset-y-0 left-0 w-4 h-4 m-1 bg-white rounded-full shadow peer-checked:right-0 peer-checked:left-auto dark:bg-gray-800"></div>
+      </span>
+      <span>Dark</span>
+    </label>
+
     <!-- Customizer (Only for demo purpose) -->
     <li x-data="{ open: false }" class="relative">
       <a href="javascript:;" class="block py-3 px-4 flex text-sm rounded-full focus:outline-none" aria-controls="mobile-canvas" @click="open = !open" aria-expanded="false" x-bind:aria-expanded="open.toString()">
@@ -60,16 +71,7 @@
               </Button>
             </div>
           </div>
-          <div class="py-3 px-6 border-b border-gray-200 dark:border-gray-700">
-            <p class="text-base text-semibold">Color Scheme</p>
-            <div class="flex flex-row">
-              <div class="relative inline-block w-8 py-3 mt-0.5 ltr:mr-3 rtl:ml-3 align-middle select-none transition duration-200 ease-in">
-                <input type="checkbox" name="lightdark" id="lightdark" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white dark:bg-gray-900 border-2 dark:border-gray-700 appearance-none cursor-pointer" />
-                <label for="lightdark" class="toggle-label block overflow-hidden h-5 rounded-full bg-gray-300 dark:bg-gray-700 cursor-pointer"></label>
-              </div>
-              <p class="text-sm text-gray-500 self-center">Light and Dark</p>
-            </div>
-          </div>
+          
           <div class="py-3 px-6 border-b border-gray-200 dark:border-gray-700">
             <p class="text-base text-semibold">Sidebar Color</p>
             <div class="flex flex-row">
