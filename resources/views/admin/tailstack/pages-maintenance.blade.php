@@ -39,5 +39,5 @@
                 </div><!-- end row -->
             </div>
         </div><!-- end hero -->
-    </main>
+
 </x-admin-layout>

@@ -4,29 +4,29 @@
             {{ __('Admin Dashboard') }}
         </h2>
     </x-slot>
-    <main class="pt-20 -mt-2">
-        <div class="mx-auto p-2">
-            <!-- row -->
-            <div class="flex flex-wrap flex-row">
-                <div class="flex-shrink max-w-full px-4 w-full">
-                    <p class="text-xl font-bold mt-3 mb-5">Input tags</p>
-                </div>
-                <div class="flex-shrink max-w-full px-4 w-full mb-6">
-                    <div class="p-8 mb-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
-                        <div class="relative">
-                            <p class="text-lg mb-6 font-light">Very simple way to input tags with Tagify.</p>
-                            <!-- Example input -->
-                            <div class="p-6 mb-6 border border-gray-200 bg-gray-100 dark:bg-gray-900 dark:border-gray-800 dark:bg-opacity-20">
-                                <div class="mb-6">
-                                    <label for="exampletags" class="inline-block mb-2">Tags</label>
-                                    <input type="text" name="tags" value="Tags1, Tags2" class="tagify w-full leading-5 relative text-sm py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" id="exampletags" minlength="2">
-                                </div>
-                                <div class="mb-6">
-                                    <label for="tagsselect" class="inline-block mb-2">Tags Select</label>
-                                    <input name="selectname" value="" class="tagify-select w-full leading-5 relative text-sm py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" id="tagsselect" minlength="2">
-                                </div>
+
+    <div class="mx-auto p-2">
+        <!-- row -->
+        <div class="flex flex-wrap flex-row">
+            <div class="flex-shrink max-w-full px-4 w-full">
+                <p class="text-xl font-bold mt-3 mb-5">Input tags</p>
+            </div>
+            <div class="flex-shrink max-w-full px-4 w-full mb-6">
+                <div class="p-8 mb-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                    <div class="relative">
+                        <p class="text-lg mb-6 font-light">Very simple way to input tags with Tagify.</p>
+                        <!-- Example input -->
+                        <div class="p-6 mb-6 border border-gray-200 bg-gray-100 dark:bg-gray-900 dark:border-gray-800 dark:bg-opacity-20">
+                            <div class="mb-6">
+                                <label for="exampletags" class="inline-block mb-2">Tags</label>
+                                <input type="text" name="tags" value="Tags1, Tags2" class="tagify w-full leading-5 relative text-sm py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" id="exampletags" minlength="2">
                             </div>
-                            <pre class="mb-8">
+                            <div class="mb-6">
+                                <label for="tagsselect" class="inline-block mb-2">Tags Select</label>
+                                <input name="selectname" value="" class="tagify-select w-full leading-5 relative text-sm py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" id="tagsselect" minlength="2">
+                            </div>
+                        </div>
+                        <pre class="mb-8">
                     <code class="language-html" data-lang="html">
                     &lt;div class="mb-6"&gt;
                       &lt;label for="exampletags" class="inline-block mb-2"&gt;Tags&lt;/label&gt;
@@ -38,16 +38,16 @@
                     &lt;/div&gt;  
                     </code>
                   </pre>
-                            <p class="mb-4">Demo config available in <code class="text-pink-700">src/js/demo.js</code>
-                                function <code class="text-pink-700">myTagify();</code></p>
-                            <p>More information about tagify please read <a target="_blank" href="https://github.com/yairEO/tagify" class="text-indigo-500">on here</a>
-                            </p>
-                        </div>
+                        <p class="mb-4">Demo config available in <code class="text-pink-700">src/js/demo.js</code>
+                            function <code class="text-pink-700">myTagify();</code></p>
+                        <p>More information about tagify please read <a target="_blank" href="https://github.com/yairEO/tagify" class="text-indigo-500">on here</a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
+
     <script id="rendered-js">
         var inputElm = document.querySelector('input.tagify-select'),
             whitelist = ["Ari", "Boy", "Caca", "Doni", "Ema", "Fanny", "Ghosh", "Hana", "Icha", "Jeje", "Kalban", "Leo",

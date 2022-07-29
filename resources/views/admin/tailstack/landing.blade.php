@@ -407,5 +407,5 @@
                 </div>
             </div>
         </div><!-- End brand-->
-    </main><!-- end main -->
+        <!-- end main -->
 </x-admin-layout>
