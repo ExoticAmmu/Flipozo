@@ -30,7 +30,7 @@ class UserFactory extends Factory
     {
         return [
             'name' => 'user',
-            'email' => 'demo@example.com',
+            'email' => $this->faker->unique()->safeEmail,
             'address' => 'Earth',
             'state' => 'Chhattisgarh',
             'city' => 'Raipur',

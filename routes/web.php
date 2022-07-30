@@ -67,7 +67,7 @@ Route::prefix('admin')->group(function(){
         Route::get('category/destroy/{id}', [CategoryController::class, 'destroy'])->name('admin.categories.destroy');
 
         // Admin Product routes
-        Route::get('product', [ProductController::class, 'index'])->name('admin.products.index');
+        Route::get('products', [ProductController::class, 'index'])->name('admin.products.index');
         Route::get('product/create', [ProductController::class, 'create'])->name('admin.products.create');
         Route::post('product/create', [ProductController::class, 'store'])->name('admin.products.store');
         Route::get('product/edit/{id}', [ProductController::class, 'edit'])->name('admin.products.edit');
@@ -101,14 +101,8 @@ Route::prefix('admin')->group(function(){
         Route::get('calendar', function(){
             return View('admin.tailstack.calendar');
         });
-        Route::get('ecommerce/product', function(){
-            return View('admin.tailstack.ecommerce.product');
-        });
         Route::get('ecommerce/product-detail', function(){
             return View('admin.tailstack.ecommerce.product-detail');
-        });
-        Route::get('ecommerce/product-detail', function(){
-            return View('admin.tailstack.ecommerce.product');
         });
         Route::get('ecommerce/order', function(){
             return View('admin.tailstack.ecommerce.order');
