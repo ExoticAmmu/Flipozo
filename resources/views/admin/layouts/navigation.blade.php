@@ -366,17 +366,17 @@
           <img class="h-10 w-10 rounded-full border border-gray-700 bg-gray-700" src="/img/avatar/avatar.png" alt="avatar">
           <span title="online" class="flex justify-center absolute -bottom-0.5 ltr:right-1 rtl:left-1 text-center bg-green-500 border border-white w-3 h-3 rounded-full"></span>
         </div>
-        <span class="hidden md:block ltr:ml-1 rtl:mr-1 self-center">Ari Budin</span>
+        <span class="hidden md:block ltr:ml-1 rtl:mr-1 self-center">{{ Auth::guard('admin')->user()->name }}</span>
       </a>
-      <ul x-show="open" @click.away="open = false" x-transition:enter="transition-all duration-200 ease-out" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition-all duration-200 ease-in" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="origin-top-right absolute ltr:right-0 rtl:left-0 rounded top-full z-50 py-0.5 ltr:text-left rtl:text-right bg-white dark:bg-gray-800 border dark:border-gray-700 shadow-md" style="min-width:12rem;display: none;">
+      <ul x-show="open" @click.away="open = false" x-transition:enter="transition-all duration-200 ease-out" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition-all duration-200 ease-in" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="origin-top-right absolute ltr:right-0 rtl:left-0 rounded top-full z-50 py-0.5 ltr:text-left rtl:text-right bg-white dark:bg-gray-800 border dark:border-gray-700 shadow-md" style="min-width:1rem;display: none;">
         <li class="relative">
           <div class="flex flex-wrap flex-row -mx-4 px-3 py-4 items-center">
             <div class="flex-shrink max-w-full px-4 w-1/3">
               <img src="/img/avatar/avatar.png" class="h-10 w-10 rounded-full" alt="Ari Budin">
             </div>
             <div class="flex-shrink max-w-full px-4 w-2/3 ltr:pl-1 rtl:pr-1">
-              <div class="font-bold"><a href="index.html#" class=" text-gray-800 dark:text-gray-300 hover:text-indigo-500">Ari Budin</a></div>
-              <div class="text-gray text-sm mt-1">Professional Front end developer.</div>
+              <div class="font-bold"><a href="index.html#" class=" text-gray-800 dark:text-gray-300 hover:text-indigo-500">{{ Auth::guard('admin')->user()->name }}</a></div>
+              <div class="text-gray text-xs mt-1">{{ Auth::guard('admin')->user()->email }}</div>
             </div>
           </div>
         </li>
@@ -414,13 +414,18 @@
           <hr class="border-t border-gray-200 dark:border-gray-700 my-0">
         </li>
         <li class="relative">
-          <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500" href="index.html#">
+        <form method="POST" action="{{ route('admin.logout') }}">
+                    @csrf
+          <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500" :href="route('admin.logout')"
+                            onclick="event.preventDefault();
+                                        this.closest('form').submit();">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline ltr:mr-2 rtl:ml-2 w-4 h-4 bi bi-box-arrow-in-right" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
               <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
             </svg>
             <!-- <i class="mr-2 fas fa-sign-out-alt"></i> --> Sign out
           </a>
+          </form>
         </li>
       </ul>
     </li>

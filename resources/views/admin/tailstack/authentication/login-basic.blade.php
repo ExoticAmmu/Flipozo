@@ -5,7 +5,6 @@
         </h2>
     </x-slot>
 
-
     <!-- =========={ login }==========  -->
     <div id="login-area" class="relative py-12 bg-gray-100 dark:bg-gray-900 dark:bg-opacity-40">
         <div class="container xl:max-w-6xl mx-auto px-4">
@@ -66,6 +65,7 @@
                 </div>
             </div>
         </div>
-    </div><!-- End login -->
+    </div>
+    <!-- End login -->
 
 </x-admin-layout>

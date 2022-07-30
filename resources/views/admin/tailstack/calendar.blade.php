@@ -186,5 +186,6 @@ if ( fullcalendars != null) {
             </div>
         </div>
     </div>
-
+  <!--start::Vendor javascript (only on this page)-->
+  <script src="/vendors/fullcalendar/main.min.js"></script><!-- calendar event -->
 </x-admin-layout>
