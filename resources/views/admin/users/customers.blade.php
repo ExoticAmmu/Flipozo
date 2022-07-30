@@ -45,12 +45,12 @@
                                             <th data-sortable="false"><input id="check_all" type="checkbox" class="form-checkbox w-4 h-4 text-indigo-500 border border-gray-300 rounded dark:bg-gray-700 dark:border-gray-700">
                                             </th>
                                             <th>Id</th>
-                                            <th>Customers</th>
-                                            <th class="hidden sm:table-cell">Email</th>
-                                            <th class="hidden lg:table-cell">Date added</th>
-                                            <th class="hidden lg:table-cell">Status</th>
-                                            <th class="text-center hidden lg:table-cell">IP</th>
-                                            <th data-sortable="false">Actions</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Email</th>
+                                            <th>Last Active</th>
+                                            <th>Date Registered</th>
+                                            <th>Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -58,22 +58,14 @@
                                         <tr>
                                             <td><input type="checkbox" class="form-checkbox w-4 h-4 text-indigo-500 border border-gray-300 rounded dark:bg-gray-700 dark:border-gray-700">
                                             </td>
+                                            <td>{{ $item->id }}</td>
+                                            <td>{{ $item->name }}</td>
+                                            <td>{{ $item->name }}</td>
                                             <td>
-                                                <a href="customers.html#">
-                                                    <div class="flex flex-wrap flex-row items-center">
-                                                        <div class="self-center"><img class="h-8 w-8 rounded-full" src="/img/avatar/avatar.png"></div>
-                                                        <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
-                                                        {{ $item->id }}
-                                                        </div>
-                                                    </div>
-                                                </a>
+                                                {{ $item->email }}
                                             </td>
-                                            <td class="hidden sm:table-cell">{{ $item->name }}</td>
-                                            <td class="hidden lg:table-cell">{{ $item->email }}</td>
-                                            <td class="hidden lg:table-cell">
-                                                <span class="text-sm px-2 py-1 font-semibold leading-tight text-yellow-700 bg-yellow-100 rounded-full">Pending</span>
-                                            </td>
-                                            <td class="text-center hidden lg:table-cell">43.252.106.9</td>
+                                            <td class="text-center"><span class="text-sm px-2 py-1 font-semibold leading-tight text-yellow-700 bg-yellow-100 rounded-full">Pending</span></td>
+                                            <td class="text-center">43.252.106.9</td>
                                             <td class="text-center">
                                                 <a href="javascript:;" class="inline-block ltr:mr-2 rtl:ml-2 hover:text-red-500" title="Delete">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
