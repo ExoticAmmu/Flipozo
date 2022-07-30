@@ -416,6 +416,7 @@
         <li class="relative">
         <form method="POST" action="{{ route('admin.logout') }}">
                     @csrf
+                    
           <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500" :href="route('admin.logout')"
                             onclick="event.preventDefault();
                                         this.closest('form').submit();">
