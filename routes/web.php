@@ -78,8 +78,9 @@ Route::prefix('admin')->group(function(){
         Route::get('orders', [OrderController::class, 'index'])->name('admin.orders.index');
         Route::get('view-order/{id}',[OrderController::class, 'view'])->name('admin.orders.view');
 
-        Route::get('user', [DashboardController::class, 'index'])->name('admin.users.index');
         Route::get('view-user/{id}',[DashboardController::class, 'view'])->name('admin.users.view');
+        Route::get('customers', [DashboardController::class, 'index'])->name('admin.users.customers');
+
 
         // Admin Tailstack
         Route::get('index-analytics', function(){
@@ -114,9 +115,6 @@ Route::prefix('admin')->group(function(){
         });
         Route::get('ecommerce/order-detail', function(){
             return View('admin.tailstack.ecommerce.order-detail');
-        });
-        Route::get('ecommerce/customers', function(){
-            return View('admin.tailstack.ecommerce.customers');
         });
         Route::get('ecommerce/cart', function(){
             return View('admin.tailstack.ecommerce.cart');
@@ -292,7 +290,6 @@ Route::prefix('admin')->group(function(){
         Route::get('components/sweetalert', function(){
             return View('admin.tailstack.components.sweetalert');
         });
-
         Route::get('components/tabs', function(){
             return View('admin.tailstack.components.tabs');
         });

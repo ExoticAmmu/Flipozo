@@ -11,7 +11,7 @@ class DashboardController extends Controller
     public function index()
     {
         $users = User::all();
-        return view('admin.users.index',compact('users'));
+        return view('admin.users.customers',compact('users'));
     }
 
     public function view($id)
