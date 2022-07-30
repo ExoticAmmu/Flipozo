@@ -31,7 +31,7 @@
   </form>
 
   <!-- menu -->
-  <ul class="flex ltr:ml-auto rtl:mr-auto mt-2 mt-0">
+  <ul class="flex ltr:ml-auto rtl:mr-auto mt-0">
     <!-- Dark Mode Tailwind -->
     <label for="lightdark" class="inline-flex items-center gap-2 cursor-pointer dark:text-gray-100">
       <span>Light</span>

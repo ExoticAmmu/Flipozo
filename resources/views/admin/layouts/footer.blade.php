@@ -26,7 +26,6 @@
         </div>
       </footer>
       <!--start::Global javascript (used in all pages)-->
-  <script src="{{('/vendors/alpinejs/dist/cdn.min.js') }}"></script><!-- core js -->
   <script src="{{ ('/vendors/chart.js/dist/chart.min.js') }}"></script><!-- charts -->
   <script src="{{ ('/vendors/flatpickr/dist/flatpickr.min.js') }}"></script><!-- input date -->
   <script src="{{ ('/vendors/flatpickr/dist/plugins/rangePlugin.js') }}"></script><!-- input range date -->
