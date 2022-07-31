@@ -81,20 +81,7 @@ Route::prefix('admin')->group(function(){
         Route::get('view-user/{id}',[DashboardController::class, 'view'])->name('admin.users.view');
         Route::get('customers', [DashboardController::class, 'index'])->name('admin.users.customers');
 
-
         // Admin Tailstack
-        Route::get('index-analytics', function(){
-            return View('admin.tailstack.index-analytics');
-        });
-        Route::get('index-ecommerce', function(){
-            return View('admin.tailstack.index-ecommerce');
-        });
-        Route::get('index-projects', function(){
-            return View('admin.tailstack.index-projects');
-        });
-        Route::get('index-crm', function(){
-            return View('admin.tailstack.index-crm');
-        });
         Route::get('calendar', function(){
             return View('admin.tailstack.calendar');
         });
