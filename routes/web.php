@@ -160,9 +160,6 @@ Route::prefix('admin')->group(function(){
         Route::get('pages-starter', function(){
             return View('admin.tailstack.pages-starter');
         });
-        Route::get('landing', function(){
-            return View('admin.tailstack.landing');
-        });
         Route::get('layout-sidedark', function(){
             return View('admin.tailstack.layout-sidedark');
         });
