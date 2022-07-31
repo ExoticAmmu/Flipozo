@@ -26,40 +26,74 @@ use App\Http\Controllers\DashboardController;
 Route::get('/', [FrontendController::class, 'index']);
 Route::get('product/{slug}', [FrontendController::class, 'productview']);
 
-Route::middleware('auth')->group(function() {
+Route::middleware('auth')->group(function () {
 
-    Route::POST('add-to-cart',[CartController::class, 'addToCart'])->name('add-cart');
-    Route::get('cart',[CartController::class, 'viewcart'])->name('cart');
-    Route::get('checkout',[CheckoutController::class, 'index'])->name('checkout');
-    Route::post('checkout/place-order',[CheckoutController::class, 'placeorder'])->name('placeorder');
-
-    Route::get('orders',[FrontendController::class, 'orderindex']);
-    Route::get('view-order/{id}',[FrontendController::class, 'orderview']);
-
+    Route::POST('add-to-cart', [CartController::class, 'addToCart'])->name('add-cart');
+    Route::get('cart', [CartController::class, 'viewcart'])->name('cart');
+    Route::get('checkout', [CheckoutController::class, 'index'])->name('checkout');
+    Route::post('checkout/place-order', [CheckoutController::class, 'placeorder'])->name('placeorder');
+    Route::get('orders', [FrontendController::class, 'orderindex']);
+    Route::get('view-order/{id}', [FrontendController::class, 'orderview']);
 });
 
+Route::get('/wishlist', function () {
+    return view('dist.wishlist');
+});
+Route::get('/view', function () {
+    return view('dist.view');
+});
+Route::get('/shop', function () {
+    return view('dist.shop');
+});
+Route::get('/register', function () {
+    return view('dist.register');
+});
+Route::get('/profile', function () {
+    return view('dist.profile-info');
+});
+Route::get('/order', function () {
+    return view('dist.order-complete');
+});
+Route::get('/manage', function () {
+    return view('dist.manage-address');
+});
+Route::get('/login', function () {
+    return view('dist.login');
+});
+Route::get('/index', function () {
+    return view('dist.index');
+});
+Route::get('/checkout', function () {
+    return view('dist.checkout');
+});
+Route::get('/password', function () {
+    return view('dist.change-password');
+});
+Route::get('/cart', function () {
+    return view('dist.cart');
+});
+Route::get('/account', function () {
+    return view('dist.account');
+});
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
 
 //Admin Routes
-Route::prefix('admin')->group(function(){
-    Route::middleware('guest:admin')->group(function(){
+Route::prefix('admin')->group(function () {
+    Route::middleware('guest:admin')->group(function () {
         // login routes
         Route::get('login', [AdminController::class, 'index'])->name('admin.login');
         Route::post('login', [AdminController::class, 'store']);
     });
-    Route::middleware('admin')->group(function() {
-        Route::get('dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard'); 
+    Route::middleware('admin')->group(function () {
+        Route::get('dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
         // Admin Category routes
-        Route::get('categories', [CategoryController::class, 'index'])->name('admin.categories.index'); 
+        Route::get('categories', [CategoryController::class, 'index'])->name('admin.categories.index');
         Route::get('category/create', [CategoryController::class, 'create'])->name('admin.categories.create');
         Route::post('category/create', [CategoryController::class, 'store'])->name('admin.category.store');
         Route::get('category/edit/{id}', [CategoryController::class, 'edit'])->name('admin.categories.edit');
@@ -76,258 +110,256 @@ Route::prefix('admin')->group(function(){
 
         // Admin Orders routes
         Route::get('orders', [OrderController::class, 'index'])->name('admin.orders.index');
-        Route::get('view-order/{id}',[OrderController::class, 'view'])->name('admin.orders.view');
+        Route::get('view-order/{id}', [OrderController::class, 'view'])->name('admin.orders.view');
 
-        Route::get('view-user/{id}',[DashboardController::class, 'view'])->name('admin.users.view');
+        Route::get('view-user/{id}', [DashboardController::class, 'view'])->name('admin.users.view');
         Route::get('customers', [DashboardController::class, 'index'])->name('admin.users.customers');
 
         // Admin Tailstack
-        Route::get('ecommerce/product-detail', function(){
+        Route::get('ecommerce/product-detail', function () {
             return View('admin.tailstack.ecommerce.product-detail');
         });
-        Route::get('ecommerce/order', function(){
+        Route::get('ecommerce/order', function () {
             return View('admin.tailstack.ecommerce.order');
         });
-        Route::get('ecommerce/order-detail', function(){
+        Route::get('ecommerce/order-detail', function () {
             return View('admin.tailstack.ecommerce.order-detail');
         });
-        Route::get('ecommerce/cart', function(){
+        Route::get('ecommerce/cart', function () {
             return View('admin.tailstack.ecommerce.cart');
         });
-        Route::get('ecommerce/checkout', function(){
+        Route::get('ecommerce/checkout', function () {
             return View('admin.tailstack.ecommerce.checkout');
         });
-        Route::get('ecommerce/seller', function(){
+        Route::get('ecommerce/seller', function () {
             return View('admin.tailstack.ecommerce.checkout');
         });
-        Route::get('ecommerce/invoice', function(){
+        Route::get('ecommerce/invoice', function () {
             return View('admin.tailstack.ecommerce.checkout');
         });
-        Route::get('project/list', function(){
+        Route::get('project/list', function () {
             return View('admin.tailstack.project.list');
         });
-        Route::get('project/detail', function(){
+        Route::get('project/detail', function () {
             return View('admin.tailstack.project.detail');
         });
-        Route::get('project/create', function(){
+        Route::get('project/create', function () {
             return View('admin.tailstack.project.create');
         });
-        Route::get('authentication/register-basic', function(){
+        Route::get('authentication/register-basic', function () {
             return View('admin.tailstack.authentication.register-basic');
         });
-        Route::get('authentication/register-ilustration', function(){
+        Route::get('authentication/register-ilustration', function () {
             return View('admin.tailstack.authentication.register-ilustration');
         });
-        Route::get('authentication/login-basic', function(){
+        Route::get('authentication/login-basic', function () {
             return View('admin.tailstack.authentication.login-basic');
         });
-        Route::get('authentication/login-ilustration', function(){
+        Route::get('authentication/login-ilustration', function () {
             return View('admin.tailstack.authentication.login-ilustration');
         });
-        Route::get('authentication/forgot-password', function(){
+        Route::get('authentication/forgot-password', function () {
             return View('admin.tailstack.authentication.forgot-password');
         });
-        Route::get('authentication/confirm-email', function(){
+        Route::get('authentication/confirm-email', function () {
             return View('admin.tailstack.authentication.confirm-email');
         });
-        Route::get('authentication/change-password', function(){
+        Route::get('authentication/change-password', function () {
             return View('admin.tailstack.authentication.change-password');
         });
-        Route::get('authentication/logout-page', function(){
+        Route::get('authentication/logout-page', function () {
             return View('admin.tailstack.authentication.logout-page');
         });
-        Route::get('pages-profile', function(){
+        Route::get('pages-profile', function () {
             return View('admin.tailstack.pages-profile');
         });
-        Route::get('pages-service', function(){
+        Route::get('pages-service', function () {
             return View('admin.tailstack.pages-service');
         });
-        Route::get('pages-faq', function(){
+        Route::get('pages-faq', function () {
             return View('admin.tailstack.pages-faq');
         });
-        Route::get('pages-pricing', function(){
+        Route::get('pages-pricing', function () {
             return View('admin.tailstack.pages-pricing');
         });
-        Route::get('pages-maintenance', function(){
+        Route::get('pages-maintenance', function () {
             return View('admin.tailstack.pages-maintenance');
         });
-        Route::get('pages-404', function(){
+        Route::get('pages-404', function () {
             return View('admin.tailstack.pages-404');
         });
-        Route::get('pages-starter', function(){
+        Route::get('pages-starter', function () {
             return View('admin.tailstack.pages-starter');
         });
-        Route::get('layout-sidedark', function(){
+        Route::get('layout-sidedark', function () {
             return View('admin.tailstack.layout-sidedark');
         });
-        Route::get('layout-dark', function(){
+        Route::get('layout-dark', function () {
             return View('admin.tailstack.layout-dark');
         });
-        Route::get('layout-rtl', function(){
+        Route::get('layout-rtl', function () {
             return View('admin.tailstack.layout-rtl');
         });
-        Route::get('layout-preloader', function(){
+        Route::get('layout-preloader', function () {
             return View('admin.tailstack.layout-preloader');
         });
-        Route::get('widgets', function(){
+        Route::get('widgets', function () {
             return View('admin.tailstack.widgets');
         });
-        Route::get('components/accordion', function(){
+        Route::get('components/accordion', function () {
             return View('admin.tailstack.components.accordion');
         });
-        Route::get('components/alerts', function(){
+        Route::get('components/alerts', function () {
             return View('admin.tailstack.components.alerts');
         });
-        Route::get('components/badge', function(){
+        Route::get('components/badge', function () {
             return View('admin.tailstack.components.badge');
         });
-        Route::get('components/breadcrumb', function(){
+        Route::get('components/breadcrumb', function () {
             return View('admin.tailstack.components.breadcrumb');
         });
-        Route::get('components/buttons', function(){
+        Route::get('components/buttons', function () {
             return View('admin.tailstack.components.buttons');
         });
-        Route::get('components/card', function(){
+        Route::get('components/card', function () {
             return View('admin.tailstack.components.card');
         });
-        Route::get('components/carousel', function(){
+        Route::get('components/carousel', function () {
             return View('admin.tailstack.components.carousel');
         });
-        Route::get('components/accordion', function(){
+        Route::get('components/accordion', function () {
             return View('admin.tailstack.components.accordion');
         });
-        Route::get('components/collapse', function(){
+        Route::get('components/collapse', function () {
             return View('admin.tailstack.components.collapse');
         });
-        Route::get('components/devices', function(){
+        Route::get('components/devices', function () {
             return View('admin.tailstack.components.devices');
         });
-        Route::get('components/dropdowns', function(){
+        Route::get('components/dropdowns', function () {
             return View('admin.tailstack.components.dropdowns');
         });
-        Route::get('components/grid', function(){
+        Route::get('components/grid', function () {
             return View('admin.tailstack.components.grid');
         });
-        Route::get('components/list-group', function(){
+        Route::get('components/list-group', function () {
             return View('admin.tailstack.components.list-group');
         });
-        Route::get('components/lightbox', function(){
+        Route::get('components/lightbox', function () {
             return View('admin.tailstack.components.lightbox');
         });
-        Route::get('components/map', function(){
+        Route::get('components/map', function () {
             return View('admin.tailstack.components.map');
         });
-        Route::get('components/modal', function(){
+        Route::get('components/modal', function () {
             return View('admin.tailstack.components.modal');
         });
-        Route::get('components/avatar', function(){
+        Route::get('components/avatar', function () {
             return View('admin.tailstack.components.avatar');
         });
-        Route::get('components/navbar', function(){
+        Route::get('components/navbar', function () {
             return View('admin.tailstack.components.navbar');
         });
-        Route::get('components/notification', function(){
+        Route::get('components/notification', function () {
             return View('admin.tailstack.components.notification');
         });
-        Route::get('components/offcanvas', function(){
+        Route::get('components/offcanvas', function () {
             return View('admin.tailstack.components.offcanvas');
         });
-        Route::get('components/pagination', function(){
+        Route::get('components/pagination', function () {
             return View('admin.tailstack.components.pagination');
         });
-        Route::get('components/popovers', function(){
+        Route::get('components/popovers', function () {
             return View('admin.tailstack.components.popovers');
         });
-        Route::get('components/progress', function(){
+        Route::get('components/progress', function () {
             return View('admin.tailstack.components.progress');
         });
-        Route::get('components/ribbon', function(){
+        Route::get('components/ribbon', function () {
             return View('admin.tailstack.components.ribbon');
         });
-        Route::get('components/scrollbar', function(){
+        Route::get('components/scrollbar', function () {
             return View('admin.tailstack.components.scrollbar');
         });
-        Route::get('components/spinners', function(){
+        Route::get('components/spinners', function () {
             return View('admin.tailstack.components.spinners');
         });
-        Route::get('components/sweetalert', function(){
+        Route::get('components/sweetalert', function () {
             return View('admin.tailstack.components.sweetalert');
         });
-        Route::get('components/tabs', function(){
+        Route::get('components/tabs', function () {
             return View('admin.tailstack.components.tabs');
         });
-        Route::get('components/tooltips', function(){
+        Route::get('components/tooltips', function () {
             return View('admin.tailstack.components.tooltips');
         });
-        Route::get('forms/basic', function(){
+        Route::get('forms/basic', function () {
             return View('admin.tailstack.forms.basic');
         });
-        Route::get('forms/datepicker', function(){
+        Route::get('forms/datepicker', function () {
             return View('admin.tailstack.forms.datepicker');
         });
-        Route::get('forms/editor', function(){
+        Route::get('forms/editor', function () {
             return View('admin.tailstack.forms.editor');
         });
-        Route::get('forms/input-tags', function(){
+        Route::get('forms/input-tags', function () {
             return View('admin.tailstack.forms.input-tags');
         });
-        Route::get('forms/uploader', function(){
+        Route::get('forms/uploader', function () {
             return View('admin.tailstack.forms.uploader');
         });
-        Route::get('forms/validation', function(){
+        Route::get('forms/validation', function () {
             return View('admin.tailstack.forms.validation');
         });
-        Route::get('forms/layout', function(){
+        Route::get('forms/layout', function () {
             return View('admin.tailstack.forms.layout');
         });
-        Route::get('content/typography', function(){
+        Route::get('content/typography', function () {
             return View('admin.tailstack.content.typography');
         });
-        Route::get('content/tables', function(){
+        Route::get('content/tables', function () {
             return View('admin.tailstack.content.tables');
         });
-        Route::get('content/images', function(){
+        Route::get('content/images', function () {
             return View('admin.tailstack.content.images');
         });
-        Route::get('content/embed-video', function(){
+        Route::get('content/embed-video', function () {
             return View('admin.tailstack.content.embed-video');
         });
-        Route::get('content/icons', function(){
+        Route::get('content/icons', function () {
             return View('admin.tailstack.content.icons');
         });
-        Route::get('charts', function(){
+        Route::get('charts', function () {
             return View('admin.tailstack.charts');
         });
-        Route::get('file-manager', function(){
+        Route::get('file-manager', function () {
             return View('admin.tailstack.file-manager');
         });
-        Route::get('docs/introduction', function(){
+        Route::get('docs/introduction', function () {
             return View('admin.tailstack.docs.introduction');
         });
-        Route::get('docs/tools', function(){
+        Route::get('docs/tools', function () {
             return View('admin.tailstack.docs.tools');
         });
-        Route::get('docs/customize', function(){
+        Route::get('docs/customize', function () {
             return View('admin.tailstack.docs.customize');
         });
-        Route::get('docs/rtl', function(){
+        Route::get('docs/rtl', function () {
             return View('admin.tailstack.docs.rtl');
         });
-        Route::get('docs/credits', function(){
+        Route::get('docs/credits', function () {
             return View('admin.tailstack.docs.credits');
         });
-        Route::get('docs/changelog', function(){
+        Route::get('docs/changelog', function () {
             return View('admin.tailstack.docs.changelog');
         });
-        Route::get('docs/changelog', function(){
+        Route::get('docs/changelog', function () {
             return View('admin.tailstack.docs.changelog');
         });
-        Route::get('docs/changelog', function(){
+        Route::get('docs/changelog', function () {
             return View('admin.tailstack.docs.changelog');
         });
-
     });
-    
+
     Route::post('logout', [AdminController::class, 'destroy'])->name('admin.logout');
 });
-
