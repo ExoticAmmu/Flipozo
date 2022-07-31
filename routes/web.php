@@ -82,9 +82,6 @@ Route::prefix('admin')->group(function(){
         Route::get('customers', [DashboardController::class, 'index'])->name('admin.users.customers');
 
         // Admin Tailstack
-        Route::get('calendar', function(){
-            return View('admin.tailstack.calendar');
-        });
         Route::get('ecommerce/product-detail', function(){
             return View('admin.tailstack.ecommerce.product-detail');
         });

@@ -1,14 +1,9 @@
-<footer class="bg-white dark:bg-gray-800 p-6 shadow-sm">
+<footer class="bg-white dark:bg-gray-800 p-4 shadow-sm">
         <div class="mx-auto">
           <div class="flex flex-wrap flex-row -mx-4">
-            <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 text-center md:ltr:text-left md:rtl:text-right">
-            <p class="mb-0 mt-3 md:mt-0">
+            <div class="flex-shrink max-w-full px-4 w-full text-center md:rtl:text-right">
+            <p class="mb-0 mt-3 md:mt-0 font-semibold">
                 Version 1.0
-              </p>
-            </div>
-            <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 text-center md:ltr:text-right md:rtl:text-left">
-              <p class="mb-0 mt-3 md:mt-0">
-                <a href="index.html" class="hover:text-indigo-500">Tailnet</a> | All right reserved
               </p>
             </div>
           </div>
