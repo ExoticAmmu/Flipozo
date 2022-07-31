@@ -59,7 +59,7 @@ Route::prefix('admin')->group(function(){
     Route::middleware('admin')->group(function() {
         Route::get('dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard'); 
         // Admin Category routes
-        Route::get('category', [CategoryController::class, 'index'])->name('admin.categories.index'); 
+        Route::get('categories', [CategoryController::class, 'index'])->name('admin.categories.index'); 
         Route::get('category/create', [CategoryController::class, 'create'])->name('admin.categories.create');
         Route::post('category/create', [CategoryController::class, 'store'])->name('admin.category.store');
         Route::get('category/edit/{id}', [CategoryController::class, 'edit'])->name('admin.categories.edit');
@@ -95,9 +95,6 @@ Route::prefix('admin')->group(function(){
         Route::get('index-crm', function(){
             return View('admin.tailstack.index-crm');
         });
-        Route::get('index-hosting', function(){
-            return View('admin.tailstack.index-hosting');
-        });
         Route::get('calendar', function(){
             return View('admin.tailstack.calendar');
         });
@@ -127,9 +124,6 @@ Route::prefix('admin')->group(function(){
         });
         Route::get('project/detail', function(){
             return View('admin.tailstack.project.detail');
-        });
-        Route::get('project/kanban', function(){
-            return View('admin.tailstack.project.kanban');
         });
         Route::get('project/create', function(){
             return View('admin.tailstack.project.create');
@@ -190,12 +184,6 @@ Route::prefix('admin')->group(function(){
         });
         Route::get('layout-rtl', function(){
             return View('admin.tailstack.layout-rtl');
-        });
-        Route::get('layout-compact', function(){
-            return View('admin.tailstack.layout-compact');
-        });
-        Route::get('layout-topnav', function(){
-            return View('admin.tailstack.layout-topnav');
         });
         Route::get('layout-preloader', function(){
             return View('admin.tailstack.layout-preloader');

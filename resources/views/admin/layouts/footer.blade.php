@@ -2,20 +2,9 @@
         <div class="mx-auto">
           <div class="flex flex-wrap flex-row -mx-4">
             <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 text-center md:ltr:text-left md:rtl:text-right">
-              <ul class="ltr:pl-0 rtl:pr-0">
-                <li class="inline-block ltr:mr-3 rtl:ml-3">
-                  <a class="hover:text-indigo-500" href="index.html#">Support</a>
-                </li>
-                <li class="inline-block ltr:mr-3 rtl:ml-3">
-                  <a class="hover:text-indigo-500" href="index.html#">Help Center</a>
-                </li>
-                <li class="inline-block ltr:mr-3 rtl:ml-3">
-                  <a class="hover:text-indigo-500" href="index.html#">Privacy</a>
-                </li>
-                <li class="inline-block ltr:mr-3 rtl:ml-3">
-                  <a class="hover:text-indigo-500" href="index.html#">Terms of Service</a>
-                </li>
-              </ul>
+            <p class="mb-0 mt-3 md:mt-0">
+                Version 1.0
+              </p>
             </div>
             <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 text-center md:ltr:text-right md:rtl:text-left">
               <p class="mb-0 mt-3 md:mt-0">

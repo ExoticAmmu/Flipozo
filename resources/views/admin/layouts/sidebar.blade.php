@@ -83,6 +83,9 @@
           <li class="relative">
             <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="{{ url('admin/products') }}">All Products</a>
           </li>
+          <li class="relative">
+            <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="{{ url('admin/categories') }}">Categories</a>
+          </li>
         </ul>
       </li>
       <!-- dropdown -->
@@ -118,9 +121,6 @@
           </li>
           <li class="relative">
             <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="{{ url('admin/index-crm') }}">CRM</a>
-          </li>
-          <li class="relative">
-            <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="{{ url('admin/index-hosting') }}">Hosting</a>
           </li>
         </ul>
       </li>
@@ -203,9 +203,6 @@
           </li>
           <li class="relative">
             <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="{{ url('admin/project/detail') }}">Detail</a>
-          </li>
-          <li class="relative">
-            <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="{{ url('admin/project/kanban') }}">Kanban</a>
           </li>
           <li class="relative">
             <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="{{ url('admin/project/create') }}">Create</a>
@@ -336,12 +333,6 @@
           </li>
           <li class="relative">
             <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="{{ url('admin/layout-rtl') }}">RTL mode</a>
-          </li>
-          <li class="relative">
-            <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="{{ url('admin/layout-compact') }}">Compact</a>
-          </li>
-          <li class="relative">
-            <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="{{ url('admin/layout-topnav') }}">Top Navbar</a>
           </li>
           <li class="relative">
             <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="{{ url('admin/layout-preloader') }}">Preloader</a>
