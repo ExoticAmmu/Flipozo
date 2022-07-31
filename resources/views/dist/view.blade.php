@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<x-guest-layout>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind Ecommerce</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
 
     <!-- header -->
     <header class="py-4 shadow-sm bg-pink-100 lg:bg-white">
@@ -28,11 +16,8 @@
                 <span class="absolute left-4 top-3 text-lg text-gray-400">
                     <i class="fas fa-search"></i>
                 </span>
-                <input type="text"
-                    class="pl-12 w-full border border-r-0 border-primary py-3 px-3 rounded-l-md focus:ring-primary focus:border-primary"
-                    placeholder="search">
-                <button type="submit"
-                    class="bg-primary border border-primary text-white px-8 font-medium rounded-r-md hover:bg-transparent hover:text-primary transition">
+                <input type="text" class="pl-12 w-full border border-r-0 border-primary py-3 px-3 rounded-l-md focus:ring-primary focus:border-primary" placeholder="search">
+                <button type="submit" class="bg-primary border border-primary text-white px-8 font-medium rounded-r-md hover:bg-transparent hover:text-primary transition">
                     Search
                 </button>
             </div>
@@ -41,17 +26,14 @@
             <!-- navicons -->
             <div class="space-x-4 flex items-center">
                 <a href="wishlist.html" class="block text-center text-gray-700 hover:text-primary transition relative">
-                    <span
-                        class="absolute -right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">5</span>
+                    <span class="absolute -right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">5</span>
                     <div class="text-2xl">
                         <i class="far fa-heart"></i>
                     </div>
                     <div class="text-xs leading-3">Wish List</div>
                 </a>
-                <a href="cart.html"
-                    class="lg:block text-center text-gray-700 hover:text-primary transition hidden relative">
-                    <span
-                        class="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">3</span>
+                <a href="cart.html" class="lg:block text-center text-gray-700 hover:text-primary transition hidden relative">
+                    <span class="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">3</span>
                     <div class="text-2xl">
                         <i class="fas fa-shopping-bag"></i>
                     </div>
@@ -81,8 +63,7 @@
                         <i class="fas fa-bars"></i>
                     </span>
                     <span class="capitalize ml-2 text-white">All categories</span>
-                    <div
-                        class="absolute left-0 top-full w-full divide-gray-300 divide-dashed divide-y bg-white shadow-md py-3 invisible opacity-0 group-hover:opacity-100 group-hover:visible transition duration-300 z-50">
+                    <div class="absolute left-0 top-full w-full divide-gray-300 divide-dashed divide-y bg-white shadow-md py-3 invisible opacity-0 group-hover:opacity-100 group-hover:visible transition duration-300 z-50">
                         <!-- single category -->
                         <a href="#" class="px-6 py-3 flex items-center border-gray-300 hover:bg-gray-100 transition">
                             <img src="images/icons/bed.svg" class="w-5 h-5 object-contain">
@@ -143,8 +124,7 @@
     <!-- navbar end -->
 
     <!-- mobile menubar -->
-    <div
-        class="fixed w-full border-t border-gray-200 shadow-sm bg-white py-3 bottom-0 left-0 flex justify-around items-start px-6 lg:hidden z-40">
+    <div class="fixed w-full border-t border-gray-200 shadow-sm bg-white py-3 bottom-0 left-0 flex justify-around items-start px-6 lg:hidden z-40">
         <a href="javascript:void(0)" class="block text-center text-gray-700 hover:text-primary transition relative">
             <div class="text-2xl" id="menuBar">
                 <i class="fas fa-bars"></i>
@@ -164,8 +144,7 @@
             <div class="text-xs leading-3">Search</div>
         </a>
         <a href="cart.html" class="text-center text-gray-700 hover:text-primary transition relative">
-            <span
-                class="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">3</span>
+            <span class="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">3</span>
             <div class="text-2xl">
                 <i class="fas fa-shopping-bag"></i>
             </div>
@@ -177,8 +156,7 @@
     <!-- mobile sidebar menu -->
     <div class="fixed left-0 top-0 w-full h-full z-50 bg-black bg-opacity-30 shadow hidden" id="mobileMenu">
         <div class="absolute left-0 top-0 w-72 h-full z-50 bg-white shadow">
-            <div id="closeMenu"
-                class="text-gray-400 hover:text-primary text-lg absolute right-3 top-3 cursor-pointer">
+            <div id="closeMenu" class="text-gray-400 hover:text-primary text-lg absolute right-3 top-3 cursor-pointer">
                 <i class="fas fa-times"></i>
             </div>
             <!-- navlink -->
@@ -288,8 +266,7 @@
                     <!-- single size -->
                     <div class="size-selector">
                         <input type="radio" name="size" class="hidden" id="size-xs">
-                        <label for="size-xs"
-                            class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-600">
+                        <label for="size-xs" class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-600">
                             XS
                         </label>
                     </div>
@@ -297,8 +274,7 @@
                     <!-- single size -->
                     <div class="size-selector">
                         <input type="radio" name="size" class="hidden" id="size-s">
-                        <label for="size-s"
-                            class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-600">
+                        <label for="size-s" class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-600">
                             S
                         </label>
                     </div>
@@ -306,8 +282,7 @@
                     <!-- single size -->
                     <div class="size-selector">
                         <input type="radio" name="size" class="hidden" id="size-m" checked>
-                        <label for="size-m"
-                            class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-600">
+                        <label for="size-m" class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-600">
                             M
                         </label>
                     </div>
@@ -315,8 +290,7 @@
                     <!-- single size -->
                     <div class="size-selector">
                         <input type="radio" name="size" class="hidden" id="size-l">
-                        <label for="size-l"
-                            class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-600">
+                        <label for="size-l" class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-600">
                             L
                         </label>
                     </div>
@@ -324,8 +298,7 @@
                     <!-- single size -->
                     <div class="size-selector">
                         <input type="radio" name="size" class="hidden" id="size-xl">
-                        <label for="size-xl"
-                            class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-600">
+                        <label for="size-xl" class="text-xs border border-gray-200 rounded-sm h-6 w-6 flex items-center justify-center cursor-pointer shadow-sm text-gray-600">
                             XL
                         </label>
                     </div>
@@ -340,24 +313,21 @@
                     <!-- single color -->
                     <div class="color-selector">
                         <input type="radio" name="color" class="hidden" id="color-red" checked>
-                        <label for="color-red" style="background-color : #fc3d57"
-                            class="text-xs border border-gray-200 rounded-sm h-5 w-5 flex items-center justify-center cursor-pointer shadow-sm">
+                        <label for="color-red" style="background-color : #fc3d57" class="text-xs border border-gray-200 rounded-sm h-5 w-5 flex items-center justify-center cursor-pointer shadow-sm">
                         </label>
                     </div>
                     <!-- single color end -->
                     <!-- single color -->
                     <div class="color-selector">
                         <input type="radio" name="color" class="hidden" id="color-white">
-                        <label for="color-white" style="background-color : #fff"
-                            class="text-xs border border-gray-200 rounded-sm h-5 w-5 flex items-center justify-center cursor-pointer shadow-sm">
+                        <label for="color-white" style="background-color : #fff" class="text-xs border border-gray-200 rounded-sm h-5 w-5 flex items-center justify-center cursor-pointer shadow-sm">
                         </label>
                     </div>
                     <!-- single color end -->
                     <!-- single color -->
                     <div class="color-selector">
                         <input type="radio" name="color" class="hidden" id="color-black">
-                        <label for="color-black" style="background-color : #000"
-                            class="text-xs border border-gray-200 rounded-sm h-5 w-5 flex items-center justify-center cursor-pointer shadow-sm">
+                        <label for="color-black" style="background-color : #000" class="text-xs border border-gray-200 rounded-sm h-5 w-5 flex items-center justify-center cursor-pointer shadow-sm">
                         </label>
                     </div>
                     <!-- single color end -->
@@ -388,16 +358,13 @@
             <!-- add to cart button end -->
             <!-- product share icons -->
             <div class="flex space-x-3 mt-4">
-                <a href="#"
-                    class="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
+                <a href="#" class="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="#"
-                    class="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
+                <a href="#" class="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#"
-                    class="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
+                <a href="#" class="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
                     <i class="fab fa-instagram"></i>
                 </a>
             </div>
@@ -465,14 +432,11 @@
                 <!-- product image -->
                 <div class="relative">
                     <img src="images/products/product9.jpg" class="w-full">
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
-                        <a href="view.html"
-                            class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                        <a href="view.html" class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
                             <i class="fas fa-search"></i>
                         </a>
-                        <a href="#"
-                            class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
+                        <a href="#" class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
                             <i class="far fa-heart"></i>
                         </a>
                     </div>
@@ -492,18 +456,17 @@
                     <div class="flex items-center">
                         <div class="flex gap-1 text-sm text-yellow-400">
                             <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
+                                <span:key="n"><i class="fas fa-star"></i></span>
+                                    <span:key="n"><i class="fas fa-star"></i></span>
+                                        <span:key="n"><i class="fas fa-star"></i></span>
+                                            <span:key="n"><i class="fas fa-star"></i></span>
                         </div>
                         <div class="text-xs text-gray-500 ml-3">(150)</div>
                     </div>
                 </div>
                 <!-- product content end -->
                 <!-- product button -->
-                <a href="#"
-                    class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">
+                <a href="#" class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">
                     Add to Cart
                 </a>
                 <!-- product button end -->
@@ -514,14 +477,11 @@
                 <!-- product image -->
                 <div class="relative">
                     <img src="images/products/product1.jpg" class="w-full">
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
-                        <a href="view.html"
-                            class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                        <a href="view.html" class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
                             <i class="fas fa-search"></i>
                         </a>
-                        <a href="#"
-                            class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
+                        <a href="#" class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
                             <i class="far fa-heart"></i>
                         </a>
                     </div>
@@ -541,18 +501,17 @@
                     <div class="flex items-center">
                         <div class="flex gap-1 text-sm text-yellow-400">
                             <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
+                                <span:key="n"><i class="fas fa-star"></i></span>
+                                    <span:key="n"><i class="fas fa-star"></i></span>
+                                        <span:key="n"><i class="fas fa-star"></i></span>
+                                            <span:key="n"><i class="fas fa-star"></i></span>
                         </div>
                         <div class="text-xs text-gray-500 ml-3">(150)</div>
                     </div>
                 </div>
                 <!-- product content end -->
                 <!-- product button -->
-                <a href="#"
-                    class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">
+                <a href="#" class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">
                     Add to Cart
                 </a>
                 <!-- product button end -->
@@ -563,14 +522,11 @@
                 <!-- product image -->
                 <div class="relative">
                     <img src="images/products/product8.jpg" class="w-full">
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
-                        <a href="view.html"
-                            class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                        <a href="view.html" class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
                             <i class="fas fa-search"></i>
                         </a>
-                        <a href="#"
-                            class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
+                        <a href="#" class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
                             <i class="far fa-heart"></i>
                         </a>
                     </div>
@@ -590,18 +546,17 @@
                     <div class="flex items-center">
                         <div class="flex gap-1 text-sm text-yellow-400">
                             <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
+                                <span:key="n"><i class="fas fa-star"></i></span>
+                                    <span:key="n"><i class="fas fa-star"></i></span>
+                                        <span:key="n"><i class="fas fa-star"></i></span>
+                                            <span:key="n"><i class="fas fa-star"></i></span>
                         </div>
                         <div class="text-xs text-gray-500 ml-3">(150)</div>
                     </div>
                 </div>
                 <!-- product content end -->
                 <!-- product button -->
-                <a href="#"
-                    class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">
+                <a href="#" class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">
                     Add to Cart
                 </a>
                 <!-- product button end -->
@@ -612,14 +567,11 @@
                 <!-- product image -->
                 <div class="relative">
                     <img src="images/products/product12.jpg" class="w-full">
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
-                        <a href="view.html"
-                            class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                        <a href="view.html" class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
                             <i class="fas fa-search"></i>
                         </a>
-                        <a href="#"
-                            class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
+                        <a href="#" class="text-white text-lg w-9 h-9 rounded-full bg-primary hover:bg-gray-800 transition flex items-center justify-center">
                             <i class="far fa-heart"></i>
                         </a>
                     </div>
@@ -639,18 +591,17 @@
                     <div class="flex items-center">
                         <div class="flex gap-1 text-sm text-yellow-400">
                             <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
-                            <span:key="n"><i class="fas fa-star"></i></span>
+                                <span:key="n"><i class="fas fa-star"></i></span>
+                                    <span:key="n"><i class="fas fa-star"></i></span>
+                                        <span:key="n"><i class="fas fa-star"></i></span>
+                                            <span:key="n"><i class="fas fa-star"></i></span>
                         </div>
                         <div class="text-xs text-gray-500 ml-3">(150)</div>
                     </div>
                 </div>
                 <!-- product content end -->
                 <!-- product button -->
-                <a href="#"
-                    class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">
+                <a href="#" class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">
                     Add to Cart
                 </a>
                 <!-- product button end -->
@@ -787,38 +738,38 @@
     </div>
     <!-- copyright end -->
 
-<script>
-    let mainImg = document.getElementById('main-img')
-    let imgBars = document.getElementsByClassName('single-img')
+    <script>
+        let mainImg = document.getElementById('main-img')
+        let imgBars = document.getElementsByClassName('single-img')
 
-    for(let imgBar of imgBars){
-        imgBar.addEventListener('click', function(){
-            clearActive()
-            let imgPath = this.getAttribute('src')
-            mainImg.setAttribute('src', imgPath)
-            this.classList.add('border-primary')
-        })
-    }
-
-    function clearActive(){
-        for(let imgBar of imgBars){
-            imgBar.classList.remove('border-primary')
+        for (let imgBar of imgBars) {
+            imgBar.addEventListener('click', function() {
+                clearActive()
+                let imgPath = this.getAttribute('src')
+                mainImg.setAttribute('src', imgPath)
+                this.classList.add('border-primary')
+            })
         }
-    }
-</script>
+
+        function clearActive() {
+            for (let imgBar of imgBars) {
+                imgBar.classList.remove('border-primary')
+            }
+        }
+    </script>
     <script>
         let menuBar = document.querySelector('#menuBar')
         let mobileMenu = document.querySelector('#mobileMenu')
         let closeMenu = document.querySelector('#closeMenu')
 
-        menuBar.addEventListener('click', function(){
+        menuBar.addEventListener('click', function() {
             mobileMenu.classList.remove('hidden')
         })
 
-        closeMenu.addEventListener('click', function(){
+        closeMenu.addEventListener('click', function() {
             mobileMenu.classList.add('hidden')
         })
     </script>
-</body>
 
-</html>
+
+</x-guest-layout>

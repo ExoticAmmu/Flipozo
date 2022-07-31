@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<x-guest-layout>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind Ecommerce</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
 
     <!-- header -->
     <header class="py-4 shadow-sm bg-pink-100 lg:bg-white">
@@ -28,11 +16,8 @@
                 <span class="absolute left-4 top-3 text-lg text-gray-400">
                     <i class="fas fa-search"></i>
                 </span>
-                <input type="text"
-                    class="pl-12 w-full border border-r-0 border-primary py-3 px-3 rounded-l-md focus:ring-primary focus:border-primary"
-                    placeholder="search">
-                <button type="submit"
-                    class="bg-primary border border-primary text-white px-8 font-medium rounded-r-md hover:bg-transparent hover:text-primary transition">
+                <input type="text" class="pl-12 w-full border border-r-0 border-primary py-3 px-3 rounded-l-md focus:ring-primary focus:border-primary" placeholder="search">
+                <button type="submit" class="bg-primary border border-primary text-white px-8 font-medium rounded-r-md hover:bg-transparent hover:text-primary transition">
                     Search
                 </button>
             </div>
@@ -41,17 +26,14 @@
             <!-- navicons -->
             <div class="space-x-4 flex items-center">
                 <a href="wishlist.html" class="block text-center text-gray-700 hover:text-primary transition relative">
-                    <span
-                        class="absolute -right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">5</span>
+                    <span class="absolute -right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">5</span>
                     <div class="text-2xl">
                         <i class="far fa-heart"></i>
                     </div>
                     <div class="text-xs leading-3">Wish List</div>
                 </a>
-                <a href="cart.html"
-                    class="lg:block text-center text-gray-700 hover:text-primary transition hidden relative">
-                    <span
-                        class="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">3</span>
+                <a href="cart.html" class="lg:block text-center text-gray-700 hover:text-primary transition hidden relative">
+                    <span class="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">3</span>
                     <div class="text-2xl">
                         <i class="fas fa-shopping-bag"></i>
                     </div>
@@ -81,8 +63,7 @@
                         <i class="fas fa-bars"></i>
                     </span>
                     <span class="capitalize ml-2 text-white">All categories</span>
-                    <div
-                        class="absolute left-0 top-full w-full divide-gray-300 divide-dashed divide-y bg-white shadow-md py-3 invisible opacity-0 group-hover:opacity-100 group-hover:visible transition duration-300 z-50">
+                    <div class="absolute left-0 top-full w-full divide-gray-300 divide-dashed divide-y bg-white shadow-md py-3 invisible opacity-0 group-hover:opacity-100 group-hover:visible transition duration-300 z-50">
                         <!-- single category -->
                         <a href="#" class="px-6 py-3 flex items-center border-gray-300 hover:bg-gray-100 transition">
                             <img src="images/icons/bed.svg" class="w-5 h-5 object-contain">
@@ -143,8 +124,7 @@
     <!-- navbar end -->
 
     <!-- mobile menubar -->
-    <div
-        class="fixed w-full border-t border-gray-200 shadow-sm bg-white py-3 bottom-0 left-0 flex justify-around items-start px-6 lg:hidden z-40">
+    <div class="fixed w-full border-t border-gray-200 shadow-sm bg-white py-3 bottom-0 left-0 flex justify-around items-start px-6 lg:hidden z-40">
         <a href="javascript:void(0)" class="block text-center text-gray-700 hover:text-primary transition relative">
             <div class="text-2xl" id="menuBar">
                 <i class="fas fa-bars"></i>
@@ -164,8 +144,7 @@
             <div class="text-xs leading-3">Search</div>
         </a>
         <a href="cart.html" class="text-center text-gray-700 hover:text-primary transition relative">
-            <span
-                class="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">3</span>
+            <span class="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">3</span>
             <div class="text-2xl">
                 <i class="fas fa-shopping-bag"></i>
             </div>
@@ -177,8 +156,7 @@
     <!-- mobile sidebar menu -->
     <div class="fixed left-0 top-0 w-full h-full z-50 bg-black bg-opacity-30 shadow hidden" id="mobileMenu">
         <div class="absolute left-0 top-0 w-72 h-full z-50 bg-white shadow">
-            <div id="closeMenu"
-                class="text-gray-400 hover:text-primary text-lg absolute right-3 top-3 cursor-pointer">
+            <div id="closeMenu" class="text-gray-400 hover:text-primary text-lg absolute right-3 top-3 cursor-pointer">
                 <i class="fas fa-times"></i>
             </div>
             <!-- navlink -->
@@ -232,8 +210,7 @@
             <div class="mt-6 bg-white shadow rounded p-4 divide-y divide-gray-200 space-y-4 text-gray-600">
                 <!-- single link -->
                 <div class="space-y-1 pl-8">
-                    <a href="account.html"
-                        class="relative text-base font-medium capitalize hover:text-primary transition block">
+                    <a href="account.html" class="relative text-base font-medium capitalize hover:text-primary transition block">
                         Manage account
                         <span class="absolute -left-8 top-0 text-base">
                             <i class="far fa-address-card"></i>
@@ -249,8 +226,7 @@
                 <!-- single link end -->
                 <!-- single link -->
                 <div class="space-y-1 pl-8 pt-4">
-                    <a href="#"
-                        class="relative medium capitalize text-gray-800 font-medium hover:text-primary transition block">
+                    <a href="#" class="relative medium capitalize text-gray-800 font-medium hover:text-primary transition block">
                         My order history
                         <span class="absolute -left-8 top-0 text-base">
                             <i class="fas fa-gift"></i>
@@ -263,8 +239,7 @@
                 <!-- single link end -->
                 <!-- single link -->
                 <div class="space-y-1 pl-8 pt-4">
-                    <a href="#"
-                        class="relative medium capitalize text-gray-800 font-medium hover:text-primary transition block">
+                    <a href="#" class="relative medium capitalize text-gray-800 font-medium hover:text-primary transition block">
                         Payment methods
                         <span class="absolute -left-8 top-0 text-base">
                             <i class="far fa-credit-card"></i>
@@ -275,8 +250,7 @@
                 <!-- single link end -->
                 <!-- single link -->
                 <div class="pl-8 pt-4">
-                    <a href="wishlist.html"
-                        class="relative medium capitalize font-medium hover:text-primary transition block text-primary">
+                    <a href="wishlist.html" class="relative medium capitalize font-medium hover:text-primary transition block text-primary">
                         my wishlist
                         <span class="absolute -left-8 top-0 text-base">
                             <i class="far fa-heart"></i>
@@ -286,8 +260,7 @@
                 <!-- single link end -->
                 <!-- single link -->
                 <div class="pl-8 pt-4">
-                    <a href="#"
-                        class="relative medium capitalize text-gray-800 font-medium hover:text-primary transition block">
+                    <a href="#" class="relative medium capitalize text-gray-800 font-medium hover:text-primary transition block">
                         logout
                         <span class="absolute -left-8 top-0 text-base">
                             <i class="fas fa-sign-out-alt"></i>
@@ -303,11 +276,10 @@
         <!-- account content -->
         <div class="col-span-9 mt-6 lg:mt-0 space-y-4">
             <!-- single wishlist -->
-            <div
-                class="flex items-center md:justify-between gap-4 md:gap-6 p-4 border border-gray-200 rounded flex-wrap md:flex-nowrap">
+            <div class="flex items-center md:justify-between gap-4 md:gap-6 p-4 border border-gray-200 rounded flex-wrap md:flex-nowrap">
                 <!-- cart image -->
                 <div class="w-28 flex-shrink-0">
-                    <img src="images/products/product9.jpg"  class="w-full">
+                    <img src="images/products/product9.jpg" class="w-full">
                 </div>
                 <!-- cart image end -->
                 <!-- cart content -->
@@ -321,8 +293,7 @@
                 <div class="">
                     <p class="text-primary text-lg font-semibold">$320.00</p>
                 </div>
-                <a href="#"
-                    class="ml-auto md:ml-0 block px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">
+                <a href="#" class="ml-auto md:ml-0 block px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">
                     Add to cart
                 </a>
                 <div class="text-gray-600 hover:text-primary cursor-pointer">
@@ -331,11 +302,10 @@
             </div>
             <!-- single wishlist end -->
             <!-- single wishlist -->
-            <div
-                class="flex items-center md:justify-between gap-4 md:gap-6 p-4 border border-gray-200 rounded flex-wrap md:flex-nowrap">
+            <div class="flex items-center md:justify-between gap-4 md:gap-6 p-4 border border-gray-200 rounded flex-wrap md:flex-nowrap">
                 <!-- cart image -->
                 <div class="w-28 flex-shrink-0">
-                    <img src="images/products/product9.jpg"  class="w-full">
+                    <img src="images/products/product9.jpg" class="w-full">
                 </div>
                 <!-- cart image end -->
                 <!-- cart content -->
@@ -349,8 +319,7 @@
                 <div class="">
                     <p class="text-primary text-lg font-semibold">$320.00</p>
                 </div>
-                <a href="#"
-                    class="ml-auto md:ml-0 block px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded 
+                <a href="#" class="ml-auto md:ml-0 block px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded 
                     uppercase font-roboto font-medium cursor-not-allowed bg-opacity-80">
                     Add to cart
                 </a>
@@ -489,20 +458,20 @@
         </div>
     </div>
     <!-- copyright end -->
-    
+
     <script>
         let menuBar = document.querySelector('#menuBar')
         let mobileMenu = document.querySelector('#mobileMenu')
         let closeMenu = document.querySelector('#closeMenu')
 
-        menuBar.addEventListener('click', function(){
+        menuBar.addEventListener('click', function() {
             mobileMenu.classList.remove('hidden')
         })
 
-        closeMenu.addEventListener('click', function(){
+        closeMenu.addEventListener('click', function() {
             mobileMenu.classList.add('hidden')
         })
     </script>
-</body>
 
-</html>
+
+</x-guest-layout>
