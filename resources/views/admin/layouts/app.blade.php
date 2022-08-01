@@ -9,13 +9,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Development css (used in all pages) -->
-    <link rel="stylesheet" id="stylesheet" href="{{ ('/css/style.css') }}">
-    <!-- Production css (used in all pages) -->
-    <!-- <link rel="stylesheet" href="dist/css/style.css"> -->
-
-    <!--start::Customizer Stylesheets (Only for demo purpose)-->
-    <link rel="stylesheet" href="{{ ('/css/customizer.css') }}">
-    <!--end::Customizer Stylesheets (Only for demo purpose)-->
+    <link rel="stylesheet" id="stylesheet" href="{{ ('/css/tailwind.css') }}">
 
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
