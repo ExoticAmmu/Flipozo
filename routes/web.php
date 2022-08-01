@@ -107,7 +107,7 @@ Route::prefix('admin')->group(function () {
         Route::get('view-order/{id}', [OrderController::class, 'view'])->name('admin.orders.view');
 
         Route::get('view-user/{id}', [DashboardController::class, 'view'])->name('admin.users.view');
-        Route::get('customers', [DashboardController::class, 'index'])->name('admin.users.customers');
+        Route::get('customers', [DashboardController::class, 'index'])->name('admin.users.index');
 
         // Admin Tailstack
         Route::get('ecommerce/product-detail', function () {

@@ -24,7 +24,6 @@
                                             </path>
                                         </svg></a>
                                 </div>
-
                                 <div>
                                     <div id="bulk-actions">
                                         <label class="flex flex-wrap flex-row">
@@ -42,31 +41,31 @@
                                 <table class="table-sorter table-bordered w-full ltr:text-left rtl:text-right text-gray-600 dark:text-gray-400">
                                     <thead>
                                         <tr class="bg-gray-100 dark:bg-gray-900 dark:bg-opacity-40">
-                                            <th data-sortable="false"><input id="check_all" type="checkbox" class="form-checkbox w-4 h-4 text-indigo-500 border border-gray-300 rounded dark:bg-gray-700 dark:border-gray-700">
+                                            <th class="py-4 px-3 items-center border text-left" data-sortable="false"><input id="check_all" type="checkbox" class="form-checkbox w-4 h-4 text-indigo-500 border border-gray-300 rounded dark:bg-gray-700 dark:border-gray-700">
                                             </th>
-                                            <th>Id</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
-                                            <th>Email</th>
-                                            <th>Last Active</th>
-                                            <th>Date Registered</th>
-                                            <th>Actions</th>
+                                            <td class="py-4 px-3 items-center border text-left">Id</th>
+                                            <td class="py-4 px-3 items-center border text-left">First Name</th>
+                                            <td class="py-4 px-3 items-center border text-left">Last Name</th>
+                                            <td class="py-4 px-3 items-center border text-left">Email</th>
+                                            <td class="py-4 px-3 items-center border text-left">Last Active</th>
+                                            <td class="py-4 px-3 items-center border text-left">Date Registered</th>
+                                            <td class="py-4 px-3 items-center border text-left">Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         @foreach ( $users as $item )
                                         <tr>
-                                            <td><input type="checkbox" class="form-checkbox w-4 h-4 text-indigo-500 border border-gray-300 rounded dark:bg-gray-700 dark:border-gray-700">
+                                            <td class="py-4 px-3 items-center border"><input type="checkbox" class="form-checkbox w-4 h-4 text-indigo-500 border border-gray-300 rounded dark:bg-gray-700 dark:border-gray-700">
                                             </td>
-                                            <td>{{ $item->id }}</td>
-                                            <td>{{ $item->name }}</td>
-                                            <td>{{ $item->name }}</td>
-                                            <td>
+                                            <td class="py-4 px-3 items-center border">{{ $item->id }}</td>
+                                            <td class="py-4 px-3 items-center border">{{ $item->name }}</td>
+                                            <td class="py-4 px-3 items-center border">{{ $item->name }}</td>
+                                            <td class="py-4 px-3 items-center border">
                                                 {{ $item->email }}
                                             </td>
-                                            <td class="text-center"><span class="text-sm px-2 py-1 font-semibold leading-tight text-yellow-700 bg-yellow-100 rounded-full">Pending</span></td>
-                                            <td class="text-center">43.252.106.9</td>
-                                            <td class="text-center">
+                                            <td class="py-4 px-3 items-center border text-center"><span class="text-sm px-2 py-1 font-semibold leading-tight text-yellow-700 bg-yellow-100 rounded-full">Pending</span></td>
+                                            <td class="py-4 px-3 items-center border text-center">43.252.106.9</td>
+                                            <td class="py-4 px-3 items-center border text-center">
                                                 <a href="javascript:;" class="inline-block ltr:mr-2 rtl:ml-2 hover:text-red-500" title="Delete">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                                         <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z">
@@ -95,5 +94,4 @@
             </div>
         </div>
     </div>
-
 </x-admin-layout>
