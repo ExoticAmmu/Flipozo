@@ -57,12 +57,6 @@ Route::get('/order', function () {
 Route::get('/manage', function () {
     return view('dist.manage-address');
 });
-Route::get('/login', function () {
-    return view('dist.login');
-});
-Route::get('/index', function () {
-    return view('dist.index');
-});
 Route::get('/checkout', function () {
     return view('dist.checkout');
 });
