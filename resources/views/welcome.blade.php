@@ -27,7 +27,7 @@
           <!-- logo -->
           <a class="flex items-center py-2 mr-4 text-xl" href="index.html">
             <h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden">
-              <!-- <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="{{ ('/img/logo.png"> -->
+              <!-- <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="/img/logo.png"> -->
               <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-7 h-7 ltr:mr-2 rtl:ml-2 -mt-1" viewBox="0 0 300.000000 300.000000"> 
                 <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
                   <path class="text-pink-500" d="M1225 2825 c-546 -115 -959 -534 -1065 -1080 -28 -147 -28 -373 0
@@ -77,7 +77,7 @@
               <div class="mh-18 text-center px-12 mb-8">
                 <a href="landing.html#" class="flex relative">
                   <h2 class="text-2xl font-semibold text-gray-200 max-h-9">
-                    <!-- <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="{{ ('/img/logo.png"> -->
+                    <!-- <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="/img/logo.png"> -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-7 h-7 ltr:mr-2 rtl:ml-2 -mt-1" viewBox="0 0 300.000000 300.000000"> 
                     <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
                       <path class="text-pink-500" d="M1225 2825 c-546 -115 -959 -534 -1065 -1080 -28 -147 -28 -373 0
@@ -159,7 +159,7 @@
           <!-- logo -->
           <a class="hidden lg:flex items-center py-2 mr-4 text-xl" href="index.html">
             <h2 class="text-2xl font-semibold px-4 max-h-9 overflow-hidden">
-              <!-- <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="{{ ('/img/logo.png"> -->
+              <!-- <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="/img/logo.png"> -->
               <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-7 h-7 ltr:mr-2 rtl:ml-2 -mt-1" viewBox="0 0 300.000000 300.000000"> 
                 <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
                   <path class="text-pink-500" d="M1225 2825 c-546 -115 -959 -534 -1065 -1080 -28 -147 -28 -373 0
@@ -270,7 +270,7 @@
           <!-- hero image -->
           <div class="flex-shrink max-w-full px-4 w-full md:w-9/12 lg:w-1/2 self-center">
             <div class="px-12 md:ml-16 md:pr-0 mt-4">
-              <img src="{{ ('/img/svg/meeting.svg" class="max-w-full mx-auto">
+              <img src="/img/svg/meeting.svg" class="max-w-full mx-auto">
             </div>
           </div>
         </div><!-- end row -->
@@ -385,7 +385,7 @@
         <div class="flex flex-wrap flex-row -mx-4">
           <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 relative">
             <div class="pb-8 px-3 text-center">
-              <img class="mx-auto max-w-full h-auto" src="{{ ('/img/svg/website.svg" alt="company profile">
+              <img class="mx-auto max-w-full h-auto" src="/img/svg/website.svg" alt="company profile">
             </div>
           </div>
           <div class="flex-shrink max-w-full px-4 w-full md:w-1/2">
@@ -432,17 +432,17 @@
               </div>
               <div x-show="tabs === 1" class="relative">
                 <a target="_blank" href="index.html">
-                  <img src="{{ ('/img/demo/light.jpg" class="max-w-full mx-auto shadow-lg transform transition duration-300 ease-in-out hover:-translate-y-1 border border-gray-200 dark:border-gray-700" alt="Demo dashboard">
+                  <img src="/img/demo/light.jpg" class="max-w-full mx-auto shadow-lg transform transition duration-300 ease-in-out hover:-translate-y-1 border border-gray-200 dark:border-gray-700" alt="Demo dashboard">
                 </a>
               </div>
               <div x-show="tabs === 2" class="relative">
                 <a target="_blank" href="layout-dark.html">
-                  <img src="{{ ('/img/demo/dark.jpg" class="max-w-full mx-auto shadow-lg transform transition duration-300 ease-in-out hover:-translate-y-1 border border-gray-200 dark:border-gray-700" alt="Demo dashboard">
+                  <img src="/img/demo/dark.jpg" class="max-w-full mx-auto shadow-lg transform transition duration-300 ease-in-out hover:-translate-y-1 border border-gray-200 dark:border-gray-700" alt="Demo dashboard">
                 </a>
               </div>
               <div x-show="tabs === 3" class="relative">
                 <a target="_blank" href="layout-sidedark.html">
-                  <img src="{{ ('/img/demo/sidedark.jpg" class="max-w-full mx-auto shadow-lg transform transition duration-300 ease-in-out hover:-translate-y-1 border border-gray-200 dark:border-gray-700" alt="Demo dashboard">
+                  <img src="/img/demo/sidedark.jpg" class="max-w-full mx-auto shadow-lg transform transition duration-300 ease-in-out hover:-translate-y-1 border border-gray-200 dark:border-gray-700" alt="Demo dashboard">
                 </a>
               </div>
             </div>
@@ -464,17 +464,17 @@
               </div>
               <div x-show="tabs === 1" class="relative">
                 <a target="_blank" href="layout-compact.html">
-                  <img src="{{ ('/img/demo/compact.jpg" class="max-w-full mx-auto shadow-lg transform transition duration-300 ease-in-out hover:-translate-y-1 border border-gray-200 dark:border-gray-700" alt="Demo dashboard">
+                  <img src="/img/demo/compact.jpg" class="max-w-full mx-auto shadow-lg transform transition duration-300 ease-in-out hover:-translate-y-1 border border-gray-200 dark:border-gray-700" alt="Demo dashboard">
                 </a>
               </div>
               <div x-show="tabs === 2" class="relative">
                 <a target="_blank" href="layout-topnav.html">
-                  <img src="{{ ('/img/demo/top-navbar.jpg" class="max-w-full mx-auto shadow-lg transform transition duration-300 ease-in-out hover:-translate-y-1 border border-gray-200 dark:border-gray-700" alt="Demo dashboard">
+                  <img src="/img/demo/top-navbar.jpg" class="max-w-full mx-auto shadow-lg transform transition duration-300 ease-in-out hover:-translate-y-1 border border-gray-200 dark:border-gray-700" alt="Demo dashboard">
                 </a>
               </div>
               <div x-show="tabs === 3" class="relative">
                 <a target="_blank" href="layout-rtl.html">
-                  <img src="{{ ('/img/demo/rtl.jpg" class="max-w-full mx-auto shadow-lg transform transition duration-300 ease-in-out hover:-translate-y-1 border border-gray-200 dark:border-gray-700" alt="Demo dashboard">
+                  <img src="/img/demo/rtl.jpg" class="max-w-full mx-auto shadow-lg transform transition duration-300 ease-in-out hover:-translate-y-1 border border-gray-200 dark:border-gray-700" alt="Demo dashboard">
                 </a>
               </div>
             </div>
@@ -574,32 +574,32 @@
             <div class="nav-dark-button" data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "pageDots": false, "imagesLoaded": true }'>
               <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 py-4 lg:py-1 px-6 lg:px-12 text-center">
                 <a href="landing.html#" target="_blank">
-                  <img class="brands-image mx-auto opacity-80 hover:opacity-100 max-w-full h-auto" src="{{ ('/img/brand/img1.png" alt="Image Description">
+                  <img class="brands-image mx-auto opacity-80 hover:opacity-100 max-w-full h-auto" src="/img/brand/img1.png" alt="Image Description">
                 </a>
               </div>
               <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 py-4 lg:py-1 px-6 lg:px-12 text-center">
                 <a href="landing.html#" target="_blank">
-                  <img class="brands-image mx-auto opacity-80 hover:opacity-100 max-w-full h-auto" src="{{ ('/img/brand/img2.png" alt="Image Description">
+                  <img class="brands-image mx-auto opacity-80 hover:opacity-100 max-w-full h-auto" src="/img/brand/img2.png" alt="Image Description">
                 </a>
               </div>
               <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 py-4 lg:py-1 px-6 lg:px-12 text-center">
                 <a href="landing.html#" target="_blank">
-                  <img class="brands-image mx-auto opacity-80 hover:opacity-100 max-w-full h-auto" src="{{ ('/img/brand/img3.png" alt="Image Description">
+                  <img class="brands-image mx-auto opacity-80 hover:opacity-100 max-w-full h-auto" src="/img/brand/img3.png" alt="Image Description">
                 </a>
               </div>
               <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 py-4 lg:py-1 px-6 lg:px-12 text-center">
                 <a href="landing.html#" target="_blank">
-                  <img class="brands-image mx-auto opacity-80 hover:opacity-100 max-w-full h-auto" src="{{ ('/img/brand/img4.png" alt="Image Description">
+                  <img class="brands-image mx-auto opacity-80 hover:opacity-100 max-w-full h-auto" src="/img/brand/img4.png" alt="Image Description">
                 </a>
               </div>
               <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 py-4 lg:py-1 px-6 lg:px-12 text-center">
                 <a href="landing.html#" target="_blank">
-                  <img class="brands-image mx-auto opacity-80 hover:opacity-100 max-w-full h-auto" src="{{ ('/img/brand/img5.png" alt="Image Description">
+                  <img class="brands-image mx-auto opacity-80 hover:opacity-100 max-w-full h-auto" src="/img/brand/img5.png" alt="Image Description">
                 </a>
               </div>
               <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 py-4 lg:py-1 px-6 lg:px-12 text-center">
                 <a href="landing.html#" target="_blank">
-                  <img class="brands-image mx-auto opacity-80 hover:opacity-100 max-w-full h-auto" src="{{ ('/img/brand/img6.png" alt="Image Description">
+                  <img class="brands-image mx-auto opacity-80 hover:opacity-100 max-w-full h-auto" src="/img/brand/img6.png" alt="Image Description">
                 </a>
               </div>
             </div><!-- end slider brand -->
