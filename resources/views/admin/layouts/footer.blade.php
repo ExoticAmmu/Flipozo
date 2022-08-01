@@ -3,7 +3,7 @@
           <div class="flex flex-wrap flex-row -mx-4">
             <div class="flex-shrink max-w-full px-4 w-full text-center md:rtl:text-right">
             <p class="mb-0 mt-3 md:mt-0 font-semibold">
-                Version 1.0
+                Version 0.0.1 (alpha)
               </p>
             </div>
           </div>
@@ -39,4 +39,3 @@
 
   <!--start::Customizer js ( Only for demo purpose )-->
   <script src="{{ ('/js/customizer.js') }}"></script>
-  </footer>

@@ -69,7 +69,7 @@
                                                         <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                         {{ $product->name }}
                                                             <div class="pt-1 text-sm italic text-gray-500 w-full">
-                                                            {{ $product->category->name }}
+                                                            {{ $product->name }}
                                                             </div>
                                                         </div>
                                                     </div>
