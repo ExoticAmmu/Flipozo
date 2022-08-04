@@ -31,14 +31,11 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
+### Installation Guide
 
-Clone the repo and cd into it
-composer install
-Rename or copy .env.example file to .env
-php artisan key:generate
-Set your database credentials in your .env file
-Set your Stripe credentials in your .env file. Specifically STRIPE_KEY and STRIPE_SECRET
+1. Clone the repo and cd into it
+1. composer install
+1. Rename or copy .env.example file to .env
 
 ## Contributing
 
