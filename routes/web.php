@@ -109,6 +109,10 @@ Route::prefix('admin')->group(function () {
         Route::get('view-user/{id}', [DashboardController::class, 'view'])->name('admin.users.view');
         Route::get('customers', [DashboardController::class, 'index'])->name('admin.users.index');
 
+        Route::get('profile', function () {
+            return View('admin.auth.profile');
+        });
+
         // Admin Tailstack
         Route::get('ecommerce/product-detail', function () {
             return View('admin.tailstack.ecommerce.product-detail');
@@ -163,9 +167,6 @@ Route::prefix('admin')->group(function () {
         });
         Route::get('authentication/logout-page', function () {
             return View('admin.tailstack.authentication.logout-page');
-        });
-        Route::get('pages-profile', function () {
-            return View('admin.tailstack.pages-profile');
         });
         Route::get('pages-service', function () {
             return View('admin.tailstack.pages-service');

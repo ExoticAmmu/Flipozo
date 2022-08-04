@@ -233,9 +233,6 @@
             </ul>
           </li>
           <li class="relative">
-            <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="{{ url('admin/pages-profile') }}">Profile</a>
-          </li>
-          <li class="relative">
             <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="{{ url('admin/pages-service') }}">Services</a>
           </li>
           <li class="relative">
