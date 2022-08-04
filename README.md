@@ -31,11 +31,15 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Installation Guide
+## Installation Guide
 
-1. Clone the repo and cd into it
 1. composer install
-1. Rename or copy .env.example file to .env
+2. cp .env.example .env
+3. php artisan key:generate
+4. npm install
+5. npm run dev
+7. php artisan migrate
+6. php artisan serve
 
 ## Contributing
 
