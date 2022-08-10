@@ -327,9 +327,6 @@ Route::prefix('admin')->group(function () {
         Route::get('charts', function () {
             return View('admin.tailstack.charts');
         });
-        Route::get('file-manager', function () {
-            return View('admin.tailstack.file-manager');
-        });
         Route::get('docs/introduction', function () {
             return View('admin.tailstack.docs.introduction');
         });
