@@ -322,7 +322,7 @@
     </header><!-- end header -->
 
     <!-- header -->
-    <header class="mt-28 py-4 shadow-sm bg-pink-100 lg:bg-white">
+    <header class=" py-4 shadow-sm bg-pink-100 lg:bg-white">
         <div class="container flex items-center justify-between">
             <!-- logo -->
             <a href="#" class="block w-32">
