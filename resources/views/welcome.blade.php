@@ -1,10 +1,10 @@
 <x-guest-layout>
     <x-slot name="header">
-
+<div class="mx-auto max-w-7xl">
         <!-- navbar -->
         <nav class="bg-gray-800 hidden lg:block">
-            <div class="">
-                <div class="flex">
+            <div class="mx-auto max-w-7xl">
+                <div class="flex ">
 
                     <!-- all category -->
                     <div class="px-8 py-4 bg-primary flex items-center cursor-pointer group relative">
@@ -850,4 +850,5 @@
         </div>
         <!-- recomended for you end -->
         </div>
+    </div>
 </x-guest-layout>

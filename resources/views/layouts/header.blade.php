@@ -1,15 +1,14 @@
 <header>
     <!-- Navbar -->
     <nav x-data="{ open: false }"
-        class="nav-top flex flex-nowrap lg:flex-start items-center z-20 top-0 left-0 right-0 bg-white shadow dark:from-gray-800 dark:via-gray-700 dark:to-green-700 overflow-y-auto max-h-screen lg:overflow-visible lg:max-h-full">
-        <div class="container mx-auto px-4 xl:max-w-6xl ">
+        class="flex flex-nowrap lg:flex-start items-center z-20 top-0 left-0 right-0 bg-white shadow overflow-y-auto max-h-screen lg:overflow-visible lg:max-h-full">
+        <div class="container mx-auto px-4 max-w-7xl ">
             <!-- mobile navigation -->
             <div class="flex flex-row justify-between py-3 lg:hidden">
                 <!-- logo -->
                 <a class="flex items-center py-2 mr-4 text-xl" href="index.html">
                     <h2 class="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden">
-                        <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="/img/logo.svg">
-                        <span class="text-gray-200">Flipozo</span>
+                        <span class="text-gray-700">Flipozo</span>
                     </h2>
                 </a>
 
@@ -17,7 +16,7 @@
                 <div class="right-0 flex items-center">
                     <!-- Mobile menu button-->
                     <button id="navbartoggle" type="button"
-                        class="inline-flex items-center justify-center text-gray-200 focus:outline-none focus:ring-0"
+                        class="inline-flex items-center justify-center text-gray-700 focus:outline-none focus:ring-0"
                         aria-controls="mobile-menu" @click="open = !open" aria-expanded="false"
                         x-bind:aria-expanded="open.toString()">
                         <span class="sr-only">Mobile menu</span>
@@ -27,14 +26,6 @@
                             aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-
-                        <svg x-description="Icon open" x-state:on="Menu open" x-state:off="Menu closed"
-                            class="hidden h-8 w-8" :class="{ 'block': open, 'hidden': !(open) }"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                            aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M6 18L18 6M6 6l12 12"></path>
                         </svg>
                     </button>
                 </div>
@@ -112,8 +103,7 @@
                                         <!-- dropdown menu -->
                                         <ul class="block rounded rounded-t-none top-full z-50 py-0.5 ltr:text-left rtl:text-right mb-4"
                                             style="min-width: 12rem" x-description="Dropdown menu" x-show="open"
-                                            role="menu" aria-orientation="vertical"
-                                            aria-labelledby="mobiledrop-03">
+                                            role="menu" aria-orientation="vertical" aria-labelledby="mobiledrop-03">
                                             <li class="relative">
                                                 <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500"
                                                     href="docs/introduction.html">Documentation</a>
@@ -137,10 +127,6 @@
                             </nav>
                         </div>
                     </div>
-                    <!-- copyright -->
-                    <div class="mt-5 text-center">
-                        <p>Copyright <a href="landing.html#">Tailnet</a> - All right reserved</p>
-                    </div>
                 </nav>
             </div><!-- End Mobile menu -->
 
@@ -148,38 +134,33 @@
             <div class="hidden lg:flex lg:flex-row lg:flex-nowrap lg:items-center lg:justify-between lg:mt-0"
                 id="desktp-menu">
                 <!-- logo -->
-                <a class="hidden lg:flex items-center py-2 mr-4 text-xl" href="/">
+                <a class="hidden lg:flex items-center py-2 text-xl" href="/">
                     <h2 class="text-2xl font-semibold px-4 max-h-9 overflow-hidden">
                         <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="/img/logo.svg">
                     </h2>
                 </a>
 
                 <!-- menu -->
-                <ul class="flex flex-col lg:mx-auto mt-2 lg:flex-row lg:mt-0 text-gray-700">
+                <ul class="flex flex-col mt-2 lg:flex-row lg:mt-0 text-gray-700">
                     <li class="relative">
-                        <a class="block py-3 lg:py-7 px-4 hover:text-white focus:text-white" href="landing.html#">
+                        <a class="block py-3 lg:py-7 px-4 hover:text-indigo-500 focus:text-indigo-600" href="landing.html#">
                             Home
                         </a>
                     </li>
                     <li class="relative">
-                        <a class="block py-3 lg:py-7 px-4 hover:text-white focus:text-white" href="landing.html#">
+                        <a class="block py-3 lg:py-7 px-4 hover:text-indigo-500 focus:text-indigo-600" href="landing.html#">
                             Features
                         </a>
                     </li>
                     <li class="relative">
-                        <a class="block py-3 lg:py-7 px-4 hover:text-white focus:text-white" href="landing.html#">
+                        <a class="block py-3 lg:py-7 px-4 hover:text-indigo-500 focus:text-indigo-600" href="landing.html#">
                             Pricing
                         </a>
-                    </li>
-                    <li class="relative">
-                        <a class="block py-3 lg:py-7 px-4 hover:text-white focus:text-white" href="landing.html#">
-                            Faq
-                        </a>
-                    </li>
+                    </li~>
                     <!-- dropdown -->
                     <li class="relative" x-data="{ open: false }" @keydown.escape.stop="open = false"
                         @mouseleave="open = false">
-                        <a id="dropdown-01" class="block py-3 lg:py-7 px-4 hover:text-white focus:text-white"
+                        <a id="dropdown-01" class="block py-3 lg:py-7 px-4 hover:text-indigo-500 focus:text-indigo-600"
                             href="javascript:;" @mouseenter="open = !open" aria-haspopup="true"
                             x-bind:aria-expanded="open" :class="{ 'text-white': open }">
                             Docs
@@ -216,12 +197,12 @@
                         </ul>
                     </li>
                     <li class="relative">
-                        <a class="block py-3 lg:py-7 px-4 hover:text-white focus:text-white" href="landing.html#">
+                        <a class="block py-3 lg:py-7 px-4 hover:text-indigo-500 focus:text-indigo-600" href="landing.html#">
                             Contact
                         </a>
                     </li>
                 </ul>
-                <div class="hidden xl:flex max-w-xs py-2 pl-4 pr-2 bg-white rounded-lg border">
+                <div class="hidden xl:flex max-w-xs pl-4 pr-2 bg-white rounded-lg border">
                     <svg class="w-8 h-10 mr-2" width="18" height="18" viewbox="0 0 18 18" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M17.5 17.1309L12.5042 11.9551" stroke="black" stroke-miterlimit="10"
@@ -242,8 +223,8 @@
                     </select>
                 </div>
 
-                <div class="flex mb-8 justify-between">
-                    <a class="inline-flex items-center font-semibold font-heading" href="#">
+                <div class="flex justify-between">
+                    <a class="inline-flex items-center font-semibold font-heading" href="/login">
                         <svg class="mr-3" width="32" height="31" viewbox="0 0 32 31" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -284,7 +265,10 @@
                         </a>
                     </div>
                 </div>
-            </div><!-- end desktop menu -->
+            </div>
+            <!-- end desktop menu -->
         </div>
-    </nav><!-- End Navbar -->
-</header><!-- end header -->
+    </nav>
+    <!-- End Navbar -->
+</header>
+<!-- end header -->
