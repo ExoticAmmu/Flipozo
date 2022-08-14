@@ -36,7 +36,7 @@
             </header> -->
 
         <div x-bind:aria-expanded="open" :class="{ 'ltr:ml-64 ltr:-mr-64 md:ltr:ml-0 md:ltr:mr-0 rtl:mr-64 rtl:-ml-64 md:rtl:mr-0 md:rtl:ml-0': open, 'ltr:ml-0 ltr:mr-0 md:ltr:ml-64 rtl:mr-0 rtl:ml-0 md:rtl:mr-64': !(open) }" class="flex flex-col ltr:ml-64 rtl:mr-64 min-h-screen transition-all duration-500 ease-in-out">
-            <main class="pt-20 -mt-2 ">
+            <main class="pt-20 -mt-2">
                 {{ $slot }}
             </main>
             @include('admin.layouts.footer')

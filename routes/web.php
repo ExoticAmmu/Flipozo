@@ -103,15 +103,19 @@ Route::prefix('admin')->group(function () {
         Route::get('product/destroy/{id}', [ProductController::class, 'destroy'])->name('admin.products.destroy');
 
         // Admin Orders routes
+
         Route::get('orders', [OrderController::class, 'index'])->name('admin.orders.index');
         Route::get('view-order/{id}', [OrderController::class, 'view'])->name('admin.orders.view');
 
         Route::get('view-user/{id}', [DashboardController::class, 'view'])->name('admin.users.view');
         Route::get('customers', [DashboardController::class, 'index'])->name('admin.users.index');
 
+        // Admin Profile routes
+
         Route::get('profile', function () {
             return View('admin.auth.profile');
         });
+
 
         // Admin Tailstack
         Route::get('ecommerce/product-detail', function () {
