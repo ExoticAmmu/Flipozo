@@ -86,6 +86,10 @@ Route::prefix('admin')->group(function () {
     });
     Route::middleware('admin')->group(function () {
         Route::get('dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+
+        // Admin Profile Updates
+        Route::get('profile', [AdminController::class, 'update'])->name('admin.auth.profile');
+
         // Admin Category routes
         Route::get('categories', [CategoryController::class, 'index'])->name('admin.categories.index');
         Route::get('category/create', [CategoryController::class, 'create'])->name('admin.categories.create');

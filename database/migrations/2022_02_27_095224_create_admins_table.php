@@ -20,8 +20,8 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->tinyinteger('status')->default(0);
-            $table->string('type');
-            $table->integer('vendor_id');
+            $table->string('type')->default(0);
+            $table->integer('vendor_id')->default(0);
             $table->rememberToken();
             $table->timestamps();
         });

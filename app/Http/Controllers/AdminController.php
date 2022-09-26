@@ -44,4 +44,9 @@ class AdminController extends Controller
 
         return redirect()->intended(RouteServiceProvider::ADMIN_HOME);
     }
+
+    public function update(){
+        $adminDetails = Admin::where ('email',Auth::guard('admin')->user()->email)->first()->toArray();
+        return view('admin.auth.profile');
+    }
 }
