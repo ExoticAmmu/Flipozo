@@ -5,7 +5,7 @@
         </h2>
     </x-slot>
 
-    <div class="mx-auto p-2">
+    <div class="mx-auto p-2 w-3/4">
         <!-- row -->
         <div class="flex flex-wrap flex-row">
             <div class="flex-shrink max-w-full px-4 w-full">
@@ -16,8 +16,8 @@
                     <div class="relative">
                         <div class="mb-8">
                             <div class="bg-white dark:bg-opacity-20 dark:border-gray-800">
-                                <form action="{{ route('admin.categories.create') }}" method="POST" enctype="multipart/form-data"
-                                class="flex flex-wrap flex-row -mx-4">
+                                <form action="{{ route('admin.categories.create') }}" method="POST"
+                                    enctype="multipart/form-data" class="flex flex-wrap flex-row -mx-4">
                                     @csrf
                                     <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 mb-6">
                                         <label for="name" class="inline-block mb-2">Name</label>
@@ -44,11 +44,12 @@
                                             type="file" name="image" id="image">
                                     </div>
                                     <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 mb-6">
-                                      <label for="inputState" class="inline-block mb-2">Status</label>
-                                      <select id="inputState" class="inline-block w-full leading-5 relative py-2 pl-3 pr-8 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600 select-caret appearance-none">
-                                        <option selected>Choose...</option>
-                                        <option>...</option>
-                                      </select>
+                                        <label for="inputState" class="inline-block mb-2">Status</label>
+                                        <select id="checkbox" name="checkbox"
+                                            class="inline-block w-full leading-5 relative py-2 pl-3 pr-8 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600 select-caret appearance-none">
+                                            <option selected>Active</option>
+                                            <option>Inactive</option>
+                                        </select>
                                     </div>
                                     <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 mb-6">
                                         <label for="metaTitle" class="inline-block mb-2">Meta Title</label>

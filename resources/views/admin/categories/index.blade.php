@@ -44,13 +44,10 @@
                                 <table class="table-sorter table-bordered w-full ltr:text-left rtl:text-right text-gray-600 dark:text-gray-400">
                                     <thead>
                                         <tr class="bg-gray-100 dark:bg-gray-900 dark:bg-opacity-40">
-                                            <th data-sortable="false"><input id="checkall" type="checkbox" class="form-checkbox w-4 h-4 text-indigo-500 border border-gray-300 rounded dark:bg-gray-700 dark:border-gray-700">
-                                            </th>
                                             <th>Id</th>
-                                            <th>Products</th>
-                                            <th class="hidden lg:table-cell">Update</th>
-                                            <th>Pricing</th>
-                                            <th class="hidden lg:table-cell">Qty</th>
+                                            <th>Name</th>
+                                            <th class="hidden lg:table-cell">Description</th>
+                                            <th class="hidden lg:table-cell">Image</th>
                                             <th class="hidden lg:table-cell">Status</th>
                                             <th data-sortable="false">Actions</th>
                                         </tr>
@@ -58,9 +55,7 @@
                                     <tbody>
                                     @foreach ( $categories as $category )
                                         <tr>
-                                            <td><input type="checkbox" class="form-checkbox w-4 h-4 text-indigo-500 border border-gray-300 rounded dark:bg-gray-700 dark:border-gray-700">
-                                            </td>
-                                            <td class="hidden lg:table-cell">{{ $category->name }}</td>
+                                            <td class="hidden lg:table-cell">{{ $category->id }}</td>
                                             <td>
                                                 <a href="product.html#">
                                                     <div class="flex flex-wrap flex-row items-center">
@@ -74,7 +69,6 @@
                                                     </div>
                                                 </a>
                                             </td>
-                                            <td class="hidden lg:table-cell">27/05/2022</td>
                                             <td class="text-center"><span class="line-through mr-2">{{ $category->name }}</span><span class="text-green-500">{{ $category->name }}</span></td>
                                             <td class="text-center hidden lg:table-cell">{{ $category->name }}</td>
                                             <td class="hidden lg:table-cell"><span class="text-sm px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full">In
