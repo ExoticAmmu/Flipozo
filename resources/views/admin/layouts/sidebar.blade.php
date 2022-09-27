@@ -576,18 +576,5 @@
       </li>
     </ul>
 
-    <!-- Banner -->
-    <div class="px-4 box-banner">
-      <div class="my-8 p-4 text-center bg-gray-300 dark:bg-gray-700 bg-opacity-50 rounded-lg">
-        <h4 class="font-bold inline-block mb-2">Sales Report</h4>
-        <div class="mb-3 text-sm">
-          Monthly sales report is ready for download!
-        </div>
-
-        <div class="grid">
-          <a href="index#" class="py-2 px-4 inline-block text-center mb-3 rounded leading-5 text-gray-100 bg-pink-500 border border-pink-500 hover:text-white hover:bg-pink-600 hover:ring-0 hover:border-pink-600 focus:bg-pink-600 focus:border-pink-600 focus:outline-none focus:ring-0" target="_blank">Download</a>
-        </div>
-      </div>
-    </div><!-- end banner -->
   </div>
 </nav>
