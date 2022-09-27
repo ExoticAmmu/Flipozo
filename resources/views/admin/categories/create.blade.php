@@ -16,7 +16,7 @@
                     <div class="relative">
                         <div class="mb-8">
                             <div class="bg-white dark:bg-opacity-20 dark:border-gray-800">
-                                <form action="{{ route('admin.categories.create') }}" method="POST" 
+                                <form action="{{ route('admin.categories.create') }}" method="POST" enctype="multipart/form-data"
                                 class="flex flex-wrap flex-row -mx-4">
                                     @csrf
                                     <div class="flex-shrink max-w-full px-4 w-full md:w-1/2 mb-6">

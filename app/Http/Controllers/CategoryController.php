@@ -23,19 +23,17 @@ class CategoryController extends Controller
 
         $category = new category();
 
-        if ($request->hasfile('image')) {
-            $file = $request->file('image');
-            $destinationPath = 'assets/uploads/category/';
-            $ext = $file->getClientOriginalExtension();
-            $filename = time() . '.' . $ext;
-            $file->move($destinationPath, $filename);
-            $category->image = $filename;
-        }
-
         $category->name  = $request->input('name');
         $category->slug  = $request->input('slug');
         $category->description  = $request->input('description');
-        $category->image  = $path;
+        if ($request->hasfile('image')) {
+            $file = $request->file('image');
+            $ext = $file->getClientOriginalExtension();
+            $filename = time() .'.'.$ext;
+            $file->move('assets/uploads/category/', $filename);
+            $category->image = $filename;
+        }
+
         $category->meta_keyword  = $request->input('meta_keyword');
         $category->meta_title  = $request->input('meta_title');
         $category->meta_description  = $request->input('meta_description');
