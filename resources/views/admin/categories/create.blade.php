@@ -5,7 +5,7 @@
         </h2>
     </x-slot>
 
-    <div class="mx-auto p-2 w-3/4">
+    <div class="mx-auto p-2 w-full lg:w-3/4">
         <!-- row -->
         <div class="flex flex-wrap flex-row">
             <div class="flex-shrink max-w-full px-4 w-full">
