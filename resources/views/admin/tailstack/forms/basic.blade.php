@@ -188,13 +188,13 @@
               </div>
               <div class="mb-6">
                 <div class="flex flex-nowrap flex-row items-center mb-4">
-                  <input class="form-checkbox h-5 w-5 text-indigo-500 dark:bg-gray-700 border border-gray-300 dark:border-gray-700 rounded focus:outline-none rounded-full ltr:mr-3 rtl:ml-3" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <input class="form-checkbox h-5 w-5 text-indigo-500 dark:bg-gray-700 border border-gray-300 dark:border-gray-700 rounded focus:outline-none ltr:mr-3 rtl:ml-3" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                   <label class="inline-block" for="flexRadioDefault1">
                     Default radio
                   </label>
                 </div>
                 <div class="flex flex-nowrap flex-row items-center mb-4">
-                  <input class="form-checkbox h-5 w-5 text-indigo-500 dark:bg-gray-700 border border-gray-300 dark:border-gray-700 rounded focus:outline-none rounded-full ltr:mr-3 rtl:ml-3" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <input class="form-checkbox h-5 w-5 text-indigo-500 dark:bg-gray-700 border border-gray-300 dark:border-gray-700 rounded focus:outline-none ltr:mr-3 rtl:ml-3" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                   <label class="inline-block" for="flexRadioDefault2">
                     Default checked radio
                   </label>
@@ -203,7 +203,7 @@
               <div class="mb-6">
                 <div class="relative w-8 py-3">
                   <input title="Switch checkbox" type="checkbox" name="lightdarks" id="lightdarks" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white dark:bg-gray-700 border-2 dark:border-gray-700 appearance-none cursor-pointer">
-                  <label for="lightdarks" class="toggle-label block overflow-hidden h-5 rounded-full bg-gray-300 dark:bg-gray-900 cursor-pointer"></label>
+                  <label for="lightdarks" class="toggle-label block overflow-hidden h-5 rounded bg-gray-300 dark:bg-gray-900 cursor-pointer"></label>
                 </div>
               </div>
             </div>
@@ -217,13 +217,13 @@
 &lt;/div&gt;
 &lt;div class="mb-6"&gt;
   &lt;div class="flex flex-nowrap flex-row items-center mb-4"&gt;
-    &lt;input class="form-checkbox h-5 w-5 text-indigo-500 dark:bg-gray-700 border border-gray-300 dark:border-gray-700 rounded focus:outline-none rounded-full ltr:mr-3 rtl:ml-3" type="radio" name="flexRadioDefault" id="flexRadioDefault1"&gt;
+    &lt;input class="form-checkbox h-5 w-5 text-indigo-500 dark:bg-gray-700 border border-gray-300 dark:border-gray-700 rounded focus:outline-none ltr:mr-3 rtl:ml-3" type="radio" name="flexRadioDefault" id="flexRadioDefault1"&gt;
     &lt;label class="inline-block" for="flexRadioDefault1"&gt;
       Default radio
     &lt;/label&gt;
   &lt;/div&gt;
   &lt;div class="flex flex-nowrap flex-row items-center mb-4"&gt;
-    &lt;input class="form-checkbox h-5 w-5 text-indigo-500 dark:bg-gray-700 border border-gray-300 dark:border-gray-700 rounded focus:outline-none rounded-full ltr:mr-3 rtl:ml-3" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked&gt;
+    &lt;input class="form-checkbox h-5 w-5 text-indigo-500 dark:bg-gray-700 border border-gray-300 dark:border-gray-700 rounded focus:outline-none ltr:mr-3 rtl:ml-3" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked&gt;
     &lt;label class="inline-block" for="flexRadioDefault2"&gt;
       Default checked radio
     &lt;/label&gt;
@@ -231,8 +231,8 @@
 &lt;/div&gt;
 &lt;div class="mb-6"&gt;
   &lt;div class="relative w-8 py-3"&gt;
-    &lt;input title="Switch checkbox" type="checkbox" name="lightdarks" id="lightdarks" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white dark:bg-gray-700 border-2 dark:border-gray-700 appearance-none cursor-pointer"/&gt;
-    &lt;label for="lightdarks" class="toggle-label block overflow-hidden h-5 rounded-full bg-gray-300 dark:bg-gray-900 cursor-pointer"&gt;&lt;/label&gt;
+    &lt;input title="Switch checkbox" type="checkbox" name="lightdarks" id="lightdarks" class="toggle-checkbox absolute block w-5 h-5 rounded bg-white dark:bg-gray-700 border-2 dark:border-gray-700 appearance-none cursor-pointer"/&gt;
+    &lt;label for="lightdarks" class="toggle-label block overflow-hidden h-5 rounded bg-gray-300 dark:bg-gray-900 cursor-pointer"&gt;&lt;/label&gt;
   &lt;/div&gt;
 &lt;/div&gt;
                     </code>
@@ -281,7 +281,7 @@
             <!-- Example input -->
             <div class="p-6 mb-6 border border-gray-200 bg-gray-100 dark:bg-gray-900 dark:border-gray-800 dark:bg-opacity-20">
               <div class="flex flex-wrap items-stretch w-full relative mb-6">
-                <input type="email" class="flex-shrink flex-grow flex-shrink max-w-full leading-5 w-px flex-1 relative py-2 px-4 ltr:rounded-l rtl:rounded-r text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" name="email" required="" placeholder="Enter you email address" aria-label="subcribe newsletter">
+                <input type="email" class="flex-shrink flex-grow max-w-full leading-5 w-px flex-1 relative py-2 px-4 ltr:rounded-l rtl:rounded-r text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" name="email" required="" placeholder="Enter you email address" aria-label="subcribe newsletter">
                 <div class="flex -mr-px">
                   <button class="flex items-center py-2 px-4 ltr:-ml-1 ltr:rounded-r rtl:-mr-1 rtl:rounded-l leading-5 text-gray-100 bg-indigo-500 border border-indigo-500 hover:text-white hover:bg-indigo-600 hover:ring-0 hover:border-indigo-600 focus:bg-indigo-600 focus:border-indigo-600 focus:outline-none focus:ring-0" type="submit">Subscribe</button>
                 </div>

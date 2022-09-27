@@ -14,7 +14,10 @@ class Category extends Model
         'name',
         'slug',
         'description',
+        'image',
         'meta_title',
-        'meta_desc',
+        'meta_keyword',
+        'meta_description',
+        'status',
     ];
 }
