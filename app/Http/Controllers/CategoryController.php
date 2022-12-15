@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\Category;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
+use App\Http\Controllers\Controller;
 
 class CategoryController extends Controller
 {
@@ -26,7 +28,9 @@ class CategoryController extends Controller
         $category->name  = $request->input('name');
         $category->slug  = $request->input('slug');
         $category->description  = $request->input('description');
+        
         if ($request->hasfile('image')) {
+
             $file = $request->file('image');
             $ext = $file->getClientOriginalExtension();
             $filename = time() .'.'.$ext;
@@ -53,6 +57,14 @@ class CategoryController extends Controller
     {
 
         $category = Category::findOrFail($id);
+
+        if ($request->hasfile('image')) {
+
+        $path = 'assets/uploads/category/'.$category->image;
+            if(file::exists($path)){
+                file::delete($path);
+            }
+        }
 
         $category->name  = $request->input('name');
         $category->slug  = $request->input('slug');
