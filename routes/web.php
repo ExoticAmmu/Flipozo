@@ -70,7 +70,6 @@ Route::get('/account', function () {
     return view('dist.account');
 });
 
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
@@ -142,9 +141,6 @@ Route::prefix('admin')->group(function () {
         });
         Route::get('ecommerce/invoice', function () {
             return View('admin.tailstack.ecommerce.checkout');
-        });
-        Route::get('project/list', function () {
-            return View('admin.tailstack.project.list');
         });
         Route::get('project/detail', function () {
             return View('admin.tailstack.project.detail');

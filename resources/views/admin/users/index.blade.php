@@ -63,8 +63,8 @@
                                             <td class="py-4 px-3 items-center border">
                                                 {{ $item->email }}
                                             </td>
-                                            <td class="py-4 px-3 items-center border text-center"><span class="text-sm px-2 py-1 font-semibold leading-tight text-yellow-700 bg-yellow-100 rounded-full">Pending</span></td>
-                                            <td class="py-4 px-3 items-center border text-center">43.252.106.9</td>
+                                            <td class="py-4 px-3 items-center border text-center"><span class="text-sm px-2 py-1 font-semibold leading-tight text-yellow-700 bg-yellow-100 rounded-full">XXXXXX</span></td>
+                                            <td class="py-4 px-3 items-center border text-center">XXXXXX</td>
                                             <td class="py-4 px-3 items-center border text-center">
                                                 <a href="javascript:;" class="inline-block ltr:mr-2 rtl:ml-2 hover:text-red-500" title="Delete">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
