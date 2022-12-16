@@ -31,6 +31,7 @@ class UserFactory extends Factory
         return [
             'name' => 'user',
             'email' => $this->faker->unique()->safeEmail,
+            'phone' => '1234567890',
             'address' => 'Earth',
             'state' => 'Chhattisgarh',
             'city' => 'Raipur',

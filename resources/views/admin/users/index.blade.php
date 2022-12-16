@@ -47,8 +47,8 @@
                                             <td class="py-4 px-3 items-center border text-left">First Name</th>
                                             <td class="py-4 px-3 items-center border text-left">Last Name</th>
                                             <td class="py-4 px-3 items-center border text-left">Email</th>
+                                            <td class="py-4 px-3 items-center border text-left">Phone No.</th>
                                             <td class="py-4 px-3 items-center border text-left">Last Active</th>
-                                            <td class="py-4 px-3 items-center border text-left">Date Registered</th>
                                             <td class="py-4 px-3 items-center border text-left">Actions</th>
                                         </tr>
                                     </thead>
@@ -63,8 +63,9 @@
                                             <td class="py-4 px-3 items-center border">
                                                 {{ $item->email }}
                                             </td>
+                                            
+                                            <td class="py-4 px-3 items-center border text-center">{{ $item->phone }}</td>
                                             <td class="py-4 px-3 items-center border text-center"><span class="text-sm px-2 py-1 font-semibold leading-tight text-yellow-700 bg-yellow-100 rounded-full">XXXXXX</span></td>
-                                            <td class="py-4 px-3 items-center border text-center">XXXXXX</td>
                                             <td class="py-4 px-3 items-center border text-center">
                                                 <a href="javascript:;" class="inline-block ltr:mr-2 rtl:ml-2 hover:text-red-500" title="Delete">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
