@@ -59,7 +59,8 @@
                                             <td>
                                                 <a href="product.html#">
                                                     <div class="flex flex-wrap flex-row items-center">
-                                                        <div class="self-center"><img class="h-8 w-8" src="/img/products/product1.jpg"></div>
+                                                        <div class="self-center"><img src="{{ asset('assets/uploads/category/' . $category->image) }}" width="25%"
+                                                            alt=""></div>
                                                         <div class="leading-5 dark:text-gray-300 flex-1 ltr:ml-2 rtl:mr-2 mb-1">
                                                         {{ $category->name }}
                                                             <div class="pt-1 text-sm italic text-gray-500 w-full">
